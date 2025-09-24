@@ -51,6 +51,7 @@ Uma tarefa só vai para **Feito** se:
 - **Comunicação:** Teams, Whatsapp
 
 ### 3.1 Como rodar localmente
+- Garanta que tenha instalado o Node [Windows download](https://nodejs.org/en/download)
 > O projeto possui **hot reload**, ou seja, ao alterar o código a página no navegador/browser também atualiza
 ```bash
 cd src/
