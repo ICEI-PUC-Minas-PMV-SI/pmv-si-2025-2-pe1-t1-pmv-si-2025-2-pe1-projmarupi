@@ -23,7 +23,7 @@ concurrency:
 
 env:
   APP_DIR: src
-  BUILD_DIR: build
+  BUILD_DIR: dist
 
 jobs:
   # Single deploy job since we're just deploying
