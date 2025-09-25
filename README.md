@@ -6,20 +6,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+**MARUPI** | 
+Uma plataforma de ensino experimentado.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Ana Paula Medeiros
+* Eduarda Gonçalves da Silva Andrade
+* Erick Gomes
+* Guilherme Alarcón
+* Pedro Hilário
+* Tales Ramos
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 # Planejamento
 
