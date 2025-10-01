@@ -39,12 +39,12 @@ authors:
     affiliation: PUC Minas
 
   - given-names: Marco
-    name-particle: "B "
+    # name-particle: "B"
     family-names: Rodrigo Costa
     name-suffix: Prof.
     email: marcorodrigo@pucminas.br
     affiliation: PUC Minas
-    orcid: "https://orcid.org/0000-0002-6193-3205"
+    # orcid: "https://orcid.org/0000-0002-6193-3205"
 
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
