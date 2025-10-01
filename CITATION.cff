@@ -8,26 +8,54 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Ana Paula
+    family-names: Medeiros dos Santos
+    email: anapaulasaopaulo56@gmail.com
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
+
+  - given-names: Eduarda
+    family-names: Gonçalves da Silva Andrade
+    email: andrasi.eduarda@gmail.com
+    affiliation: PUC Minas
+
+  - given-names: Erick
+    family-names: Samuel Gomes
+    email: ericksgomes55@gmail.com
+    affiliation: PUC Minas
+
+  - given-names: Guilherme
+    family-names: Alarcón
+    # email:
+    affiliation: PUC Minas
+
+  - given-names: Pedro
+    family-names: Hilário Mendes Pereira
+    email: hilariopedromendes@gmail.com
+    affiliation: PUC Minas
+
+  - given-names: Tales
+    family-names: Lopes Ramos
+    email: taleslopesramos@gmail.com
+    affiliation: PUC Minas
+
+  - given-names: Marco
+    name-particle: "B "
+    family-names: Rodrigo Costa
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: marcorodrigo@pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+    orcid: "https://orcid.org/0000-0002-6193-3205"
+
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  Marupi é uma plataforma digital gamificada que promove aprendizados
+  multidisciplinares e sócio-culturais de crianças e jovens, a partir
+  da observação do espaço geográfico, urbano, histórico e cultural em que vivem.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - Template
-date-released: '2024-06-23'
+date-released: "2024-06-23"
