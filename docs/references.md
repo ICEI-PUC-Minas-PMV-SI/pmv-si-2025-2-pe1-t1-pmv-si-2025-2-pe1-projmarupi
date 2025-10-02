@@ -1,19 +1,15 @@
-# Referências
+# REFERÊNCIAS BIBLIOGRÁFICAS
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+[1] - MALTA, Jéssica. 75% dos jovens brasileiros sonham em ser 'influencers', diz pesquisa. O Tempo, 2024. Disponível em: https://www.otempo.com.br/interessa/2024/10/17/75--dos-jovens-brasileiros-sonham-em-ser-influencers--diz-pesqui. Acesso em: 29 ago. 2025.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+[2] - INFLUENCER MARKETING HUB. Influencer Marketing Benchmark Report 2025. Influencer Marketing Hub, 2025. Disponível em: https://influencermarketinghub.com/influencer-marketing-benchmark-report/. Acesso em: 3 de setembro de 2025.
 
-Exemplos de referências bibliográficas:
+[3] - COMISSÃO EUROPEIA. Digital Education Action Plan (2021-2027): Resetting education and training for the digital age. Bruxelas, 2020. Disponível em: https://education.ec.europa.eu/focus-topics/digital-education/action-plan. Acesso em: 4 set. 2025.
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+[4] - INSTITUTO CULTURAL VALE. Instituto Cultural Vale patrocina maior pesquisa sobre hábitos culturais já realizada nas capitais do Brasil. Instituto Cultural Vale, 2025. Disponível em: https://institutoculturalvale.org/noticias/instituto-cultural-vale-patrocina-maior-pesquisa-sobre-habitos-culturais-ja-realizada-nas-capitais-do-brasil/. Acesso em: 4 set. 2025.
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+[5] - JANELA da alma. Direção: João Jardim e Walter Carvalho. Produção: Flávio R. Tambellini. Rio de Janeiro: Videofilmes; Dueto Filmes, 2001. 1 filme (73 min), son., color.
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+[6] - TAYLOR, C.; VEERAMACHANENI, K.; O'REILLY, U. M. Likely to stop? Predicting Stopout in Massive Open Online Courses. arXiv, Ithaca, NY, 14 ago. 2014. Disponível em: https://arxiv.org/abs/1408.3382. Acesso em: 27 ago. 2025.
 
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+[7] - WORLD WIDE WEB CONSORTIUM (W3C). Web Content Accessibility Guidelines (WCAG) 2.1. 2018. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 7 set. 2025.
