@@ -1,91 +1,112 @@
-# Especificações do Projeto
+## PERFIS DE USUÁRIOS
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+### Perfil 1 – Aluno Explorador
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+**Descrição:** Crianças e jovens em idade escolar (06 a 17 anos), curiosos, mas com pouca vivência cultural fora das telas.  
+**Necessidades:**
 
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+- Trilha de aprendizado gamificada que estimule a exploração de ambientes reais.
+- Recompensas (tokens) que mantenham a motivação.
+- Conteúdo adaptado à localidade e fácil de compreender.
 
-## Personas
+### Perfil 2 – Aluno Neuro divergente
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+**Descrição:** Estudantes que apresentam TEA, TDAH ou outras condições cognitivas que exigem estímulos diferenciados.  
+**Necessidades:**
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Interface de baixo estímulo visual.
+- Linguagem clara e objetiva.
+- Instruções passo a passo e feedback imediato.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Perfil 3 – Professor Facilitador
 
-## Histórias de Usuários
+**Descrição:** Educadores que desejam utilizar a plataforma como recurso pedagógico complementar em sala de aula.  
+**Necessidades:**
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+- Acompanhamento do progresso dos alunos.
+- Sugestões de atividades presenciais vinculadas ao currículo.
+- Relatórios e indicadores de engajamento.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+### Perfil 4 – Instituição Educacional
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+**Descrição:** Escolas públicas e privadas que buscam inovar suas práticas pedagógicas e ampliar a conexão com a comunidade.  
+**Necessidades:**
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+- Recursos alinhados à BNCC (Base Nacional Comum Curricular).
+- Possibilidade de uso coletivo em sala de aula.
+- Inclusão de práticas culturais locais no currículo.
 
-## Requisitos
+### Perfil 5 – Família Apoiadora
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+**Descrição:** Pais, mães ou responsáveis que desejam estimular experiências culturais e educativas fora das telas.  
+**Necessidades:**
 
-### Requisitos Funcionais
+- Atividades simples de realizar em conjunto.
+- Orientações sobre espaços culturais próximos.
+- Incentivo à participação comunitária.
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+### Perfil 6 – Gestor Cultural/Comunidade
 
+**Descrição:** Responsáveis por museus, centros culturais e projetos sociais interessados em aumentar a participação do público jovem.  
+**Necessidades:**
 
-### Requisitos não Funcionais
+- Integração da plataforma com espaços culturais reais.
+- Divulgação de atividades presenciais.
+- Engajamento dos jovens da comunidade.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+## HISTÓRIAS DE USUÁRIOS
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+> Eu como **[QUEM]**… quero/desejo **[O QUE]**… para **[PORQUE]**.
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| Como...                                            | Desejo...                                                                                                        | Para...                                                                                            |
+| :------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| **Professor**, em cenários de excursões escolares, | auxílio para ampliar e fixar no imaginário do aluno a experiência cultural e regional vivida,                    | que assim meus alunos possam absorver todas as informações de forma proveitosa e estimulante.      |
+| **Estudante**,                                     | aprender mais sobre informações culturais sobre minha localidade,                                                | fins culturais, mas também de entretenimento.                                                      |
+| **Pai/mãe**,                                       | que os estímulos que meu filho recebe frente às telas sejam saudáveis, trazendo-o sempre pra realidade material, | que ele crie conexões sociais, importantes para seu desenvolvimento para uma vida adulta saudável. |
+| **Responsável pelo centro cultural municipal**,    | incentivo para a ferramenta que auxilie a difundir a história e tudo o que temos de bom em nossa cidade,         | proporcionar lazer, cultura, turismo e fomento econômico.                                          |
+| **Estudante**,                                     | receber recompensas ao concluir atividades                                                                       | me manter motivado e continuar avançando nas trilhas.                                              |
+| **Estudante**,                                     | reiniciar meu progresso sempre que quiser                                                                        | recomeçar minha experiência de aprendizado do zero ou consertar erros.                             |
+| **Família Apoiadora**,                             | realizar atividades simples junto ao meu filho                                                                   | estimular experiências educativas fora das telas e fortalecer vínculos familiares.                 |
+| **Professor Facilitador**,                         | ter sugestões de atividades vinculadas ao currículo                                                              | integrar a plataforma ao planejamento pedagógico.                                                  |
+| **Aluno Neuro Divergente**,                        | interagir com uma interface simples e de baixo estímulo visual                                                   | conseguir focar no conteúdo sem me sentir sobrecarregado.                                          |
 
-## Restrições
+## REQUISITOS DO PROJETO
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+```diff
++ ## Requisitos Funcionais
+```
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID        | Descrição                                                                                                                                                                                           | Prioridade |
+| :-------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| **RF-01** | O sistema deve permitir que o usuário reinicie seu progresso, limpando os dados salvos no navegador.                                                                                                | Alta       |
+| **RF-02** | O sistema deve permitir que o usuário selecione uma trilha de aprendizagem transdisciplinar de interesse para iniciar.                                                                              | Alta       |
+| **RF-03** | O sistema deve apresentar o conteúdo de cada etapa da trilha, que pode incluir textos, imagens, perguntas de múltipla escolha, desafios de observação e atividades interativas de drag and drop.    | Alta       |
+| **RF-04** | O sistema deve permitir que os usuários acompanhem o seu progresso nas trilhas de aprendizagem, visualizando as atividades concluídas e as recompensas obtidas.                                     | Alta       |
+| **RF-05** | O sistema deve ser projetado com foco em uma experiência de usuário minimalista e acessível.                                                                                                        | Média      |
+| **RF-06** | O sistema deve salvar o progresso do usuário (trilhas e atividades concluídas) no navegador (localStorage), permitindo que ele continue de onde parou na mesma máquina.                             | Média      |
+| **RF-07** | O sistema deve conceder recompensas visuais (como tokens ou medalhas) ao usuário pela conclusão de atividades e trilhas, com os totais salvos localmente (localStorage).                            | Baixa      |
+| **RF-08** | O sistema deve permitir que o usuário informe um nome ou apelido para personalizar a experiência. Essa informação será salva localmente no navegador (localStorage) e não requer cadastro ou senha. | Baixa      |
 
+**Prioridade:** Alta / Média / Baixa.
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+```diff
++ # Requisitos não funcionais
+```
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID         | Descrição                                                                                                                                                                         | Prioridade |
+| :--------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------- |
+| **RNF-01** | A interface do usuário deve ser intuitiva e fácil de usar, especialmente para crianças e jovens, com navegação clara e feedback visual adequado.                                  | Alta       |
+| **RNF-02** | O design da aplicação deve ser de baixo estímulo visual e compatível com as necessidades de pessoas neuro divergentes, seguindo diretrizes de acessibilidade web (WCAG[^7]).      | Alta       |
+| **RNF-03** | O sistema deve ser compatível com os principais navegadores e dispositivos móveis (layout responsivo).                                                                            | Alta       |
+| **RNF-04** | A aplicação deve ser desenvolvida inteiramente com tecnologias front-end (HTML, CSS, JavaScript) sem dependência de um servidor de back-end para suas funcionalidades principais. | Alta       |
+| **RNF-05** | **Desempenho:** tempo de carregamento inicial rápido, com otimização de imagens e recursos.                                                                                       | Média      |
+
+**Prioridade:** Alta / Média / Baixa.
+
+# RESTRIÇÕES DO PROJETO
+
+A plataforma que pensamos é um ecossistema de aprendizagem dinâmico, que propõe diversidade de saberes transdisciplinares e customização dessas trilhas e percursos de acordo com a cidade e perfil de interesse do usuário. São implementações robustas, que exigiriam tempo, equipe e recursos totalmente distantes do que temos disponível. Somos um grupo de 6 pessoas que acreditam muito no potencial desse projeto. Mas também estamos cientes que Marupi é, antes de tudo, parte do escopo de um semestre acadêmico dedicado ao desenvolvimento web front end. Amadurecer as competências e habilidades nessa área de forma coletiva é a premissa original. Ainda que para isso seja necessário abrir mão de muitas das idéias que desenvolvemos na presente etapa de documentação. É bastante provável que seja viável desenvolver apenas um ou dois temas. Mas num cenário de muita inspiração, sinergia e realismo esperançoso dignos do próprio Ariano Suassuna, é possível que cada integrante lidere o desenvolvimento de um dos temas e de alguma feature que possa ser reaproveitada pelos demais colegas, numa fantástica e produtiva aventura colaborativa. Entenderemos a viabilidade disso na própria feitura das trilhas propostas. Certo mesmo é que um projeto a doze mãos reverbera pelo futuro rizomaticamente por imprevisíveis marupis.
+
+---
+
+[^7]: WORLD WIDE WEB CONSORTIUM (W3C). **Web Content Accessibility Guidelines (WCAG) 2.1**. 2018. Disponível em: <https://www.w3.org/TR/WCAG21/>. Acesso em: 7 set. 2025.
