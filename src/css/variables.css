@@ -1,0 +1,10 @@
+:root {
+    --default-white: #FFFFFF;
+    --cool-gray-20: #DDE1E6;
+    --cool-gray-30: #C1C7CD;
+    --cool-gray-90: #21272A;
+    --primary-10: rgba(15, 98, 254, 0.10);
+    --primary-60: #0F62FE;
+    --primary-60-dark: #0c4fd0;
+    --font-color: #21272A;
+}
