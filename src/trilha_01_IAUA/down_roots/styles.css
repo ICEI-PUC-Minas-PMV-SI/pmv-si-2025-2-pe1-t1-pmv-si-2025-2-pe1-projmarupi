@@ -48,6 +48,11 @@ html {
   transform: scaleY(-1);
 }
 
+/* gambiarra pro botão nao flipar! */
+.image-slide:nth-child(14) .slide-content {
+  transform: scaleY(-1);
+}
+
 .image-slide:nth-child(4) {
   position: sticky;
   top: 0;
@@ -71,4 +76,29 @@ html {
   background-repeat: no-repeat;
   background-size: inherit;
   background-position: bottom;
+}
+
+.button-next {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(38, 30, 23); /* Semi-transparent black */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-next:hover {
+  background-color: #468ee5;
+  color: rgba(242, 227, 213);
+}
+
+.slide-content {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
