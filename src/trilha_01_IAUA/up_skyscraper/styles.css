@@ -44,7 +44,7 @@ html {
 .slide-content {
   position: absolute;
   bottom: 40px;
-  right: 40px;
+  left: 40px;
   z-index: 1;
   display: none;
 }

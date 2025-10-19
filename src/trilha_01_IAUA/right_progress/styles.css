@@ -47,3 +47,28 @@ html {
   left: 0;
   z-index: 1;
 }
+
+.button-next {
+  padding: 15px 30px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(38, 30, 23);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-next:hover {
+  background-color: #468ee5;
+  color: rgba(242, 227, 213);
+}
+
+.slide-content {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
