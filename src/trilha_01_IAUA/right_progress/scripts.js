@@ -1,19 +1,19 @@
 "use strict";
 
-const scrollSpeed = 1.2;
-const feed = document.querySelector(".image-feed");
+const scrollSpeed = 2;
+const feed = document.querySelector(".image-feed-horizontal");
 
 function handleKeyDown(event) {
   if (event.key === "Home") {
     event.preventDefault();
     feed.scrollTo({
-      top: 0,
+      left: 0,
       behavior: "smooth",
     });
   } else if (event.key === "End") {
     event.preventDefault();
     feed.scrollTo({
-      top: feed.scrollHeight,
+      left: feed.scrollWidth,
       behavior: "smooth",
     });
   }
@@ -22,7 +22,7 @@ function handleKeyDown(event) {
 feed.addEventListener("wheel", (event) => {
   if (event.deltaY !== 0) {
     event.preventDefault();
-    feed.scrollTop += event.deltaY * scrollSpeed;
+    feed.scrollLeft += event.deltaY * scrollSpeed;
   }
 });
 

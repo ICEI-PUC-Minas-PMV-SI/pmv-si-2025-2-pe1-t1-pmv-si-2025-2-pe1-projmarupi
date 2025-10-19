@@ -80,12 +80,12 @@ html {
 
 .button-next {
   padding: 15px 30px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: white;
-  background-color: rgba(38, 30, 23); /* Semi-transparent black */
+  background-color: rgba(38, 30, 23);
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
