@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.header {
+  width: 40vw;
+  margin: 0 auto 2rem auto;
+}
+
+.header h1 {
+  color: #323131;
+  text-align: center;
+  font-family: Lato;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+}
+
+.header p {
+  color: #323131;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.trees-choice {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  height: 45vh;
+  width: 100%;
+  border-radius: 1.25rem;
+  background: #cbcbcb;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.tree-link-wrapper {
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.tree-link-wrapper:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tree-container {
+  background-color: #ededed;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  height: 100%;
+}
+
+.tree-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tree-footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.tree-footer img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 90vw;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .trees-choice {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .tree-link-wrapper {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .global-container {
+    padding: 1rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
+
+  .trees-choice {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .tree-link-wrapper {
+    height: 25vh;
+  }
+}
