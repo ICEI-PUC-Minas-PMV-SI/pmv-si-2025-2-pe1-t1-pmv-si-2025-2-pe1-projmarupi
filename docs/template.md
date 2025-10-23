@@ -1,32 +1,23 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Marupi pode ser dividida em duas estruturas distintas:
 
-Explique as guias de estilo utilizadas no seu projeto.
+1. A plataforma principal, que apresenta as características, funcionalidades e peculiaridades do ensino experimentado a partir de nossa solução. Uma landing page principal (home) é responsável pela introdução e contextualização ao usuário. As outras telas (painel e dashboard do usuário) serão dedicadas ao cumprmento dos requisitos funcionais do projeto (seleção e acompanhamento do progresso do usuário nas trilhas ofertadas).
+
+2. Trilha de aprendizado, que busca alguma imersão do usuário a partir de estratégias que variam conforme o conteúdo trabalhado. Desde o início pensamos em trilhas que refletissem visualidades distintas e apropriadas para cada conteúdo. O escape de todas as trilhas será feito a partir de um menu lateral, que permanecerá recolhido durante a trilha, mas perfeitamente acessível a partir de um clique em seu devido ícone representativo.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+A logomarca será preferencialmente posicionada no topo do menu, ou no canto superior esquerdo da página.
+
+Todo o site será responsivo para dispositivos de resoluções distintas. Em algumas páginas, alguns elementos ou efeitos de hover serão suprimidos para que o usuário experimente o melhor layout possível diante das limitações do tamanho de cada interface.
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o _Adobe Color_ ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
-
 ## Tipografia
-
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
 
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-> **Links Úteis**:
->
-> - [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
