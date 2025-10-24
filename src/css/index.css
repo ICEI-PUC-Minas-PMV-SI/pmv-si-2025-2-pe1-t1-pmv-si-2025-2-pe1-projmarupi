@@ -81,6 +81,13 @@ header nav a {
     margin: 80px 0;
 }
 
+@media (max-width: 600px) {
+    .modules-section .modules {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .modules-section .modules .module {
     display: flex;
     flex-direction: column;
