@@ -39,6 +39,22 @@ body {
   line-height: 2rem;
 }
 
+.header-corner-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: auto;
+  z-index: 10; /* <-- MUDADO: Deve ser positivo para ficar clicável */
+  opacity: 1; /* <-- Adicionado: Começa um pouco transparente */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* <-- Adicionado: Para a animação */
+}
+
+.header-corner-img:hover {
+  transform: rotate(-3deg) scale(1.1);
+  cursor: pointer;
+}
+
 .trees-choice {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -95,11 +111,11 @@ body {
 
 .docker-item {
   display: block;
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .docker-item:hover {
-  transform: scale(1.5) translateY(-8px);
+  transform: scale(2) translateY(-8px);
 }
 
 .docker-item img {
@@ -121,6 +137,15 @@ body {
   .header p {
     font-size: 1.1rem;
     line-height: 1.6rem;
+  }
+
+  .header-corner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27%;
+    height: auto;
+    z-index: -1;
   }
 
   .trees-choice {
