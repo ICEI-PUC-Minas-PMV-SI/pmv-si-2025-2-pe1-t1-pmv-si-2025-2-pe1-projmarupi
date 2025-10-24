@@ -27,6 +27,9 @@ body {
   color: var(--color-dark);
   line-height: 1.6;
   background-color: var(--color-light);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -103,6 +106,7 @@ header nav a {
 .container {
   padding: 0 5%;
   margin-bottom: 90px;
+  flex: 1;
 }
 
 /* Indentação adicional para títulos das seções */
@@ -111,7 +115,6 @@ header nav a {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3%;
- 
 }
 
 /* Button Styles */
