@@ -45,14 +45,36 @@ body {
   left: 0;
   width: 180px;
   height: auto;
-  z-index: 10; /* <-- MUDADO: Deve ser positivo para ficar clicável */
-  opacity: 1; /* <-- Adicionado: Começa um pouco transparente */
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* <-- Adicionado: Para a animação */
+  z-index: 10;
+  opacity: 1;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .header-corner-img:hover {
-  transform: rotate(-3deg) scale(1.1);
+  animation-name: gentleSway, gentleRustle;
+  animation-duration: 2.3s, 8.9s;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   cursor: pointer;
+}
+
+@keyframes gentleSway {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(70deg);
+  }
+}
+
+@keyframes gentleRustle {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2.5);
+  }
 }
 
 .trees-choice {
