@@ -392,6 +392,7 @@ main {
       margin: 0;
       display: flex;
       gap: 30px;
+      overflow-x: auto;
     }
   }
 }
