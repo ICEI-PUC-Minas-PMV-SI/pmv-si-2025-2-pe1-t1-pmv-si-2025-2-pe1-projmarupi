@@ -186,7 +186,55 @@
                 </section>
 
                 <section role="tabpanel" id="panel-atividades" aria-labelledby="tab-atividades" hidden>
-                    <p>Conteúdo de <strong>Atividades</strong>.</p>
+                    <div class="panel-atividades">
+                        <table class="tbl">
+                            <colgroup>
+                                <col class="col-atividade"><!-- grows -->
+                                <col class="col-tags">
+                                <col class="col-acoes"><!-- smallest -->
+                            </colgroup>
+
+                            <thead>
+                                <tr>
+                                    <th>Atividade</th>
+                                    <th>Tags</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Atividade 1</td>
+                                    <td>
+                                        <span class="chip">História</span>
+                                        <span class="chip">Cultura</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Atividade 2</td>
+                                    <td>
+                                        <span class="chip">Segurança</span>
+                                        <span class="chip">Tecnologia</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Atividade 3</td>
+                                    <td>
+                                        <span class="chip">Segurança</span>
+                                        <span class="chip">Tecnologia</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
             </div>
         </div>
@@ -242,7 +290,7 @@
             });
 
             // Init
-            activate(tabs[1]);
+            activate(tabs[2]);
         })();
 
     </script>

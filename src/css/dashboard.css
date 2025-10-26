@@ -397,7 +397,6 @@ main {
 }
 
 /*  Progress bar */
-
 @keyframes progress {
   0% {
     --percentage: 0;
@@ -449,4 +448,64 @@ main {
   font-family: Helvetica, Arial, sans-serif;
   font-size: calc(var(--size) / 5);
   color: var(--primary);
+}
+
+/* Atividades */
+
+.panel-atividades {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+}
+
+.tbl {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--cool-gray-20);
+  overflow: hidden;
+  table-layout: auto; /* lets first column flex */
+}
+
+/* Column sizing: Atividade fills, Tags min-content, Ações minimal */
+.col-atividade {
+  width: auto;
+}
+
+.col-tags {
+  width: 30%;
+}   /* hug content */
+.col-acoes {
+  width: 1%;
+}  /* smallest */
+
+thead th {
+  text-align: left;
+  padding: 12px 14px;
+  font-weight: 700;
+  background: var(--cool-gray-10);
+  border-bottom: 1px solid var(--cool-gray-20);
+  font-size: 14px;
+}
+
+tbody td {
+  padding: 12px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--cool-gray-20);
+  background: var(--default-white);
+  font-size: 14px;
+}
+
+/* Chips */
+.chip {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 2px 6px 2px 0;
+  background: var(--cool-gray-10);
+  border: 1px solid var(--cool-gray-20);
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
 }
