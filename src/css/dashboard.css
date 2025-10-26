@@ -419,7 +419,6 @@ main {
   --primary: var(--cool-gray-60);
   --secondary: var(--cool-gray-20);
   --size: 300px;
-  animation: progress 2s 0.5s forwards;
   width: var(--size);
   aspect-ratio: 1;
   border-radius: 50%;
