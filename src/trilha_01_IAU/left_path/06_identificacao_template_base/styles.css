@@ -136,6 +136,21 @@
   text-decoration: none;
 }
 
+.btn-back:hover {
+  background-color: #ffffff;
+  color: #323131;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #323131;
+}
+
+.btn,
+.btn-back:active {
+  transform: scale(0.98);
+}
+
 .bottom-section {
   background-color: #f4f4f4;
   border-radius: 16px;
