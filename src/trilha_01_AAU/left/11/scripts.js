@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const scrollSpeed = 0.8;
   const feed = document.querySelector(".image-feed-horizontal");
+  const btnRestart = document.querySelector("#btn-restart");
 
   function handleKeyDown(event) {
     if (event.key === "Home") {
@@ -28,4 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("keydown", handleKeyDown);
+
+  btnRestart.addEventListener("click", () => {
+    window.location.href = "../../down/start.html";
+  });
 });

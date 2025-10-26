@@ -1,6 +1,8 @@
 const btn_volta = document.querySelector("#btn-volta");
 const btn_vai_ipe = document.querySelector("#vai-ipe");
 const btn_vai_sibi = document.querySelector("#vai-sibi");
+const btn_vai_acacia = document.querySelector("#vai-acacia");
+const btn_vai_quare = document.querySelector("#vai-quare");
 
 if (btn_volta) {
   btn_volta.addEventListener("click", () => {
@@ -17,5 +19,17 @@ if (btn_vai_ipe) {
 if (btn_vai_sibi) {
   btn_vai_sibi.addEventListener("click", () => {
     window.location.href = "../07/carro_sibi.html";
+  });
+}
+
+if (btn_vai_acacia) {
+  btn_vai_acacia.addEventListener("click", () => {
+    window.location.href = "../07/carro_acacia.html";
+  });
+}
+
+if (btn_vai_quare) {
+  btn_vai_quare.addEventListener("click", () => {
+    window.location.href = "../07/carro_quare.html";
   });
 }
