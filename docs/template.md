@@ -44,6 +44,8 @@ A iconografia da plataforma Marupi será fundamental para garantir uma navegaç�
 
 Todos os ícones seguirão um estilo visual unificado (ex: "outline" (vazados) ou "solid" (preenchidos)), evitando a mistura de estilos que pode poluir a interface.
 
+Utilizamos uma biblioteca, que está disponível em: [icon_marupi_library](img/icons.png)
+
 Os ícones serão empregados estrategicamente para:
 
 - Orientar a navegação (ex: o ícone de menu lateral nas trilhas, ícones do dashboard).

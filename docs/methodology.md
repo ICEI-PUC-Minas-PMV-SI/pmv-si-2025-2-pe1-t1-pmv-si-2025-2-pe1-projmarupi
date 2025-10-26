@@ -8,6 +8,7 @@
 Adotaremos um processo **enxuto, iterativo e incremental** baseado em **Kanban** (com WIP limitado) e cerimônias leves, se assemelhando um pouco ao scrum.
 
 ### 1.1) Papéis
+
 - **Scrum Master:** Tales Lopes Ramos
 - **Product Owner:** Pedro Hilário
 - **Equipe de desenvolvimento:** Todos os integrantes do projeto, incluindo SM e PO.
@@ -22,6 +23,8 @@ Adotaremos um processo **enxuto, iterativo e incremental** baseado em **Kanban**
 
 Colunas: **Backlog → To Do → Em Progresso → Em Revisão → Aprovado → Feito**.  
 Cada card deve ter: descrição clara, critérios de aceitação, estimativa, responsável e links (Figma, PR, issue).
+
+https://trello.com/b/Zs2npyiA/marupi-projeto
 
 ### 1.4 Definition of Ready (DoR)
 
