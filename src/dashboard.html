@@ -86,27 +86,27 @@
 
             <div class="panels">
                 <section role="tabpanel" id="panel-apresentacao" aria-labelledby="tab-apresentacao">
-                 
+
                 </section>
 
                 <section role="tabpanel" id="panel-geral" aria-labelledby="tab-geral" hidden>
-                   
+
                 </section>
 
                 <section role="tabpanel" id="panel-atividades" aria-labelledby="tab-atividades" hidden>
-                   
+
                 </section>
             </div>
         </div>
-
+        </a>
     </main>
 
     <script>
         // Module navigation
-        (function() {
+        (function () {
             const moduleButtons = document.querySelectorAll('.menu-container nav button');
             const mainContent = document.querySelector('main');
-            
+
             const moduleContent = {
                 'iaua': {
                     title: 'Arqueologia Arborea Urbana',
@@ -134,7 +134,9 @@
                                         <p class="body" style="margin-bottom: 15px;">
                                             Explore os fundamentos da arqueologia arbórea urbana.
                                         </p>
-                                        <button class="btn btn--primary">Começar</button>
+                                        <a href="./trilha_01_AAU/down/start.html">
+                                            <button class="btn btn--primary">Começar</button>
+                                        </a>
                                     </div>
                                 </div>`
                         },
@@ -145,7 +147,9 @@
                                         <img src="module1.png" alt="Module 1 img">
                                         <h3>Atividade Inicial - Identificação</h3>
                                         <p>Aprenda os fundamentos da identificação de espécies arbóreas.</p>
-                                        <button class="btn btn--primary">Começar</button>
+                                        <a href="./trilha_01_AAU/down/start.html">
+                                            <button class="btn btn--primary">Começar</button>
+                                        </a>
                                     </div>
                                     <div class="recent-token">
                                         <h2>Token mais recente</h2>
@@ -217,13 +221,15 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Identificação Básica</td>
+                                                <td>História</td>
                                                 <td>
                                                     <span class="chip">Botânica</span>
                                                     <span class="chip">Iniciante</span>
                                                 </td>
                                                 <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
+                                                    <a href="./trilha_01_AAU/down/start.html">
+                                                        <button class="btn btn--primary btn--small">Começar</button>
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -243,7 +249,7 @@
                     }
                 },
                 'idd': {
-                    title: 'Identidade Digital',
+                    title: 'Identidade',
                     panels: {
                         apresentacao: {
                             title: 'Identidade',
@@ -270,7 +276,9 @@
                                             Explore suas raízes, descubra histórias familiares e amplie seu 
                                             repertório sociocultural nesta jornada de autodescobrimento.
                                         </p>
-                                        <button class="btn btn--primary">Começar Jornada</button>
+                                        <a href="./trilha_02_IDD">
+                                            <button class="btn btn--primary">Começar Jornada</button>
+                                        </a>
                                     </div>
                                 </div>`
                         },
@@ -281,7 +289,9 @@
                                         <img src="module1.png" alt="Module 1 img">
                                         <h3>Descobrindo Suas Raízes</h3>
                                         <p>Uma viagem pela história da imigração no Brasil e sua história pessoal.</p>
-                                        <button class="btn btn--primary">Começar</button>
+                                        <a href="./trilha_02_IDD">
+                                            <button class="btn btn--primary">Começar</button>
+                                        </a>
                                     </div>
                                     <div class="recent-token">
                                         <h2>Token mais recente</h2>
@@ -353,33 +363,15 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Fundamentos de Segurança</td>
+                                                <td>Descobrindo Suas Raízes</td>
                                                 <td>
-                                                    <span class="chip">Segurança</span>
-                                                    <span class="chip">Básico</span>
+                                                    <span class="chip">Cultura</span>
+                                                    <span class="chip">História</span>
                                                 </td>
                                                 <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Proteção de Dados</td>
-                                                <td>
-                                                    <span class="chip">Privacidade</span>
-                                                    <span class="chip">Digital</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Gestão de Identidade</td>
-                                                <td>
-                                                    <span class="chip">Identidade</span>
-                                                    <span class="chip">Avançado</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
+                                                    <a href="./trilha_02_IDD">
+                                                        <button class="btn btn--primary btn--small">Começar</button>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -533,19 +525,19 @@
                     }
                 }
             };
-            
+
             function updateMainContent(moduleId) {
                 const module = moduleContent[moduleId];
                 if (!module) return;
-                
+
                 // Update page title
                 const pageTitle = mainContent.querySelector('h1');
                 if (pageTitle) pageTitle.textContent = module.title;
-                
+
                 // Update active tab content
                 const activeTab = document.querySelector('.tab.is-active');
                 const activePanel = activeTab.getAttribute('data-tab');
-                
+
                 if (module.panels[activePanel]) {
                     const panel = document.querySelector(`#panel-${activePanel}`);
                     if (panel) {
@@ -553,19 +545,19 @@
                     }
                 }
             }
-            
+
             function navigateToModule(moduleId) {
                 // Remove active state from all buttons
                 moduleButtons.forEach(btn => btn.classList.remove('is-active'));
-                
+
                 // Add active state to clicked button
                 const clickedButton = document.querySelector(`#${moduleId} button`);
                 if (clickedButton) clickedButton.classList.add('is-active');
-                
+
                 // Update content
                 updateMainContent(moduleId);
             }
-            
+
             // Add click handlers to module buttons
             moduleButtons.forEach(button => {
                 button.addEventListener('click', () => {
@@ -573,7 +565,7 @@
                     navigateToModule(moduleId);
                 });
             });
-            
+
             // Add tab change listener to update content
             document.querySelectorAll('.tab').forEach(tab => {
                 tab.addEventListener('click', () => {
@@ -584,7 +576,7 @@
                     }
                 });
             });
-            
+
             // Initialize with first module
             navigateToModule('iaua');
         })();
