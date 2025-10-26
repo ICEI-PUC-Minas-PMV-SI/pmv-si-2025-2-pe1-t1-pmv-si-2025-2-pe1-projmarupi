@@ -577,6 +577,8 @@
                 });
             });
 
+            window.navigateToModule = navigateToModule;
+
             // Initialize with first module
             navigateToModule('iaua');
         })();
@@ -628,10 +630,19 @@
                 positionInkbar(active);
             });
 
+            window.switchTab = activate;
             // Init
             activate(tabs[0]);
         })();
 
+        window.onload = function () {
+            const queryParams = new URLSearchParams(window.location.search);
+            var module = queryParams.get('module');
+            
+            if (module) {
+                navigateToModule(module);
+            }
+        };
     </script>
 </body>
 
