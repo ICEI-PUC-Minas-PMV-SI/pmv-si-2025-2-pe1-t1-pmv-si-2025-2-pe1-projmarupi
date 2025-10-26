@@ -97,7 +97,7 @@ header nav a {
 .modules-section .modules .module {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
+  width: 250px;
   text-align: left;
   background-color: var(--default-white);
   border: 1px solid var(--cool-gray-20);
