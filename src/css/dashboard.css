@@ -1,4 +1,5 @@
 @import "./btns.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global */
 :root {
@@ -16,12 +17,12 @@
   --primary-90: #001d6c;
   --muted: #475569;
   --font-color: #21272a;
-  --font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html,
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   color: var(--font-color);
@@ -78,7 +79,8 @@ h1 {
         background-color: var(--cool-gray-10);
       }
 
-      &:active {
+      &:active,
+      &.is-active {
         background-color: var(--cool-gray-30);
       }
     }
@@ -141,7 +143,7 @@ main {
   color: var(--font-color);
   max-width: 100%;
   user-select: none;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+
 
   .tablist {
     position: relative;
@@ -237,7 +239,7 @@ main {
   .caption {
     text-transform: uppercase;
     color: var(--primary-90);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 0.05em;
     margin-bottom: 5px;
@@ -445,13 +447,11 @@ main {
 [role="progressbar"]::after {
   counter-reset: percentage var(--value);
   content: counter(percentage) '%';
-  font-family: Helvetica, Arial, sans-serif;
   font-size: calc(var(--size) / 5);
   color: var(--primary);
 }
 
 /* Atividades */
-
 .panel-atividades {
   display: flex;
   flex-direction: column;
@@ -468,14 +468,13 @@ main {
   table-layout: auto; /* lets first column flex */
 }
 
-/* Column sizing: Atividade fills, Tags min-content, Ações minimal */
+/* Column sizing: Atividade fills, Tags 30%, Ações minimal */
 .col-atividade {
   width: auto;
 }
-
 .col-tags {
   width: 30%;
-}   /* hug content */
+}   
 .col-acoes {
   width: 1%;
 }  /* smallest */
@@ -501,7 +500,7 @@ tbody td {
 .chip {
   display: inline-block;
   padding: 4px 8px;
-  margin: 2px 6px 2px 0;
+  margin: 2px 3px 2px 0;
   background: var(--cool-gray-10);
   border: 1px solid var(--cool-gray-20);
   border-radius: 999px;
