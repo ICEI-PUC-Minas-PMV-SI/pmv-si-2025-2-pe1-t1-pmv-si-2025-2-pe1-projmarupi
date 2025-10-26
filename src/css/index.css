@@ -25,6 +25,10 @@ body {
   color: var(--font-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -153,7 +157,6 @@ header nav a {
 
 @media (max-width: 600px) {
   .features-section {
-    
     .features {
       display: flex;
       flex-direction: column;
