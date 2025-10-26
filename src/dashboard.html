@@ -231,24 +231,6 @@
                 tab.addEventListener('click', () => activate(tab));
             });
 
-            // Keyboard navigation
-            tablist.addEventListener('keydown', (e) => {
-                const current = document.activeElement;
-                const idx = tabs.indexOf(current);
-                if (idx === -1) return;
-
-                if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-                    e.preventDefault();
-                    const dir = e.key === 'ArrowRight' ? 1 : -1;
-                    const next = tabs[(idx + dir + tabs.length) % tabs.length];
-                    next.focus();
-                    activate(next);
-                }
-                if (e.key === 'Home') { e.preventDefault(); tabs[0].focus(); activate(tabs[0]); }
-                if (e.key === 'End') { e.preventDefault(); tabs.at(-1).focus(); activate(tabs.at(-1)); }
-                if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(current); }
-            });
-
             // Recalc on resize/scroll
             window.addEventListener('resize', () => {
                 const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
