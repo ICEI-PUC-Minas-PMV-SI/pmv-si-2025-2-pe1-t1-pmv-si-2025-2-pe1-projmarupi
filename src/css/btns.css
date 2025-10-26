@@ -29,6 +29,11 @@
     }
 }
 
+.btn--small {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
 /* Ghost (transparent) */
 .btn--ghost {
     background: transparent;

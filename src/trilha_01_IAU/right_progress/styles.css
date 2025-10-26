@@ -26,17 +26,7 @@ html {
   z-index: 2;
 }
 
-.image-slide-horizontal:nth-child(8) {
-  transform: scaleX(-1);
-}
-
 .image-slide-horizontal:nth-child(2) {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-}
-
-.image-slide-horizontal:nth-child(7) {
   position: sticky;
   left: 0;
   z-index: 1;

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>Meu Painel</title>
+</head>
+
+<body>
+    <aside class="menu-container">
+        <img src="/static/logo.png" alt="Logo do Meu Painel">
+        <div class="search-box">
+            <label class="icon" for="search-input">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" d="M21 21l-4.35-4.35M10 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
+                </svg>
+            </label>
+            <input id="search-input" name="search-input" type="text" placeholder="Buscar módulo..." />
+        </div>
+
+        <nav>
+            <ul>
+                <li id="iaua">
+                    <button class="is-active">
+                        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.315 14.9071L12.729 13.4931L14.143 14.9071L20.308 8.74209L21.398 5.19009L18.914 2.70709L17.835 3.04309L16.237 1.44509L18.32 0.796086C18.6681 0.68791 19.0392 0.676939 19.3931 0.764358C19.747 0.851777 20.0703 1.03426 20.328 1.29209L22.811 3.77509C23.0677 4.03185 23.2497 4.35366 23.3375 4.706C23.4252 5.05834 23.4154 5.42791 23.309 5.77509L22.074 9.80609L14.144 17.7361L11.314 14.9081L11.315 14.9071ZM13.965 0.586086L16.447 3.06909C16.7037 3.32585 16.8857 3.64766 16.9735 4C17.0612 4.35234 17.0514 4.72191 16.945 5.06909L15.71 9.09708L7.78 17.0281L0 9.25008L7.899 1.35209L11.956 0.0900857C12.3041 -0.01809 12.6752 -0.0290613 13.0291 0.0583576C13.383 0.145777 13.7063 0.328261 13.964 0.586086H13.965ZM2.829 9.25008L7.779 14.2001L13.943 8.03509L15.033 4.48309L12.549 2.00009L8.964 3.11509L2.829 9.25008ZM10.253 6.77509C10.1097 6.63672 9.99546 6.4712 9.91685 6.28819C9.83823 6.10519 9.79685 5.90836 9.79512 5.70919C9.79339 5.51002 9.83135 5.3125 9.90677 5.12815C9.98219 4.94381 10.0936 4.77633 10.2344 4.63549C10.3752 4.49465 10.5427 4.38327 10.7271 4.30785C10.9114 4.23243 11.1089 4.19448 11.3081 4.19621C11.5073 4.19794 11.7041 4.23932 11.8871 4.31793C12.0701 4.39655 12.2356 4.51082 12.374 4.65409C12.6425 4.93779 12.7897 5.31504 12.7844 5.7056C12.779 6.09617 12.6215 6.46925 12.3454 6.74551C12.0693 7.02177 11.6963 7.17943 11.3057 7.18495C10.9151 7.19047 10.5378 7.04343 10.254 6.77509H10.253ZM17.139 7.79709L17.921 4.91909C18.371 5.07109 18.676 5.24409 18.838 5.43709C19.0936 5.74184 19.2177 6.13564 19.183 6.53189C19.1484 6.92815 18.9577 7.29439 18.653 7.55009C18.363 7.79409 17.858 7.87609 17.139 7.79709Z"
+                                fill="#21272A" />
+                        </svg>
+                        Arqueologia Arborea Urbana
+                    </button>
+                </li>
+                <li id="idd">
+                    <button>
+                        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.315 14.9071L12.729 13.4931L14.143 14.9071L20.308 8.74209L21.398 5.19009L18.914 2.70709L17.835 3.04309L16.237 1.44509L18.32 0.796086C18.6681 0.68791 19.0392 0.676939 19.3931 0.764358C19.747 0.851777 20.0703 1.03426 20.328 1.29209L22.811 3.77509C23.0677 4.03185 23.2497 4.35366 23.3375 4.706C23.4252 5.05834 23.4154 5.42791 23.309 5.77509L22.074 9.80609L14.144 17.7361L11.314 14.9081L11.315 14.9071ZM13.965 0.586086L16.447 3.06909C16.7037 3.32585 16.8857 3.64766 16.9735 4C17.0612 4.35234 17.0514 4.72191 16.945 5.06909L15.71 9.09708L7.78 17.0281L0 9.25008L7.899 1.35209L11.956 0.0900857C12.3041 -0.01809 12.6752 -0.0290613 13.0291 0.0583576C13.383 0.145777 13.7063 0.328261 13.964 0.586086H13.965ZM2.829 9.25008L7.779 14.2001L13.943 8.03509L15.033 4.48309L12.549 2.00009L8.964 3.11509L2.829 9.25008ZM10.253 6.77509C10.1097 6.63672 9.99546 6.4712 9.91685 6.28819C9.83823 6.10519 9.79685 5.90836 9.79512 5.70919C9.79339 5.51002 9.83135 5.3125 9.90677 5.12815C9.98219 4.94381 10.0936 4.77633 10.2344 4.63549C10.3752 4.49465 10.5427 4.38327 10.7271 4.30785C10.9114 4.23243 11.1089 4.19448 11.3081 4.19621C11.5073 4.19794 11.7041 4.23932 11.8871 4.31793C12.0701 4.39655 12.2356 4.51082 12.374 4.65409C12.6425 4.93779 12.7897 5.31504 12.7844 5.7056C12.779 6.09617 12.6215 6.46925 12.3454 6.74551C12.0693 7.02177 11.6963 7.17943 11.3057 7.18495C10.9151 7.19047 10.5378 7.04343 10.254 6.77509H10.253ZM17.139 7.79709L17.921 4.91909C18.371 5.07109 18.676 5.24409 18.838 5.43709C19.0936 5.74184 19.2177 6.13564 19.183 6.53189C19.1484 6.92815 18.9577 7.29439 18.653 7.55009C18.363 7.79409 17.858 7.87609 17.139 7.79709Z"
+                                fill="#21272A" />
+                        </svg>
+                        Identidade
+                    </button>
+                </li>
+                <li id="sbc">
+                    <button>
+                        <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.315 14.9071L12.729 13.4931L14.143 14.9071L20.308 8.74209L21.398 5.19009L18.914 2.70709L17.835 3.04309L16.237 1.44509L18.32 0.796086C18.6681 0.68791 19.0392 0.676939 19.3931 0.764358C19.747 0.851777 20.0703 1.03426 20.328 1.29209L22.811 3.77509C23.0677 4.03185 23.2497 4.35366 23.3375 4.706C23.4252 5.05834 23.4154 5.42791 23.309 5.77509L22.074 9.80609L14.144 17.7361L11.314 14.9081L11.315 14.9071ZM13.965 0.586086L16.447 3.06909C16.7037 3.32585 16.8857 3.64766 16.9735 4C17.0612 4.35234 17.0514 4.72191 16.945 5.06909L15.71 9.09708L7.78 17.0281L0 9.25008L7.899 1.35209L11.956 0.0900857C12.3041 -0.01809 12.6752 -0.0290613 13.0291 0.0583576C13.383 0.145777 13.7063 0.328261 13.964 0.586086H13.965ZM2.829 9.25008L7.779 14.2001L13.943 8.03509L15.033 4.48309L12.549 2.00009L8.964 3.11509L2.829 9.25008ZM10.253 6.77509C10.1097 6.63672 9.99546 6.4712 9.91685 6.28819C9.83823 6.10519 9.79685 5.90836 9.79512 5.70919C9.79339 5.51002 9.83135 5.3125 9.90677 5.12815C9.98219 4.94381 10.0936 4.77633 10.2344 4.63549C10.3752 4.49465 10.5427 4.38327 10.7271 4.30785C10.9114 4.23243 11.1089 4.19448 11.3081 4.19621C11.5073 4.19794 11.7041 4.23932 11.8871 4.31793C12.0701 4.39655 12.2356 4.51082 12.374 4.65409C12.6425 4.93779 12.7897 5.31504 12.7844 5.7056C12.779 6.09617 12.6215 6.46925 12.3454 6.74551C12.0693 7.02177 11.6963 7.17943 11.3057 7.18495C10.9151 7.19047 10.5378 7.04343 10.254 6.77509H10.253ZM17.139 7.79709L17.921 4.91909C18.371 5.07109 18.676 5.24409 18.838 5.43709C19.0936 5.74184 19.2177 6.13564 19.183 6.53189C19.1484 6.92815 18.9577 7.29439 18.653 7.55009C18.363 7.79409 17.858 7.87609 17.139 7.79709Z"
+                                fill="#21272A" />
+                        </svg>
+                        Municípios
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h1>
+            Meu Painel
+        </h1>
+
+        <!-- Tabs -->
+        <div class="tabs" id="tabs-demo">
+            <div class="tablist" role="tablist" aria-label="Seções">
+                <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-apresentacao"
+                    id="tab-apresentacao" data-tab="apresentacao">
+                    Apresentação
+                </button>
+
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-geral" id="tab-geral"
+                    data-tab="geral">
+                    Geral
+                </button>
+
+                <button class="tab" role="tab" aria-selected="false" aria-controls="panel-atividades"
+                    id="tab-atividades" data-tab="atividades">
+                    Atividades
+                </button>
+
+                <!-- Animated underline -->
+                <span class="inkbar" aria-hidden="true"></span>
+            </div>
+
+            <div class="panels">
+                <section role="tabpanel" id="panel-apresentacao" aria-labelledby="tab-apresentacao">
+                    <div class="panel-apresentacao">
+                        <div class="text-block">
+                            <p class="caption">CAPTION</p>
+
+                            <h1 class="headline">
+                                Purus sagittis fringilla arcu neque.
+                            </h1>
+
+                            <h2 class="subheadline">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Bibendum amet at molestie mattis.
+                            </h2>
+
+                            <p class="body">
+                                Rhoncus morbi et augue nec, in id ullamcorper at sit. Condimentum sit nunc in eros
+                                scelerisque sed. Commodo in viverra nunc, ullamcorper ut. Non, amet, aliquet
+                                scelerisque nullam sagittis, pulvinar. Fermentum scelerisque sit consectetur hac mi.
+                                Mollis leo eleifend ultricies purus iaculis.
+                            </p>
+                        </div>
+                        <div class="text-block">
+                            <p class="caption">CAPTION</p>
+                            <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
+                                Bibendum amet at molestie mattis.
+                            </h2>
+                            <p class="body" style="margin-bottom: 15px;">
+                                Rhoncus morbi et augue nec, in id ullamcorper at sit.
+                            </p>
+                            <button class="btn btn--primary">Começar</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section role="tabpanel" id="panel-geral" aria-labelledby="tab-geral" hidden>
+                    <div class="panel-geral">
+                        <div class="reminder">
+                            <img src="module1.png" alt="Module 1 img">
+                            <h3>Atividade 1</h3>
+                            <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                            <button class="btn btn--primary">Continuar</button>
+                        </div>
+                        <div class="recent-token">
+                            <h2>Token mais recente</h2>
+                            <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                    fill="#DDE1E6" />
+                            </svg>
+                        </div>
+                        <div class="progress">
+                            <h2>Progresso</h2>
+                            <div class="labels">
+                                <label><span class="finished"></span> Concluído</label>
+                                <label><span class="pending"></span> Pendente</label>
+                            </div>
+                            <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                                style="--value: 97"></div>
+                        </div>
+                        <div class="tokens">
+                            <h2>Tokens</h2>
+                            <ul>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section role="tabpanel" id="panel-atividades" aria-labelledby="tab-atividades" hidden>
+                    <div class="panel-atividades">
+                        <table class="tbl">
+                            <colgroup>
+                                <col class="col-atividade"><!-- grows -->
+                                <col class="col-tags">
+                                <col class="col-acoes"><!-- smallest -->
+                            </colgroup>
+
+                            <thead>
+                                <tr>
+                                    <th>Atividade</th>
+                                    <th>Tags</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Atividade 1</td>
+                                    <td>
+                                        <span class="chip">História</span>
+                                        <span class="chip">Cultura</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Atividade 2</td>
+                                    <td>
+                                        <span class="chip">Segurança</span>
+                                        <span class="chip">Tecnologia</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Atividade 3</td>
+                                    <td>
+                                        <span class="chip">Segurança</span>
+                                        <span class="chip">Tecnologia</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--primary btn--small">Começar</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // Tabs behavior + animated underline
+        (function () {
+            const root = document.getElementById('tabs-demo');
+            const tablist = root.querySelector('.tablist');
+            const inkbar = root.querySelector('.inkbar');
+            const tabs = Array.from(tablist.querySelectorAll('.tab:not(.more)'));
+            const panels = Array.from(root.querySelectorAll('[role="tabpanel"]'));
+
+            function positionInkbar(target) {
+                const rect = target.getBoundingClientRect();
+                const parentRect = tablist.getBoundingClientRect();
+                const left = rect.left - parentRect.left + tablist.scrollLeft;
+                inkbar.style.left = `${left}px`;
+                inkbar.style.width = `${rect.width}px`;
+            }
+
+            function activate(tab) {
+                // Update active state
+                tabs.forEach(t => {
+                    const active = t === tab;
+                    t.classList.toggle('is-active', active);
+                    t.setAttribute('aria-selected', String(active));
+                    t.tabIndex = active ? 0 : -1;
+
+                    const panelId = t.getAttribute('aria-controls');
+                    const panel = root.querySelector('#' + panelId);
+                    if (panel) panel.hidden = !active;
+                });
+
+                positionInkbar(tab);
+            }
+
+            // Click support
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => activate(tab));
+            });
+
+            // Recalc on resize/scroll
+            window.addEventListener('resize', () => {
+                const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
+                positionInkbar(active);
+            });
+            tablist.addEventListener('scroll', () => {
+                const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
+                positionInkbar(active);
+            });
+
+            // Init
+            activate(tabs[0]);
+        })();
+
+    </script>
+</body>
+
+</html>

@@ -49,13 +49,7 @@ html {
   display: none;
 }
 
-.image-slide:nth-child(13) {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-.image-slide:nth-child(12) {
+.image-slide:nth-child(11) {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -67,7 +61,13 @@ html {
   z-index: 1;
 }
 
-.image-slide:nth-child(9) {
+.image-slide:nth-child(8) {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.image-slide:nth-child(7) {
   position: sticky;
   top: 0;
   z-index: 1;
