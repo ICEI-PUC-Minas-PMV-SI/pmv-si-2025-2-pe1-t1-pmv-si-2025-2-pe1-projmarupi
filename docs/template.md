@@ -10,9 +10,13 @@ Marupi pode ser dividida em duas estruturas distintas:
 
 A logomarca será preferencialmente posicionada no topo do menu, ou no canto superior esquerdo da página.
 
-Todo o site será responsivo para dispositivos de resoluções distintas. Em algumas páginas, alguns elementos ou efeitos de hover serão suprimidos para que o usuário experimente o melhor layout possível diante das limitações do tamanho de cada interface.
+Todo o site será responsivo para dispositivos de resoluções distintas. Em algumas páginas, alguns elementos ou efeitos interativos (hovers que não sejam aplicados em botões, por exemplo) serão suprimidos para que o usuário experimente o melhor layout possível diante das limitações do tamanho de cada interface.
 
 ## Cores
+
+As cores da plataforma mãe seguem a seguinte paleta de cores:
+
+Tods as trilhas também foram encorajadas a não abusar de estímulos visuais, visando atender o maior espectro de públicos possível.
 
 ## Tipografia
 

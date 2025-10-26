@@ -1,0 +1,13 @@
+const buttonsList = document.querySelectorAll(".btn-caminhar");
+
+const btn_esc = document.querySelector("#btn-esc");
+
+buttonsList.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    window.location.href = "../04/repertorio.html";
+  });
+});
+
+btn_esc.addEventListener("click", () => {
+  window.location.href = "../01/intro.html";
+});
