@@ -212,6 +212,11 @@
                             content: `
                                 <div class="panel-atividades">
                                     <table class="tbl">
+                                        <colgroup>
+                                            <col class="col-atividade"><!-- grows -->
+                                            <col class="col-tags">
+                                            <col class="col-acoes"><!-- smallest -->
+                                        </colgroup>
                                         <thead>
                                             <tr>
                                                 <th>Atividade</th>
@@ -354,6 +359,11 @@
                             content: `
                                 <div class="panel-atividades">
                                     <table class="tbl">
+                                        <colgroup>
+                                            <col class="col-atividade"><!-- grows -->
+                                            <col class="col-tags">
+                                            <col class="col-acoes"><!-- smallest -->
+                                        </colgroup>
                                         <thead>
                                             <tr>
                                                 <th>Atividade</th>
@@ -480,6 +490,11 @@
                             content: `
                                 <div class="panel-atividades">
                                     <table class="tbl">
+                                        <colgroup>
+                                            <col class="col-atividade"><!-- grows -->
+                                            <col class="col-tags">
+                                            <col class="col-acoes"><!-- smallest -->
+                                        </colgroup>
                                         <thead>
                                             <tr>
                                                 <th>Atividade</th>
@@ -638,7 +653,7 @@
         window.onload = function () {
             const queryParams = new URLSearchParams(window.location.search);
             var module = queryParams.get('module');
-            
+
             if (module) {
                 navigateToModule(module);
             }

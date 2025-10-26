@@ -148,7 +148,6 @@ main {
   max-width: 100%;
   user-select: none;
 
-
   .tablist {
     position: relative;
     display: flex;
@@ -304,8 +303,7 @@ main {
     border: 1px solid var(--cool-gray-20);
 
     p,
-    h3,
-    a {
+    h3 {
       padding: 0 10px;
     }
 
@@ -321,6 +319,11 @@ main {
       font-weight: 600;
     }
 
+    a {
+      display: flex;
+      flex-direction: column;
+    }
+    
     button {
       margin: 0 15px 25px 15px;
     }
@@ -476,9 +479,11 @@ main {
 .col-atividade {
   width: auto;
 }
+
 .col-tags {
   width: 30%;
-}   
+}
+
 .col-acoes {
   width: 1%;
 }  /* smallest */
