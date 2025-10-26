@@ -54,6 +54,6 @@ Os ícones serão empregados estrategicamente para:
 
 - Reforçar visualmente conceitos e categorias de conteúdo.
 
-## OBSERVAÇÃO IMPORTANTE
+## Observação
 
 Por motivos de lógica de implementação, o menu lateral da plataforma (presente em todas as trilhas) será implementado apenas na próxima etapa, já que sua implantação praticamente implicaria na finalização de todo o código javascript.
