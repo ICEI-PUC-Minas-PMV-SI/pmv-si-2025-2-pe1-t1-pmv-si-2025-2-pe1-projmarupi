@@ -18,8 +18,6 @@ body {
   border-radius: 8px;
   width: 40vw;
   min-width: 500px;
-  max-height: 85vh;
-  overflow-y: auto;
 }
 
 .container-text h1 {
@@ -72,8 +70,6 @@ body {
   .container-text {
     width: 90vw;
     height: auto;
-    max-height: 90vh;
-    overflow-y: auto;
     padding: 1.5rem;
     min-width: 0;
   }

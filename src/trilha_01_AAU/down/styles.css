@@ -99,14 +99,13 @@ html {
   width: 95%;
   height: 20%;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
 }
 
 @media (max-width: 600px) {
   .image-slide:nth-child(11) {
     background-size: contain;
-    transform: scale(0.9);
   }
 
   .button-next {
@@ -115,6 +114,6 @@ html {
   }
 
   .slide-content {
-    justify-content: right;
+    justify-content: center;
   }
 }
