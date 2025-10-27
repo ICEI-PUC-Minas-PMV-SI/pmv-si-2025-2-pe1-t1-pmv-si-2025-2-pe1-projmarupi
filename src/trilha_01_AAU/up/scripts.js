@@ -7,6 +7,8 @@ window.addEventListener("load", () => {
 
   const btn = document.querySelector("#btn");
 
+  let touchStartY = 0;
+
   feed.scrollTop = feed.scrollHeight;
 
   function checkScrollPosition() {
@@ -43,6 +45,34 @@ window.addEventListener("load", () => {
       }
       feed.scrollTop -= event.deltaY * scrollSpeed;
     }
+  });
+
+  feed.addEventListener(
+    "touchstart",
+    (e) => {
+      touchStartY = e.touches[0].clientY;
+    },
+    { passive: false }
+  );
+
+  feed.addEventListener(
+    "touchmove",
+    (e) => {
+      if (touchStartY === 0) {
+        return;
+      }
+      e.preventDefault();
+      const touchCurrentY = e.touches[0].clientY;
+      const deltaY = touchStartY - touchCurrentY;
+      feed.scrollTop -= deltaY - scrollSpeed;
+
+      touchStartY = touchCurrentY;
+    },
+    { passive: false }
+  );
+
+  feed.addEventListener("touchend", () => {
+    touchStartY = 0;
   });
 
   feed.addEventListener("scrollend", checkScrollPosition);
