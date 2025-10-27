@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");
 
+  const touchStartY = 0;
+
   function handleKeyDown(event) {
     if (event.key === "Home") {
       event.preventDefault();
@@ -26,6 +28,35 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
       feed.scrollLeft -= event.deltaY * scrollSpeed;
     }
+  });
+
+  feed.addEventListener(
+    "touchstart",
+    (e) => {
+      e.preventDefault();
+      (e) => {
+        touchStartY = e.touches[0].clientY;
+      };
+    },
+    { passive: false }
+  );
+
+  feed.addEventListener(
+    "touchmove",
+    (e) => {
+      e.preventDefault();
+      const touchCurrentY = e.touches[0].clientY;
+      const deltaY = touchStartY - touchCurrentY;
+
+      feed.scrollLeft += deltaY * scrollSpeed;
+
+      touchStartY = touchCurrentY;
+    },
+    { passive: false }
+  );
+
+  feed.addEventListener("touchend", () => {
+    touchStartY = 0;
   });
 
   document.addEventListener("keydown", handleKeyDown);

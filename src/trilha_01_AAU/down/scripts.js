@@ -1,9 +1,11 @@
 "use strict";
 
-const scrollSpeed = 1.2;
+const scrollSpeed = 0.8;
 const feed = document.querySelector(".image-feed");
 
 const btn = document.querySelector("#btn");
+
+let touchStartY = 0;
 
 function handleKeyDown(event) {
   if (event.key === "Home") {
@@ -26,6 +28,24 @@ feed.addEventListener("wheel", (event) => {
     event.preventDefault();
     feed.scrollTop += event.deltaY * scrollSpeed;
   }
+});
+
+feed.addEventListener(
+  "touchstart",
+  (e) => {
+    e.preventDefault();
+    const touchCurrentY = e.touches[0].clientY;
+    const deltaY = touchStartY - touchCurrentY;
+
+    feed.scrollTop -= deltaY * scrollSpeed;
+
+    touchStartY = touchCurrentY;
+  },
+  { passive: false }
+);
+
+feed.addEventListener("touchend", (e) => {
+  touchStartY = 0;
 });
 
 document.addEventListener("keydown", handleKeyDown);

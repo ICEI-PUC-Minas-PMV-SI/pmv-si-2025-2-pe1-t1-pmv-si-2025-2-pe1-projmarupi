@@ -62,3 +62,14 @@ html {
   justify-content: right;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .button-next {
+    font-size: 1.1rem;
+    padding: 12px 22px;
+  }
+
+  .slide-content {
+    justify-content: center;
+  }
+}

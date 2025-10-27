@@ -108,3 +108,17 @@ html {
   top: 0;
   z-index: 3;
 }
+
+@media (max-width: 600px) {
+  .button-next {
+    font-size: 1.1rem;
+    padding: 12px 22px;
+  }
+
+  .slide-content {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    width: auto;
+  }
+}
