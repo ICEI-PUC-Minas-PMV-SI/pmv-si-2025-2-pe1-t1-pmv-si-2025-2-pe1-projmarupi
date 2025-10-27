@@ -104,12 +104,17 @@ html {
 }
 
 @media (max-width: 600px) {
+  .image-slide:nth-child(11) {
+    background-size: contain;
+    transform: scale(0.9);
+  }
+
   .button-next {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     padding: 12px 22px;
   }
 
   .slide-content {
-    justify-content: center;
+    justify-content: right;
   }
 }
