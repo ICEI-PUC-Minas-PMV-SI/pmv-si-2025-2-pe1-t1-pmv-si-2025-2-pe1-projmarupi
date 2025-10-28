@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");
 
-  const scrollSpeed = 0.8;
+  const scrollSpeed = 1.8;
   let touchStartX = 0;
 
   function handleKeyDown(event) {
