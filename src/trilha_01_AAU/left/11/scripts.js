@@ -1,10 +1,10 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const scrollSpeed = 0.8;
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");
 
+  const scrollSpeed = 0.8;
   const touchStartY = 0;
 
   function handleKeyDown(event) {
@@ -33,10 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
-      e.preventDefault();
-      (e) => {
-        touchStartY = e.touches[0].clientY;
-      };
+      touchStartY = e.touches[0].clientY;
     },
     { passive: false }
   );

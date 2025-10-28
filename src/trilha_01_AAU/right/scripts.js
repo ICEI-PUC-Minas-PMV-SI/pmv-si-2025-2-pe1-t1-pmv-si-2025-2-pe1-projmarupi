@@ -1,6 +1,6 @@
 "use strict";
 
-const scrollSpeed = 0.1;
+const scrollSpeed = 2;
 const feed = document.querySelector(".image-feed-horizontal");
 
 const btn = document.querySelector("#btn");
