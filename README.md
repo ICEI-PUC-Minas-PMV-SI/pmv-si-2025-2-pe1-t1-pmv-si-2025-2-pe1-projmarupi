@@ -9,6 +9,9 @@
 **MARUPI** |
 Uma plataforma de ensino experimentado.
 
+**versão em andamento** |
+https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projmarupi/
+
 ## Integrantes
 
 - Ana Paula Medeiros dos Santos
