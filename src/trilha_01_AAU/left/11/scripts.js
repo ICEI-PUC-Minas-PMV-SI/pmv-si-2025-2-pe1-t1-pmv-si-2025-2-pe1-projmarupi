@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnRestart = document.querySelector("#btn-restart");
 
   const scrollSpeed = 0.8;
-  const touchStartY = 0;
+  let touchStartY = 0;
 
   function handleKeyDown(event) {
     if (event.key === "Home") {
