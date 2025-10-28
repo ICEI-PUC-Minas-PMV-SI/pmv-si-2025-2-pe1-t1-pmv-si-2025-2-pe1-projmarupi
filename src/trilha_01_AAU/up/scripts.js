@@ -43,7 +43,7 @@ window.addEventListener("load", () => {
       if (feed.scrollTop === 0 && event.deltaY > 0) {
         return;
       }
-      feed.scrollTop -= event.deltaY * scrollSpeed;
+      feed.scrollTop += event.deltaY * scrollSpeed;
     }
   });
 
@@ -64,7 +64,7 @@ window.addEventListener("load", () => {
       e.preventDefault();
       const touchCurrentY = e.touches[0].clientY;
       const deltaY = touchStartY - touchCurrentY;
-      feed.scrollTop -= deltaY - scrollSpeed;
+      feed.scrollTop += deltaY - scrollSpeed;
 
       touchStartY = touchCurrentY;
     },
