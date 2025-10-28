@@ -46,7 +46,7 @@ feed.addEventListener(
 
     const deltaY = touchStartY - touchCurrentY;
 
-    feed.scrollTop -= deltaY * scrollSpeed;
+    feed.scrollTop -= deltaY;
 
     touchStartY = touchCurrentY;
   },
