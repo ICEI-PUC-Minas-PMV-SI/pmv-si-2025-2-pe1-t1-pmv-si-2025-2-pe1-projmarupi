@@ -59,6 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("keydown", handleKeyDown);
 
   btnRestart.addEventListener("click", () => {
-    window.location.href = "../../down/start.html";
+    window.location.href = "../../../dashboard.html";
   });
 });
