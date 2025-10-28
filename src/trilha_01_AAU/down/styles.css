@@ -84,7 +84,6 @@ html {
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
-  bottom: 4rem;
 }
 
 .button-next:hover {
@@ -94,10 +93,13 @@ html {
 
 .slide-content {
   width: 90%;
-  height: 20%;
+  height: auto;
   display: flex;
   justify-content: right;
   align-items: center;
+  position: absolute;
+  top: 4rem;
+  left: 5%;
 }
 
 @media (max-width: 600px) {
@@ -108,10 +110,10 @@ html {
   .button-next {
     font-size: 0.6rem;
     padding: 12px 22px;
-    bottom: 8rem;
   }
 
   .slide-content {
-    justify-content: right;
+    justify-content: center;
+    top: 8rem;
   }
 }

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed");
   const btn = document.querySelector("#btn");
 
-  const scrollSensitivity = 2;
+  const scrollSensitivity = 3;
   const easeFactor = 0.05;
 
   let currentScroll = 0;

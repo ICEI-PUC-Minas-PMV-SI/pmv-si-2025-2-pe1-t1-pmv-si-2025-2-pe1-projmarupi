@@ -2,10 +2,12 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
-  const btn = document.querySelector("#btn");
 
-  const scrollSensitivity = 2.0;
+  const btn = document.querySelector(".button-next");
+
+  const scrollSensitivity = 2;
   const easeFactor = 0.05;
+
   let currentScroll = 0;
   let targetScroll = 0;
   let maxScroll = 0;
@@ -28,11 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function smoothScrollLoop() {
     const distance = targetScroll - currentScroll;
+
     if (Math.abs(distance) < 0.1) {
       currentScroll = targetScroll;
     } else {
       currentScroll += distance * easeFactor;
     }
+
     feed.scrollLeft = Math.round(currentScroll);
     requestAnimationFrame(smoothScrollLoop);
   }
@@ -40,10 +44,11 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "wheel",
     (event) => {
-      if (event.deltaY !== 0) {
+      if (event.deltaX !== 0) {
         event.preventDefault();
 
-        targetScroll += event.deltaY * scrollSensitivity;
+        targetScroll += event.deltaX * scrollSensitivity;
+
         updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
@@ -55,11 +60,10 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
-      if (btn.contains(e.target)) {
+      if (btn && btn.contains(e.target)) {
         return;
       }
       e.preventDefault();
-
       touchStartX = e.touches[0].clientX;
       updateMaxScroll();
     },
@@ -70,14 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "touchmove",
     (e) => {
       e.preventDefault();
-
       const touchCurrentX = e.touches[0].clientX;
       const deltaX = touchStartX - touchCurrentX;
+
       targetScroll += deltaX * scrollSensitivity;
 
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;
-
       touchStartX = touchCurrentX;
     },
     { passive: false }
@@ -89,9 +92,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("keydown", handleKeyDown);
 
-  btn.addEventListener("click", () => {
-    window.location.href = "../up/up.html";
-  });
+  if (btn) {
+    btn.addEventListener("click", () => {
+      window.location.href = "../up/up.html";
+    });
+  }
 
   currentScroll = feed.scrollLeft;
   targetScroll = feed.scrollLeft;
