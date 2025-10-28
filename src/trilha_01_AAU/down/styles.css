@@ -84,6 +84,7 @@ html {
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
+  bottom: 4rem;
 }
 
 .button-next:hover {
@@ -107,7 +108,7 @@ html {
   .button-next {
     font-size: 0.6rem;
     padding: 12px 22px;
-    bottom: 4rem;
+    bottom: 8rem;
   }
 
   .slide-content {

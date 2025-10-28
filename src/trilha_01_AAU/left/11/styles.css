@@ -57,3 +57,11 @@ html {
   color: rgba(242, 227, 213);
   transform: scale(1.05);
 }
+
+@media (max-width: 600px) {
+  .button-next {
+    font-size: 1rem;
+    padding: 15px 25px;
+    max-width: 80vw;
+  }
+}

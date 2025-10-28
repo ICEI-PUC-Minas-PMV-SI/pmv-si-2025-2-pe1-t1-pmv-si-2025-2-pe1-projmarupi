@@ -48,7 +48,9 @@ html {
   transform: translateX(-50%);
   width: auto;
   z-index: 1;
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .image-slide:nth-child(11) {
@@ -120,7 +122,7 @@ html {
   .slide-content {
     left: 50%;
     transform: translateX(-50%);
-    top: 3rem;
     width: auto;
+    top: 8rem;
   }
 }

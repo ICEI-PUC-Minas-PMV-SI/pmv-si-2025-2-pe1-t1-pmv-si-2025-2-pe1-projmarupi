@@ -1,12 +1,12 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   const feed = document.querySelector(".image-feed");
+  const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");
 
-  const scrollSensitivity = 1.2;
+  const scrollSensitivity = 1.5;
   const easeFactor = 0.05;
-
   let currentScroll = 0;
   let targetScroll = 0;
   let maxScroll = 0;
@@ -16,14 +16,25 @@ document.addEventListener("DOMContentLoaded", () => {
     maxScroll = feed.scrollHeight - feed.clientHeight;
   }
 
+  function checkScrollPosition() {
+    if (currentScroll <= 0.1) {
+      buttonContainer.style.opacity = 1;
+      buttonContainer.style.pointerEvents = "auto";
+    } else {
+      buttonContainer.style.opacity = 0;
+      buttonContainer.style.pointerEvents = "none";
+    }
+  }
+
+  //INVERTI A LOGICA! ATENCAO! TALES VAI ME MATAR!
   function handleKeyDown(event) {
     if (event.key === "Home") {
       event.preventDefault();
-      targetScroll = 0;
-    } else if (event.key === "End") {
-      event.preventDefault();
       updateMaxScroll();
       targetScroll = maxScroll;
+    } else if (event.key === "End") {
+      event.preventDefault();
+      targetScroll = 0;
     }
   }
 
@@ -36,6 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
       currentScroll += distance * easeFactor;
     }
     feed.scrollTop = Math.round(currentScroll);
+
+    checkScrollPosition();
+
     requestAnimationFrame(smoothScrollLoop);
   }
 
@@ -44,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     (event) => {
       if (event.deltaY !== 0) {
         event.preventDefault();
-        targetScroll -= event.deltaY * scrollSensitivity;
+        targetScroll += event.deltaY * scrollSensitivity;
         updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
@@ -56,6 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
+      if (btn.contains(e.target)) {
+        return;
+      }
+      e.preventDefault();
       touchStartY = e.touches[0].clientY;
       updateMaxScroll();
     },
@@ -67,11 +85,13 @@ document.addEventListener("DOMContentLoaded", () => {
     (e) => {
       e.preventDefault();
       const touchCurrentY = e.touches[0].clientY;
-      const deltaY = touchCurrentY - touchStartY;
+      const deltaY = touchStartY - touchCurrentY;
 
-      targetScroll -= deltaY * scrollSensitivity;
+      targetScroll += deltaY * scrollSensitivity;
+
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;
+
       touchStartY = touchCurrentY;
     },
     { passive: false }
@@ -84,11 +104,14 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("keydown", handleKeyDown);
 
   btn.addEventListener("click", () => {
-    window.location.href = "../right/right.html";
+    window.location.href = "../left/01/intro.html";
   });
 
-  currentScroll = feed.scrollTop;
-  targetScroll = feed.scrollTop;
   updateMaxScroll();
+  feed.scrollTop = maxScroll;
+  currentScroll = maxScroll;
+  targetScroll = maxScroll;
+
+  checkScrollPosition();
   smoothScrollLoop();
 });
