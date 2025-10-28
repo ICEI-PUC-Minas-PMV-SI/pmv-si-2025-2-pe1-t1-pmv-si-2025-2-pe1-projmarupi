@@ -26,7 +26,7 @@ function handleKeyDown(event) {
 feed.addEventListener("wheel", (event) => {
   if (event.deltaY !== 0) {
     event.preventDefault();
-    feed.scrollTop += event.deltaY * scrollSpeed;
+    feed.scrollTop -= event.deltaY * scrollSpeed;
   }
 });
 
@@ -44,7 +44,7 @@ feed.addEventListener(
     e.preventDefault();
     const touchCurrentY = e.touches[0].clientY;
     const deltaY = touchCurrentY - touchStartY;
-    feed.scrollTop += deltaY * scrollSpeed;
+    feed.scrollTop -= deltaY * scrollSpeed;
     touchStartY = touchCurrentY;
   },
   { passive: false }

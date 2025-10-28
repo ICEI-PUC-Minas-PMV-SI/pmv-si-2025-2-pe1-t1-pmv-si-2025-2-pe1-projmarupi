@@ -1,7 +1,7 @@
 "use strict";
 
 window.addEventListener("load", () => {
-  const scrollSpeed = 0.2;
+  const scrollSpeed = 0.7;
   const feed = document.querySelector(".image-feed");
   const buttonContainer = document.querySelector(".slide-content");
 
