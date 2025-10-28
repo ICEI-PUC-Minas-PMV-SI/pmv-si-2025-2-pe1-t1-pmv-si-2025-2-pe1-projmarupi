@@ -33,7 +33,7 @@ feed.addEventListener("wheel", (event) => {
 feed.addEventListener(
   "touchstart",
   (e) => {
-    const touchStartY = e.touches[0].clientY;
+    touchStartY = e.touches[0].clientY;
   },
   { passive: false }
 );
@@ -48,7 +48,7 @@ feed.addEventListener(
 
     feed.scrollTop -= deltaY * scrollSpeed;
 
-    touchStart = touchCurrentY;
+    touchStartY = touchCurrentY;
   },
   { passive: false }
 );
