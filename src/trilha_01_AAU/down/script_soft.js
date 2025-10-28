@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const deltaY = touchCurrentY - touchStartY;
 
       targetScroll -= deltaY * scrollSensitivity;
+      if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;
       touchStartY = touchCurrentY;
     },
