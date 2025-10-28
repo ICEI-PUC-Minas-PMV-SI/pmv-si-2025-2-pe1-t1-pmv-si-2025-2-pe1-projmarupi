@@ -43,8 +43,10 @@ html {
 
 .slide-content {
   position: absolute;
-  bottom: 40px;
-  left: 40px;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
   z-index: 1;
   display: none;
 }
@@ -118,7 +120,7 @@ html {
   .slide-content {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 30px;
+    top: 3rem;
     width: auto;
   }
 }
