@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnRestart = document.querySelector("#btn-restart");
 
   const scrollSpeed = 0.8;
-  let touchStartY = 0;
+  let touchStartX = 0;
 
   function handleKeyDown(event) {
     if (event.key === "Home") {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
-      touchStartY = e.touches[0].clientY;
+      touchStartX = e.touches[0].clientX;
     },
     { passive: false }
   );
@@ -42,18 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
     "touchmove",
     (e) => {
       e.preventDefault();
-      const touchCurrentY = e.touches[0].clientY;
-      const deltaY = touchStartY - touchCurrentY;
+      const touchCurrentX = e.touches[0].clientX;
+      const deltaX = touchStartX - touchCurrentX;
 
-      feed.scrollLeft += deltaY * scrollSpeed;
+      feed.scrollLeft += deltaX * scrollSpeed;
 
-      touchStartY = touchCurrentY;
+      touchStartX = touchCurrentX;
     },
     { passive: false }
   );
 
   feed.addEventListener("touchend", () => {
-    touchStartY = 0;
+    touchStartX = 0;
   });
 
   document.addEventListener("keydown", handleKeyDown);
