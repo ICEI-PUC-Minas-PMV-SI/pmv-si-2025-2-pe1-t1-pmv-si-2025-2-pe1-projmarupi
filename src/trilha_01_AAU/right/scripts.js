@@ -33,6 +33,8 @@ feed.addEventListener("wheel", (event) => {
 feed.addEventListener(
   "touchstart",
   (e) => {
+    e.preventDefault();
+
     touchStartX = e.touches[0].clientX;
   },
   { passive: false }
