@@ -5,7 +5,7 @@ const feed = document.querySelector(".image-feed-horizontal");
 
 const btn = document.querySelector("#btn");
 
-let touchStartY = 0;
+let touchStartX = 0;
 
 function handleKeyDown(event) {
   if (event.key === "Home") {
@@ -33,7 +33,7 @@ feed.addEventListener("wheel", (event) => {
 feed.addEventListener(
   "touchstart",
   (e) => {
-    touchStartY = e.touches[0].clientY;
+    touchStartx = e.touches[0].clientX;
   },
   { passive: false }
 );
@@ -42,18 +42,18 @@ feed.addEventListener(
   "touchmove",
   (e) => {
     e.preventDefault();
-    const touchCurrentY = e.touches[0].clientY;
-    const deltaY = touchStartY - touchCurrentY;
+    const touchCurrentX = e.touches[0].clientX;
+    const deltaX = touchStartY - touchCurrentX;
 
-    feed.scrollLeft -= deltaY * scrollSpeed;
+    feed.scrollLeft -= deltaX * scrollSpeed;
 
-    touchStartY = touchCurrentY;
+    touchStartX = touchCurrentX;
   },
   { passive: false }
 );
 
 feed.addEventListener("touchend", () => {
-  touchStartY = 0;
+  touchStartX = 0;
 });
 
 document.addEventListener("keydown", handleKeyDown);
