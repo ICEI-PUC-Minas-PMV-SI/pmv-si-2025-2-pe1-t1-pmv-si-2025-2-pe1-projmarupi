@@ -1,6 +1,6 @@
 "use strict";
 
-const scrollSpeed = 1.2;
+const scrollSpeed = 0.1;
 const feed = document.querySelector(".image-feed");
 
 const btn = document.querySelector("#btn");
