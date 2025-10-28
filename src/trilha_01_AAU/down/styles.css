@@ -24,10 +24,6 @@ html {
   z-index: 2;
 }
 
-.image-slide:nth-child(2) {
-  transform: scaleY(-1);
-}
-
 .image-slide:nth-child(4) {
   transform: scaleY(-1);
 }
