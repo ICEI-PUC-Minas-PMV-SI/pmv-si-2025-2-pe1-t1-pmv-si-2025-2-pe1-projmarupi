@@ -3,7 +3,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");
-  const scrollSensitivity = 1.6;
+
+  const wheelSensitivity = 1.0;
+  const touchSensitivity = 2.5;
   const easeFactor = 0.05;
   let currentScroll = 0;
   let targetScroll = 0;
@@ -39,11 +41,16 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "wheel",
     (event) => {
-      if (event.deltaX !== 0) {
+      if (event.deltaY !== 0 || event.deltaX !== 0) {
         event.preventDefault();
-        targetScroll -= event.deltaX * scrollSensitivity;
-        updateMaxScroll();
+        const scrollAmount =
+          Math.abs(event.deltaX) > Math.abs(event.deltaY)
+            ? event.deltaX
+            : event.deltaY;
 
+        targetScroll += scrollAmount * wheelSensitivity;
+
+        updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
       }
@@ -58,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
       e.preventDefault();
-
       touchStartX = e.touches[0].clientX;
       updateMaxScroll();
     },
@@ -69,10 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
     "touchmove",
     (e) => {
       e.preventDefault();
-
       const touchCurrentX = e.touches[0].clientX;
       const deltaX = touchStartX - touchCurrentX;
-      targetScroll -= deltaX * scrollSensitivity;
+      targetScroll += deltaX * touchSensitivity;
 
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;

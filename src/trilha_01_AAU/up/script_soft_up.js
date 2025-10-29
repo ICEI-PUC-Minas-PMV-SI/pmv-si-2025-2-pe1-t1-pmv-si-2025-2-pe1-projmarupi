@@ -4,9 +4,10 @@ window.addEventListener("load", () => {
   const feed = document.querySelector(".image-feed");
   const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");
-
-  const scrollSensitivity = 1.5;
+  const wheelSensitivity = 1.0;
+  const touchSensitivity = 2.5;
   const easeFactor = 0.05;
+
   let currentScroll = 0;
   let targetScroll = 0;
   let maxScroll = 0;
@@ -14,6 +15,7 @@ window.addEventListener("load", () => {
 
   function updateMaxScroll() {
     maxScroll = feed.scrollHeight - feed.clientHeight;
+    console.log("rodei");
   }
 
   function checkScrollPosition() {
@@ -58,8 +60,9 @@ window.addEventListener("load", () => {
     (event) => {
       if (event.deltaY !== 0) {
         event.preventDefault();
-        targetScroll += event.deltaY * scrollSensitivity;
+        targetScroll += event.deltaY * wheelSensitivity;
         updateMaxScroll();
+
         if (targetScroll < 0) targetScroll = 0;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
       }
@@ -86,8 +89,7 @@ window.addEventListener("load", () => {
       e.preventDefault();
       const touchCurrentY = e.touches[0].clientY;
       const deltaY = touchStartY - touchCurrentY;
-
-      targetScroll += deltaY * scrollSensitivity;
+      targetScroll += deltaY * touchSensitivity;
 
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;

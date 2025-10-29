@@ -10,6 +10,7 @@ html {
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
+  outline: none;
 }
 
 .image-slide {
@@ -100,6 +101,9 @@ html {
   position: absolute;
   top: 4rem;
   left: 5%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
 }
 
 @media (max-width: 600px) {

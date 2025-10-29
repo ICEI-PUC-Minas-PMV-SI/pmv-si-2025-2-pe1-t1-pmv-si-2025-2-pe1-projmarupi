@@ -2,11 +2,12 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed");
+  const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");
 
-  const scrollSensitivity = 3;
+  const wheelSensitivity = 1.5;
+  const touchSensitivity = 2.5;
   const easeFactor = 0.05;
-
   let currentScroll = 0;
   let targetScroll = 0;
   let maxScroll = 0;
@@ -16,8 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
     maxScroll = feed.scrollHeight - feed.clientHeight;
   }
 
+  function checkScrollPosition() {
+    if (currentScroll >= maxScroll - 1) {
+      buttonContainer.style.opacity = 1;
+      buttonContainer.style.pointerEvents = "auto";
+    } else {
+      buttonContainer.style.opacity = 0;
+      buttonContainer.style.pointerEvents = "none";
+    }
+  }
+
   function handleKeyDown(event) {
     if (event.key === "Home") {
+      console.log("lalalala");
       event.preventDefault();
       targetScroll = 0;
     } else if (event.key === "End") {
@@ -35,7 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       currentScroll += distance * easeFactor;
     }
+
     feed.scrollTop = Math.round(currentScroll);
+
+    checkScrollPosition();
+
     requestAnimationFrame(smoothScrollLoop);
   }
 
@@ -44,7 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
     (event) => {
       if (event.deltaY !== 0) {
         event.preventDefault();
-        targetScroll -= event.deltaY * scrollSensitivity;
+
+        targetScroll += event.deltaY * wheelSensitivity;
+
         updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;
         if (targetScroll > maxScroll) targetScroll = maxScroll;
@@ -56,6 +74,11 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
+      if (btn.contains(e.target)) {
+        return;
+      }
+      e.preventDefault();
+
       touchStartY = e.touches[0].clientY;
       updateMaxScroll();
     },
@@ -66,12 +89,14 @@ document.addEventListener("DOMContentLoaded", () => {
     "touchmove",
     (e) => {
       e.preventDefault();
-      const touchCurrentY = e.touches[0].clientY;
-      const deltaY = touchCurrentY - touchStartY;
 
-      targetScroll -= deltaY * scrollSensitivity;
+      const touchCurrentY = e.touches[0].clientY;
+      const deltaY = touchStartY - touchCurrentY;
+      targetScroll += deltaY * touchSensitivity;
+
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;
+
       touchStartY = touchCurrentY;
     },
     { passive: false }
@@ -90,5 +115,10 @@ document.addEventListener("DOMContentLoaded", () => {
   currentScroll = feed.scrollTop;
   targetScroll = feed.scrollTop;
   updateMaxScroll();
+
+  checkScrollPosition();
+
+  feed.focus();
+
   smoothScrollLoop();
 });
