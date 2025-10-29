@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ? event.deltaX
             : event.deltaY;
 
-        targetScroll += scrollAmount * wheelSensitivity;
+        targetScroll -= scrollAmount * wheelSensitivity;
 
         updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       const touchCurrentX = e.touches[0].clientX;
       const deltaX = touchStartX - touchCurrentX;
-      targetScroll += deltaX * touchSensitivity;
+      targetScroll -= deltaX * touchSensitivity;
 
       if (targetScroll < 0) targetScroll = 0;
       if (targetScroll > maxScroll) targetScroll = maxScroll;
