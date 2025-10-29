@@ -16,7 +16,6 @@ html {
 .image-slide {
   width: 100%;
   height: 100vh;
-
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -106,11 +105,66 @@ html {
   transition: opacity 0.4s ease-in-out;
 }
 
+.slide-img-01 {
+  background-image: url("./images/01_seta.png");
+}
+.slide-img-02 {
+  background-image: url("./images/01_seta_invertida.png");
+}
+.slide-img-03 {
+  background-image: url("./images/02.png");
+}
+.slide-img-04 {
+  background-image: url("./images/02.png");
+}
+.slide-img-05 {
+  background-image: url("./images/03.png");
+}
+.slide-img-06 {
+  background-image: url("./images/03.png");
+}
+.slide-img-07 {
+  background-image: url("./images/04.png");
+}
+.slide-img-08 {
+  background-image: url("./images/04.png");
+}
+.slide-img-09 {
+  background-image: url("./images/05.png");
+}
+.slide-img-10 {
+  background-image: url("./images/06b.png");
+}
+.slide-img-11 {
+  background-image: url("./images/07.png");
+}
+.slide-img-12 {
+  background-image: url("./images/06.png");
+}
+.slide-img-13 {
+  background-image: url("./images/08.png");
+}
+.slide-img-14 {
+  background-image: url("./images/08.png");
+}
+
 @media (max-width: 600px) {
   .image-slide:nth-child(11) {
     background-size: contain;
   }
+  .button-next {
+    font-size: 0.6rem;
+    padding: 12px 22px;
+  }
 
+  .slide-content {
+    justify-content: center;
+    top: 8rem;
+  }
+
+  .image-slide:nth-child(11) {
+    background-size: contain;
+  }
   .button-next {
     font-size: 0.6rem;
     padding: 12px 22px;

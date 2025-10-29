@@ -35,6 +35,19 @@ html {
   z-index: 10;
 }
 
+.slide-img-00 {
+  background-image: url("./images/00.png");
+}
+.slide-img-01 {
+  background-image: url("./images/01.png");
+}
+.slide-img-02 {
+  background-image: url("./images/02.png");
+}
+.slide-img-03 {
+  background-image: url("./images/03.png");
+}
+
 .button-next {
   padding: 20px 35px;
   font-size: 1.4rem;

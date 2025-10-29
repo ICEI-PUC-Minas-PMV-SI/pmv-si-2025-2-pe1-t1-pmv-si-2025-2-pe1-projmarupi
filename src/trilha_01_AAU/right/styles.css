@@ -63,6 +63,49 @@ html {
   align-items: center;
 }
 
+.slide-img-01 {
+  background-image: url("./images/01.png");
+}
+.slide-img-02 {
+  background-image: url("./images/02.png");
+}
+.slide-img-03 {
+  background-image: url("./images/03.png");
+}
+.slide-img-04 {
+  background-image: url("./images/04.png");
+}
+.slide-img-05 {
+  background-image: url("./images/05.png");
+}
+.slide-img-06 {
+  background-image: url("./images/06.png");
+}
+.slide-img-07 {
+  background-image: url("./images/07.png");
+}
+.slide-img-08 {
+  background-image: url("./images/08.png");
+}
+.slide-img-09 {
+  background-image: url("./images/09.png");
+}
+.slide-img-10 {
+  background-image: url("./images/10.png");
+}
+.slide-img-11 {
+  background-image: url("./images/11.png");
+}
+.slide-img-12 {
+  background-image: url("./images/12.png");
+}
+.slide-img-13 {
+  background-image: url("./images/13.png");
+}
+.slide-img-14 {
+  background-image: url("./images/14.png");
+}
+
 @media (max-width: 600px) {
   .button-next {
     font-size: 0.6rem;
@@ -71,5 +114,23 @@ html {
 
   .slide-content {
     justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    .slide-img-01 {
+      background-image: url("./images/01_mobile.png");
+    }
+    .slide-img-02 {
+      background-image: url("./images/02_mobile.png");
+    }
+
+    .button-next {
+      font-size: 0.6rem;
+      padding: 12px 22px;
+    }
+
+    .slide-content {
+      justify-content: center;
+    }
   }
 }
