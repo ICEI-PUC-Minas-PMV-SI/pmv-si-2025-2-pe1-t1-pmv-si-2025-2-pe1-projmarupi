@@ -1,5 +1,5 @@
 @import "./btns.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Global */
 :root {
@@ -9,12 +9,13 @@
   --cool-gray-30: #c1c7cd;
   --cool-gray-60: #697077;
   --cool-gray-90: #21272a;
-  --primary-10: rgba(15, 98, 254, 0.10);
+  --primary-10: rgba(15, 98, 254, 0.1);
   --primary-60: #0f62fe;
   --primary-60-dark: #0c4fd0;
   --primary-90: #001d6c;
   --font-color: #21272a;
-  --font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
+  --font-family: "Roboto", "Segoe UI", "Helvetica Neue", Tahoma, Geneva, Verdana,
+    sans-serif;
 }
 
 html,
@@ -69,8 +70,10 @@ header nav a {
   gap: 20px;
 }
 
-.hero-section img {
-  
+.hero-section video {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
 }
 
 /* Modules Section */
@@ -177,7 +180,8 @@ header nav a {
 .faq {
   max-width: 700px;
   margin: 2rem auto;
-  font: 500 0.7rem/ system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font: 500 0.7rem / system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
 }
 
 .faq-item {
@@ -189,13 +193,13 @@ header nav a {
 }
 
 .faq-item summary {
-  list-style: none;             /* hide default marker */
+  list-style: none; /* hide default marker */
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: start;
-  gap: .5rem;
-  padding: .75rem .25rem;
+  gap: 0.5rem;
+  padding: 0.75rem 0.25rem;
   font-weight: 600;
 }
 
@@ -203,25 +207,26 @@ header nav a {
   display: none;
 } /* Safari */
 
-.faq-item summary::after {     /* chevron */
+.faq-item summary::after {
+  /* chevron */
   content: "";
-  inline-size: .6rem;
-  block-size: .6rem;
+  inline-size: 0.6rem;
+  block-size: 0.6rem;
   border-right: 2px solid #111827;
   border-bottom: 2px solid #111827;
   transform: rotate(-45deg);
-  transition: transform .2s ease;
-  margin-right: .25rem;
+  transition: transform 0.2s ease;
+  margin-right: 0.25rem;
 }
 
 .faq-item[open] summary::after {
-  transform: rotate(45deg);     /* pointing down */
+  transform: rotate(45deg); /* pointing down */
 }
 
 .faq-content {
-  padding: .75rem .25rem; /* indent to align with chevron */
+  padding: 0.75rem 0.25rem; /* indent to align with chevron */
   color: #374151;
-  animation: faq-open .2s ease;
+  animation: faq-open 0.2s ease;
 }
 
 @keyframes faq-open {
