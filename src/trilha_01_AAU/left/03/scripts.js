@@ -9,5 +9,5 @@ buttonsList.forEach((btn) => {
 });
 
 btn_esc.addEventListener("click", () => {
-  window.location.href = "../01/intro.html";
+  window.location.href = "../02/arqueologia.html";
 });

@@ -17,16 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     maxScroll = feed.scrollHeight - feed.clientHeight;
   }
 
-  function checkScrollPosition() {
-    if (currentScroll >= maxScroll - 1) {
-      buttonContainer.style.opacity = 1;
-      buttonContainer.style.pointerEvents = "auto";
-    } else {
-      buttonContainer.style.opacity = 0;
-      buttonContainer.style.pointerEvents = "none";
-    }
-  }
-
   function handleKeyDown(event) {
     if (event.key === "Home") {
       console.log("lalalala");
@@ -49,9 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     feed.scrollTop = Math.round(currentScroll);
-
-    checkScrollPosition();
-
     requestAnimationFrame(smoothScrollLoop);
   }
 
@@ -74,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
-      if (btn.contains(e.target)) {
+      if (btn & btn.contains(e.target)) {
         return;
       }
       e.preventDefault();
@@ -115,10 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
   currentScroll = feed.scrollTop;
   targetScroll = feed.scrollTop;
   updateMaxScroll();
-
-  checkScrollPosition();
-
   feed.focus();
-
   smoothScrollLoop();
 });

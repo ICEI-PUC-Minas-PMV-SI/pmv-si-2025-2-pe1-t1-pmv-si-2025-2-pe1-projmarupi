@@ -4,36 +4,69 @@ document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");
 
-  const scrollSpeed = 1.4;
+  const wheelSensitivity = 1.0;
+  const touchSensitivity = 2.5;
+  const easeFactor = 0.05;
+  let currentScroll = 0;
+  let targetScroll = 0;
+  let maxScroll = 0;
   let touchStartX = 0;
+
+  function updateMaxScroll() {
+    maxScroll = feed.scrollWidth - feed.clientWidth;
+  }
 
   function handleKeyDown(event) {
     if (event.key === "Home") {
       event.preventDefault();
-      feed.scrollTo({
-        left: 0,
-        behavior: "smooth",
-      });
+      targetScroll = 0;
     } else if (event.key === "End") {
       event.preventDefault();
-      feed.scrollTo({
-        left: feed.scrollWidth,
-        behavior: "smooth",
-      });
+      updateMaxScroll();
+      targetScroll = maxScroll;
     }
   }
 
-  feed.addEventListener("wheel", (event) => {
-    if (event.deltaY !== 0) {
-      event.preventDefault();
-      feed.scrollLeft -= event.deltaY * scrollSpeed;
+  function smoothScrollLoop() {
+    const distance = targetScroll - currentScroll;
+    if (Math.abs(distance) < 0.1) {
+      currentScroll = targetScroll;
+    } else {
+      currentScroll += distance * easeFactor;
     }
-  });
+    feed.scrollLeft = Math.round(currentScroll);
+    requestAnimationFrame(smoothScrollLoop);
+  }
+
+  feed.addEventListener(
+    "wheel",
+    (event) => {
+      if (event.deltaY !== 0 || event.deltaX !== 0) {
+        event.preventDefault();
+        const scrollAmount =
+          Math.abs(event.deltaX) > Math.abs(event.deltaY)
+            ? event.deltaX
+            : event.deltaY;
+
+        targetScroll -= scrollAmount * wheelSensitivity;
+
+        updateMaxScroll();
+        if (targetScroll < 0) targetScroll = 0;
+        if (targetScroll > maxScroll) targetScroll = maxScroll;
+      }
+    },
+    { passive: false }
+  );
 
   feed.addEventListener(
     "touchstart",
     (e) => {
+      if (btnRestart.contains(e.target)) {
+        return;
+      }
+      e.preventDefault();
       touchStartX = e.touches[0].clientX;
+      updateMaxScroll();
     },
     { passive: false }
   );
@@ -44,9 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       const touchCurrentX = e.touches[0].clientX;
       const deltaX = touchStartX - touchCurrentX;
+      targetScroll -= deltaX * touchSensitivity;
 
-      feed.scrollLeft -= deltaX * scrollSpeed;
-
+      if (targetScroll < 0) targetScroll = 0;
+      if (targetScroll > maxScroll) targetScroll = maxScroll;
       touchStartX = touchCurrentX;
     },
     { passive: false }
@@ -61,4 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
   btnRestart.addEventListener("click", () => {
     window.location.href = "../../../dashboard.html";
   });
+
+  updateMaxScroll();
+  currentScroll = maxScroll;
+  targetScroll = maxScroll;
+  feed.scrollLeft = maxScroll;
+  smoothScrollLoop();
 });

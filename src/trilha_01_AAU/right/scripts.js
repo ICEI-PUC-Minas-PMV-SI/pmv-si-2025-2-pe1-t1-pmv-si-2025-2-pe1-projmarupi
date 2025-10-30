@@ -94,11 +94,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("keydown", handleKeyDown);
 
-  if (btn) {
-    btn.addEventListener("click", () => {
-      window.location.href = "../up/up.html";
-    });
-  }
+  btn.addEventListener("click", () => {
+    window.location.href = "../up/up.html";
+  });
 
   currentScroll = feed.scrollLeft;
   targetScroll = feed.scrollLeft;

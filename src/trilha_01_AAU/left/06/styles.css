@@ -312,6 +312,16 @@
   .thumb-text {
     text-align: center;
   }
+
+  .btn-back {
+    font-size: 0.5rem;
+    align-self: center;
+  }
+
+  .btn-back:hover {
+    background-color: #fff;
+    color: #323131;
+  }
 }
 
 @media (max-width: 480px) {

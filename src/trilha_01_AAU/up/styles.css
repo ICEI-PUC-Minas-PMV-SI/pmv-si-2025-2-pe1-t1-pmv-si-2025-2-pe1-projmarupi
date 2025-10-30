@@ -26,19 +26,19 @@ html {
 
 .button-next {
   padding: 15px 30px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: white;
-  background-color: rgba(38, 30, 23);
+  color: #323131;
+  background-color: #e8e8e8;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .button-next:hover {
-  background-color: #468ee5;
-  color: rgba(242, 227, 213);
+  background-color: #323131;
+  color: #e8e8e8;
 }
 
 .slide-content {
@@ -158,7 +158,7 @@ html {
 
 @media (max-width: 600px) {
   .button-next {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     padding: 12px 22px;
   }
 

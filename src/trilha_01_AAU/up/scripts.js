@@ -2,8 +2,8 @@
 
 window.addEventListener("load", () => {
   const feed = document.querySelector(".image-feed");
-  const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");
+  const buttonContainer = document.querySelector(".slide-content");
   const wheelSensitivity = 1.0;
   const touchSensitivity = 2.5;
   const easeFactor = 0.05;
@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
   }
 
   function checkScrollPosition() {
-    if (currentScroll <= 0.1) {
+    if (currentScroll <= 100) {
       buttonContainer.style.opacity = 1;
       buttonContainer.style.pointerEvents = "auto";
     } else {
@@ -49,9 +49,7 @@ window.addEventListener("load", () => {
       currentScroll += distance * easeFactor;
     }
     feed.scrollTop = Math.round(currentScroll);
-
     checkScrollPosition();
-
     requestAnimationFrame(smoothScrollLoop);
   }
 
@@ -105,15 +103,16 @@ window.addEventListener("load", () => {
 
   document.addEventListener("keydown", handleKeyDown);
 
-  btn.addEventListener("click", () => {
-    window.location.href = "../left/01/intro.html";
-  });
+  if (btn) {
+    btn.addEventListener("click", () => {
+      window.location.href = "../left/01/intro.html";
+    });
+  }
 
   updateMaxScroll();
   feed.scrollTop = maxScroll;
   currentScroll = maxScroll;
   targetScroll = maxScroll;
-
   checkScrollPosition();
   smoothScrollLoop();
 });
