@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   feed.addEventListener(
     "touchstart",
     (e) => {
-      if (btn & btn.contains(e.target)) {
+      if (btn && btn.contains(e.target)) {
         return;
       }
       e.preventDefault();

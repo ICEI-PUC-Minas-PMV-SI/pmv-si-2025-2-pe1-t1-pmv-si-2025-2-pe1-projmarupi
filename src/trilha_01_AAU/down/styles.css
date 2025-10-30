@@ -20,32 +20,10 @@ html {
   background-position: center center;
   position: relative;
   overflow: hidden;
-
   z-index: 2;
 }
 
-.image-slide:nth-child(4) {
-  transform: scaleY(-1);
-}
-
-.image-slide:nth-child(6) {
-  transform: scaleY(-1);
-}
-
-.image-slide:nth-child(8) {
-  transform: scaleY(-1);
-}
-
 .image-slide:nth-child(12) {
-  transform: scaleY(-1);
-}
-
-.image-slide:nth-child(14) {
-  transform: scaleY(-1);
-}
-
-/* gambiarra pro botão nao flipar! */
-.image-slide:nth-child(14) .slide-content {
   transform: scaleY(-1);
 }
 
@@ -77,6 +55,7 @@ html {
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
+  bottom: 4rem;
 }
 
 .button-next:hover {
@@ -91,7 +70,7 @@ html {
   justify-content: right;
   align-items: center;
   position: absolute;
-  top: 4rem;
+  bottom: 4rem;
   left: 5%;
 }
 
@@ -105,19 +84,19 @@ html {
   background-image: url("./images/02.png");
 }
 .slide-img-04 {
-  background-image: url("./images/02.png");
+  background-image: url("./images/02_invert.png");
 }
 .slide-img-05 {
   background-image: url("./images/03.png");
 }
 .slide-img-06 {
-  background-image: url("./images/03.png");
+  background-image: url("./images/03_invert.png");
 }
 .slide-img-07 {
   background-image: url("./images/04.png");
 }
 .slide-img-08 {
-  background-image: url("./images/04.png");
+  background-image: url("./images/04_invert.png");
 }
 .slide-img-09 {
   background-image: url("./images/05.png");
@@ -132,7 +111,7 @@ html {
   background-image: url("./images/08.png");
 }
 .slide-img-14 {
-  background-image: url("./images/08.png");
+  background-image: url("./images/08_invert.png");
 }
 
 @media (max-width: 600px) {
