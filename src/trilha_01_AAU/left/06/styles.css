@@ -101,8 +101,8 @@
 
 .text-content p {
   color: #252525;
-  font-size: 18px;
-  font-family: Poppins;
+  font-size: 22px;
+  font-family: Lato, Poppins;
   font-weight: 400;
   line-height: 26px;
   word-wrap: break-word;
@@ -111,7 +111,7 @@
 
 .btn {
   font-family: Lato, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #fafafa;
   background-color: #323131;
@@ -125,7 +125,7 @@
 
 .btn-back {
   font-family: Lato, sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #fafafa;
   background-color: #323131;
@@ -154,8 +154,6 @@
 .bottom-section {
   background-color: #f4f4f4;
   border-radius: 16px;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
   gap: 2rem;
   padding: 2rem;
   display: flex;
@@ -197,7 +195,7 @@
 
 .thumb-text p {
   font-family: Lato, Poppins, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #252525;
   line-height: 1.5;
 }
@@ -314,7 +312,7 @@
   }
 
   .btn-back {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     align-self: center;
   }
 

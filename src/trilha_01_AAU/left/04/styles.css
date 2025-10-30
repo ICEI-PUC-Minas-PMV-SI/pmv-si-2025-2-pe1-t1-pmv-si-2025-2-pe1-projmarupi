@@ -58,7 +58,6 @@ body {
   font-weight: 700;
   color: #fafafa;
   text-decoration: none;
-
   background-color: #323131;
   border-radius: 8px;
   padding: 0.75rem 1.5rem;
@@ -80,20 +79,16 @@ body {
 .container-text p a {
   text-decoration: none;
   font-weight: 600;
-  color: #001d6c; /* Um azul-escuro para o texto */
-
-  /* O fundo do "marca-texto" */
-  background-color: rgba(15, 98, 254, 0.1); /* Um azul bem clarinho */
-
-  padding: 2px 5px; /* Dando a forma de "bloco" */
-  border-radius: 4px; /* Cantos arredondados */
+  color: #001d6c;
+  background-color: rgba(15, 98, 254, 0.1);
+  padding: 2px 5px;
+  border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
 
 .container-text p a:hover {
-  /* O hover inverte as cores */
-  background-color: #0f62fe; /* Fundo azul sólido */
-  color: #ffffff; /* Texto branco */
+  background-color: #0f62fe;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {

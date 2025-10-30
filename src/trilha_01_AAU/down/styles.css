@@ -67,7 +67,7 @@ html {
   width: 90%;
   height: auto;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 4rem;

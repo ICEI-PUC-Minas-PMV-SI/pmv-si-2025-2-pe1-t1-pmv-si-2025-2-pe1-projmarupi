@@ -156,15 +156,16 @@ body {
   color: #fafafa;
   background-color: rgba(50, 49, 49);
   border: none;
-  border-radius: 50%;
-  width: 50px;
+  width: 100%;
+  border-radius: 16px;
   height: 50px;
   cursor: pointer;
   text-decoration: none;
   white-space: nowrap;
   transition: background-color 0.2s ease, color 0.2s ease;
-  align-self: flex-end;
+  align-self: center;
   margin-bottom: 2rem;
+  margin-top: 0.5rem;
 }
 
 .escape-btn:hover {
@@ -204,6 +205,27 @@ body {
 
   .tree-link-wrapper {
     height: 30vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+  }
+
+  .tree-link-wrapper:hover {
+    transform: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .tree-link-wrapper:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .tree-container {
+    background-color: #ededed;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .docker-container {
@@ -215,6 +237,7 @@ body {
     margin-bottom: 1rem;
     align-self: center;
     font-size: 1rem;
+    width: 100%;
   }
 
   @media (max-width: 480px) {

@@ -26,7 +26,7 @@ html {
 
 .button-next {
   padding: 15px 30px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #323131;
   background-color: #e8e8e8;
@@ -166,6 +166,6 @@ html {
     left: 50%;
     transform: translateX(-50%);
     width: auto;
-    top: 8rem;
+    top: 4rem;
   }
 }
