@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ? event.deltaX
             : event.deltaY;
 
-        targetScroll += scrollAmount * wheelSensitivity;
+        targetScroll -= scrollAmount * wheelSensitivity;
 
         updateMaxScroll();
         if (targetScroll < 0) targetScroll = 0;

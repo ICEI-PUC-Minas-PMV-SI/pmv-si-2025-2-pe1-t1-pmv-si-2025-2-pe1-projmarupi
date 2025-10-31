@@ -122,7 +122,7 @@ html {
 
   .slide-content {
     justify-content: center;
-    top: 8rem;
+    bottom: 4rem;
   }
 
   .button-next {
@@ -132,6 +132,6 @@ html {
 
   .slide-content {
     justify-content: center;
-    top: 8rem;
+    bottom: 4rem;
   }
 }
