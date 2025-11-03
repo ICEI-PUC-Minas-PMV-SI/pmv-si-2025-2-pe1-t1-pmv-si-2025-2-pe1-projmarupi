@@ -62,8 +62,8 @@ body {
   font-family: Lato, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fafafa;
-  background-color: #323131;
+  color: #323131;
+  background-color: #fafafa;
   border: none;
   border-radius: 8px;
   padding: 0.75rem 1.5rem;
@@ -90,8 +90,8 @@ body {
 
 .btn:hover,
 .btn-back:hover {
-  background-color: #e8e8e8;
-  color: #323131;
+  background-color: #323131;
+  color: #e8e8e8;
 }
 
 .escape-btn {
