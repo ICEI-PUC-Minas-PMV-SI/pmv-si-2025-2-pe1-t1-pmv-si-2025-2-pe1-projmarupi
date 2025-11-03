@@ -16,11 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
     maxScroll = feed.scrollWidth - feed.clientWidth;
   }
 
+  // Inverti as teclas Home e End! =)
   function handleKeyDown(event) {
-    if (event.key === "Home") {
+    if (event.key === "End") {
       event.preventDefault();
       targetScroll = 0;
-    } else if (event.key === "End") {
+    } else if (event.key === "Home") {
       event.preventDefault();
       updateMaxScroll();
       targetScroll = maxScroll;

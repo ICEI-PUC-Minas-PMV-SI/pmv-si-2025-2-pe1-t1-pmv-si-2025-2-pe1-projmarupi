@@ -108,7 +108,7 @@ body {
   color: #fafafa;
   background-color: rgba(50, 49, 49, 0.7);
   border: none;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 100%;
   border-radius: 8px;
   height: 50px;
@@ -188,7 +188,11 @@ body {
     font-size: 1.2rem;
   }
   .btn-move-on {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .escape-btn {
+    font-size: 0.9rem;
   }
 }
 

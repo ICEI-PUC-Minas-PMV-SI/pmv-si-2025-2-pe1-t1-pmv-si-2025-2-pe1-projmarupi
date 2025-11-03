@@ -115,6 +115,9 @@ html {
 }
 
 @media (max-width: 600px) {
+  .slide-img-11 {
+    background-image: url("./images/07_b_mobile.png");
+  }
   .button-next {
     font-size: 0.6rem;
     padding: 12px 22px;

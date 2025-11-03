@@ -55,7 +55,7 @@ body {
 
 .btn {
   font-family: Lato, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fafafa;
   width: 100%;
@@ -81,7 +81,7 @@ body {
 
 .escape-btn {
   font-family: Lato, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fafafa;
   width: 100%;
@@ -126,11 +126,11 @@ body {
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .escape-btn {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -149,7 +149,8 @@ body {
     line-height: 1.5rem;
   }
 
-  .btn {
-    font-size: 0.9rem;
+  .btn,
+  .escape-btn {
+    font-size: 0.6rem;
   }
 }

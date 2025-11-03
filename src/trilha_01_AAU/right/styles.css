@@ -39,14 +39,14 @@ html {
 
 .button-next {
   padding: 20px 30px;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #323131;
   background-color: #e8e8e8;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 .button-next:hover {
