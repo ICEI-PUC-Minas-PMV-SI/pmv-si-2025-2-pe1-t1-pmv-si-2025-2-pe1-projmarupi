@@ -12,7 +12,9 @@ A interface do projeto pode ser desmembrada em duas estruturas:
    que exploram bastante a área útil da tela, exercitando a observação do usuário para navegar cada trilha. Aleḿ disso, estruturas
    como cards e carrosséis também serão recursos estratégicos para trabalhar alguns fundamentos essenciais para cada módulo.
 
-A lógica global de navegação obedece o esquema simplificado em [global_logic_user_flow](img/global_user_flow.png)
+O userflow global pode ser acessado em [userflow](../docs/marupi_userflow_estatico.pdf) ou também pelo protótipo do figma: https://www.figma.com/proto/LHAUsxiOOKR95ToJOQ4q2l/Marup%C3%AD?node-id=3108-47343&t=KbVtqSk6rrYqt6aZ-1&scaling=min-zoom&content-scaling=fixed&page-id=3108%3A47290&starting-point-node-id=3108%3A47343
+
+O userflow da trilha pode ser acessado em [userflow_da_trilha](../docs/iau_userflow_logic.png), ou também pela versão no figma : https://www.figma.com/design/kVu10fJvFR7FXHjGmIkQ4k/Marupi---Wireframes---Visual-Content?node-id=242-138&t=3rzq3H9TZvWWgvoM-1
 
 ## Wireframes
 
