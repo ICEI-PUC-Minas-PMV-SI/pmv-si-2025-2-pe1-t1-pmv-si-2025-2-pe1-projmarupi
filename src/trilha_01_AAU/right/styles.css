@@ -76,6 +76,9 @@ html {
 .slide-img-04 {
   background-image: url("./images/04.png");
 }
+.slide-img-04b {
+  background-image: url("./images/04b.png");
+}
 .slide-img-05 {
   background-image: url("./images/05.png");
 }
@@ -105,6 +108,9 @@ html {
 }
 .slide-img-14 {
   background-image: url("./images/14.png");
+}
+.slide-img-15 {
+  background-image: url("./images/15.png");
 }
 
 @media (max-width: 600px) {
