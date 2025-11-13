@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const answersInThisCard = card.querySelectorAll(".nested-row");
       answersInThisCard.forEach((item) =>
-        item.classList.remove("selected", "wrong")
+        item.classList.remove("selected", "wrong", "success")
       );
       cardHeader.classList.remove("success", "error");
       if (answer.classList.contains("correct-answer")) {
         cardHeader.classList.add("success");
-        answer.classList.add("selected");
+        answer.classList.add("success");
       } else {
         cardHeader.classList.add("error");
         answer.classList.add("wrong");

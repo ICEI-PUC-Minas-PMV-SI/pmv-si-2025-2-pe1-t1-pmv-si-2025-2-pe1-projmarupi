@@ -236,7 +236,7 @@ body {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     align-self: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 100%;
   }
 
@@ -259,6 +259,10 @@ body {
 
     .tree-link-wrapper {
       height: 25vh;
+    }
+
+    .escape-btn {
+      font-size: 0.6rem;
     }
   }
 }

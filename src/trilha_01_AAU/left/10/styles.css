@@ -114,7 +114,7 @@ body {
 }
 
 .card-row-1.success {
-  background-color: #59e546;
+  background-color: #48c5b4;
   transition: background-color 0.3s ease;
 }
 
@@ -143,7 +143,7 @@ body {
 }
 
 .nested-row.selected {
-  background-color: #59e546;
+  background-color: #468ee5;
   color: #fff;
 }
 .nested-row.wrong {
@@ -151,8 +151,13 @@ body {
   color: #fff;
 }
 
-.nested-row:hover {
+.nested-row.success {
   background-color: #48c5b4;
+  color: #fff;
+}
+
+.nested-row:hover {
+  background-color: #468ee5;
   color: #fff;
 }
 

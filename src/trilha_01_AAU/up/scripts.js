@@ -1,6 +1,9 @@
 "use strict";
 
 window.addEventListener("load", () => {
+  if (history.scrollRestoration) {
+    history.scrollRestoration = "manual";
+  }
   const feed = document.querySelector(".image-feed");
   const btn = document.querySelector("#btn");
   const buttonContainer = document.querySelector(".slide-content");
