@@ -156,7 +156,7 @@ body {
   color: #fff;
 }
 
-.nested-row:hover {
+.nested-row:not(.wrong):not(.success):hover {
   background-color: #468ee5;
   color: #fff;
 }

@@ -115,7 +115,7 @@
 
 .btn {
   font-family: Lato, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #fafafa;
   background-color: #323131;
@@ -317,7 +317,7 @@
   }
 
   .btn-back {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     align-self: stretch;
   }
 

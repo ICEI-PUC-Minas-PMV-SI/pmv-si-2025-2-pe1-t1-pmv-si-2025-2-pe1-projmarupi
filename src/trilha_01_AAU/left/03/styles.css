@@ -46,8 +46,6 @@ body {
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   flex-grow: 1;
-  max-width: 70%;
-  max-height: 70%;
 }
 
 .mapa-embutido {
@@ -104,7 +102,6 @@ body {
 @media (max-width: 1024px) {
   .container-text {
     width: 90vw;
-    padding: 1.5rem 2rem;
   }
 
   .container-text h1 {
@@ -113,19 +110,16 @@ body {
 
   .map-container {
     padding: 0.75rem;
-    max-width: 70%;
   }
 }
 
 @media (max-width: 768px) {
   .container-text {
     width: 95vw;
-    padding: 1rem;
   }
 
   .container-text h1 {
     font-size: 1.8rem;
-    line-height: 2.2rem;
     overflow-wrap: break-word;
   }
 
@@ -157,7 +151,6 @@ body {
 @media (max-width: 480px) {
   .container-text h1 {
     font-size: 1.5rem;
-    line-height: 1.9rem;
   }
 
   .mapa-embutido {
@@ -166,12 +159,12 @@ body {
 
   .btn {
     width: 100%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     padding: 0.6rem 1.2rem;
   }
 
   .escape-btn {
     width: 100%;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 }
