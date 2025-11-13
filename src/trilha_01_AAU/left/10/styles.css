@@ -101,7 +101,7 @@ body {
 }
 
 .card-row-1 {
-  background-color: #48c572;
+  background-color: #468ee5;
   color: #fff;
   font-family: Lato, Poppins, sans-serif;
   font-size: 1.2rem;
@@ -111,6 +111,16 @@ body {
   display: grid;
   place-items: center;
   text-align: center;
+}
+
+.card-row-1.success {
+  background-color: #59e546;
+  transition: background-color 0.3s ease;
+}
+
+.card-row-1.error {
+  background-color: #e54646;
+  transition: background-color 0.3s ease;
 }
 
 .card-row-2 {
@@ -132,12 +142,20 @@ body {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+.nested-row.selected {
+  background-color: #59e546;
+  color: #fff;
+}
+.nested-row.wrong {
+  background-color: #e54646;
+  color: #fff;
+}
+
 .nested-row:hover {
   background-color: #48c5b4;
   color: #fff;
 }
 
-/* --- Tablet Styles --- */
 @media (max-width: 1024px) {
   body {
     padding: 1.5rem;
