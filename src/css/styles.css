@@ -359,6 +359,31 @@ header nav a {
     opacity: 1;
 }
 
+
+.sbcli{
+  padding: 6px;
+  padding-left: 12px;
+  color: #424242;
+}
+.sbclispan{
+  color: #818181;
+}
+
+.sbcli:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+#id-sbccombobox{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  list-style-type: none;
+}
+
+
 /* SBC -- IBGE Cards */
 .carrossel-container {
     overflow: hidden;
