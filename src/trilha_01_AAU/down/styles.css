@@ -66,22 +66,22 @@ html {
 }
 
 .slide-img-03 {
-  background-image: url("./images/02.png");
+  background-image: url("./images/compressed/02.jpg");
 }
 .slide-img-04 {
-  background-image: url("./images/02_invert.png");
+  background-image: url("./images/compressed/02_invert.jpg");
 }
 .slide-img-05 {
-  background-image: url("./images/03.png");
+  background-image: url("./images/compressed/03.jpg");
 }
 .slide-img-06 {
-  background-image: url("./images/03_invert.png");
+  background-image: url("./images/compressed/03_invert.jpg");
 }
 .slide-img-07 {
-  background-image: url("./images/04.png");
+  background-image: url("./images/compressed/04.jpg");
 }
 .slide-img-08 {
-  background-image: url("./images/04_invert.png");
+  background-image: url("./images/compressed/04_invert.jpg");
 }
 .image-slide .background-video {
   position: absolute;
@@ -167,23 +167,23 @@ html {
   }
 
   .slide-img-01 {
-    background-image: url("./images/01.png");
+    background-image: url("./images/compressed/01.jpg");
     background-size: cover;
     background-position: center center;
   }
 
   .slide-img-02 {
-    background-image: url("./images/01_invert.png");
+    background-image: url("./images/compressed/01_invert.jpg");
   }
 
   .slide-img-09 {
-    background-image: url("./images/05.png");
+    background-image: url("./images/compressed/05.jpg");
     background-size: cover;
     background-position: center center;
   }
 
   .slide-img-10 {
-    background-image: url("./images/06.png");
+    background-image: url("./images/compressed/06.jpg");
     background-size: cover;
     background-position: center center;
   }
@@ -209,7 +209,7 @@ html {
   }
 
   .slide-img-11 {
-    background-image: url("./images/07_no_text.png");
+    background-image: url("./images/compressed/07_no_text.jpg");
     background-size: cover;
     background-position: center center;
   }
@@ -220,12 +220,12 @@ html {
   }
 
   .slide-img-13 {
-    background-image: url("./images/08.png");
+    background-image: url("./images/compressed/08.jpg");
     background-size: cover;
     background-position: center center;
   }
   .slide-img-14 {
-    background-image: url("./images/08_invert.png");
+    background-image: url("./images/compressed/08_invert.jpg");
     background-size: cover;
     background-position: center center;
   }

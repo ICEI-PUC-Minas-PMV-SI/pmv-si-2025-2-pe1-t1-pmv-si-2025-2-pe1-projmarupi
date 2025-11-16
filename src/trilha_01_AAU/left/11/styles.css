@@ -36,16 +36,16 @@ html {
 }
 
 .slide-img-00 {
-  background-image: url("./images/00.png");
+  background-image: url("./images/compressed/00.jpg");
 }
 .slide-img-01 {
-  background-image: url("./images/01.png");
+  background-image: url("./images/compressed/01.jpg");
 }
 .slide-img-02 {
-  background-image: url("./images/02.png");
+  background-image: url("./images/compressed/02.jpg");
 }
 .slide-img-03 {
-  background-image: url("./images/03.png");
+  background-image: url("./images/compressed/03.jpg");
 }
 
 .button-next {
