@@ -116,11 +116,11 @@ html {
 
 .centered-arrow {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  font-size: 23rem;
+  font-size: 22rem;
   color: rgb(31, 31, 31);
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
@@ -142,18 +142,23 @@ html {
   .slide-img-01 .background-video {
     display: none;
   }
+
+  .slide-img-02 .background-video {
+    display: none;
+  }
+
   .slide-img-09 .background-video {
     display: none;
   }
 
   .slide-img-01 {
-    background-image: url("./images/01_seta.png");
+    background-image: url("./images/01.png");
     background-size: cover;
     background-position: center center;
   }
 
   .slide-img-02 {
-    background-image: url("./images/01_seta_invertida.png");
+    background-image: url("./images/01_invert.png");
   }
 
   .slide-img-09 {
