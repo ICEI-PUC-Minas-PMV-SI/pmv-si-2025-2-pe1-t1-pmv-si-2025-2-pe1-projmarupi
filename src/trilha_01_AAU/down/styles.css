@@ -75,10 +75,10 @@ html {
 }
 
 .slide-img-01 {
-  background-image: url("./images/01_seta.png");
+  background-color: #000;
 }
 .slide-img-02 {
-  background-image: url("./images/01_seta_invertida.png");
+  background-image: #000;
 }
 .slide-img-03 {
   background-image: url("./images/02.png");
@@ -98,18 +98,11 @@ html {
 .slide-img-08 {
   background-image: url("./images/04_invert.png");
 }
-/* .slide-img-09 {
-  background-image: url("./images/05.png");
-} */
 
 .slide-img-09 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
   background-color: #000;
 }
-.slide-img-09 .background-video {
+.image-slide .background-video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -120,8 +113,20 @@ html {
   height: auto;
   z-index: 1;
 }
+
+.centered-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 23rem;
+  color: rgb(31, 31, 31);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 .slide-img-10 {
-  background-image: url("./images/06b.png");
+  background-image: url("./images/06c.png");
 }
 .slide-img-11 {
   background-image: url("./images/07_b.png");
@@ -134,6 +139,28 @@ html {
 }
 
 @media (max-width: 600px) {
+  .slide-img-01 .background-video {
+    display: none;
+  }
+  .slide-img-09 .background-video {
+    display: none;
+  }
+
+  .slide-img-01 {
+    background-image: url("./images/01_seta.png");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .slide-img-02 {
+    background-image: url("./images/01_seta_invertida.png");
+  }
+
+  .slide-img-09 {
+    background-image: url("./images/05.png");
+    background-size: cover;
+    background-position: center center;
+  }
   .slide-img-11 {
     background-image: url("./images/07_b_mobile.png");
   }
