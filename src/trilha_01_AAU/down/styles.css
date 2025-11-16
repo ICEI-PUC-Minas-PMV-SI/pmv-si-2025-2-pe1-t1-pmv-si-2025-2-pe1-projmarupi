@@ -23,10 +23,6 @@ html {
   z-index: 2;
 }
 
-.image-slide:nth-child(12) {
-  transform: scaleY(-1);
-}
-
 .image-slide:nth-child(8) {
   position: sticky;
   top: 0;
@@ -37,12 +33,6 @@ html {
   position: sticky;
   top: 0;
   z-index: 1;
-}
-
-.image-slide:nth-child(11) {
-  background-attachment: local;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 .button-next {
@@ -72,14 +62,9 @@ html {
   position: absolute;
   bottom: 4rem;
   left: 5%;
+  z-index: 10;
 }
 
-.slide-img-01 {
-  background-color: #000;
-}
-.slide-img-02 {
-  background-image: #000;
-}
 .slide-img-03 {
   background-image: url("./images/02.png");
 }
@@ -98,10 +83,6 @@ html {
 .slide-img-08 {
   background-image: url("./images/04_invert.png");
 }
-
-.slide-img-09 {
-  background-color: #000;
-}
 .image-slide .background-video {
   position: absolute;
   top: 50%;
@@ -116,38 +97,72 @@ html {
 
 .centered-arrow {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
   font-size: 22rem;
   color: rgb(31, 31, 31);
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
-.slide-img-10 {
-  background-image: url("./images/06c.png");
+.centered-arrow2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 20rem;
+  color: rgb(31, 31, 31);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
-.slide-img-11 {
-  background-image: url("./images/07_b.png");
+
+.slide-text-10 {
+  color: #000;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Rubik 80s Fade", sans-serif;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 100%;
 }
-.slide-img-13 {
-  background-image: url("./images/08.png");
+
+.slide-text-11 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 90%;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Rubik 80s Fade", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 100%;
 }
+
+.slide-img-01,
+.slide-img-02,
+.slide-img-09,
+.slide-img-10,
+.slide-img-11,
+.slide-img-13,
 .slide-img-14 {
-  background-image: url("./images/08_invert.png");
+  background-color: #000;
 }
 
 @media (max-width: 600px) {
-  .slide-img-01 .background-video {
-    display: none;
-  }
-
-  .slide-img-02 .background-video {
-    display: none;
-  }
-
-  .slide-img-09 .background-video {
+  .slide-img-01 .background-video,
+  .slide-img-02 .background-video,
+  .slide-img-09 .background-video,
+  .slide-img-10 .background-video,
+  .slide-img-11 .background-video,
+  .slide-img-13 .background-video,
+  .slide-img-14 .background-video {
     display: none;
   }
 
@@ -166,8 +181,53 @@ html {
     background-size: cover;
     background-position: center center;
   }
+
+  .slide-img-10 {
+    background-image: url("./images/06.png");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .centered-arrow {
+    font-size: 10rem;
+  }
+
+  .centered-arrow2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 10rem;
+    color: rgb(31, 31, 31);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+  .slide-text-10 {
+    font-size: 5rem;
+  }
+
   .slide-img-11 {
-    background-image: url("./images/07_b_mobile.png");
+    background-image: url("./images/07_no_text.png");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .slide-text-11 {
+    top: 40%;
+    font-size: 3rem;
+  }
+
+  .slide-img-13 {
+    background-image: url("./images/08.png");
+    background-size: cover;
+    background-position: center center;
+  }
+  .slide-img-14 {
+    background-image: url("./images/08_invert.png");
+    background-size: cover;
+    background-position: center center;
   }
   .button-next {
     font-size: 0.6rem;
