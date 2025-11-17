@@ -65,6 +65,24 @@ html {
   z-index: 10;
 }
 
+@keyframes point-down {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -35%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.centered-arrow:hover,
+.centered-arrow2:hover {
+  animation: point-down 1.5s ease-in-out infinite;
+  cursor: pointer;
+}
+
 .slide-img-03 {
   background-image: url("./images/compressed/02.jpg");
 }
@@ -120,6 +138,12 @@ html {
 }
 
 .slide-text-10 {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 100%;
   color: #000;
   text-align: center;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -215,8 +239,8 @@ html {
   }
 
   .slide-text-11 {
-    top: 40%;
-    font-size: 3rem;
+    top: 70%;
+    font-size: 5rem;
   }
 
   .slide-img-13 {
