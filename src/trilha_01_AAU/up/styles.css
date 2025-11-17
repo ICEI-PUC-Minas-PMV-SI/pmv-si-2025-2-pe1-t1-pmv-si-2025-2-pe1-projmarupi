@@ -25,20 +25,25 @@ html {
 }
 
 .button-next {
-  padding: 15px 30px;
-  font-size: 1.6rem;
+  position: absolute;
+  top: 3rem;
+  min-width: 6rem;
+  padding: 15px 20px;
+  font-family: "Mozilla-Text", sans-serif;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #323131;
-  background-color: #e8e8e8;
+  color: #e8e8e8;
+  background-color: #272727;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 .button-next:hover {
-  background-color: #323131;
-  color: #e8e8e8;
+  background-color: #353535;
+  color: white;
+  animation: slide-up-pulse 1.5s ease-in-out infinite;
 }
 
 .slide-content {
@@ -51,6 +56,18 @@ html {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease-in-out;
+}
+
+@keyframes slide-up-pulse {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .slide-img-02 {
@@ -93,17 +110,33 @@ html {
   background-image: url("./images/compressed/13_no_arrow.jpg");
 }
 
+@keyframes point-up {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -65%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
 .centered-arrow2 {
   position: absolute;
   top: 65%;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
   z-index: 10;
   font-size: 22rem;
-  color: rgb(31, 31, 31);
+  color: #1f1f1f;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+.centered-arrow2:hover {
+  animation: point-up 1.5s ease-in-out infinite;
+  cursor: pointer;
 }
 
 .image-slide:nth-child(11) {
@@ -164,12 +197,13 @@ html {
   position: fixed;
   top: 0;
   z-index: 3;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
   .button-next {
-    font-size: 0.6rem;
-    padding: 12px 22px;
+    font-size: 0.5rem;
+    padding: 10px 15px;
   }
 
   .slide-content {
@@ -179,7 +213,7 @@ html {
     top: 4rem;
   }
 
-  .centered-arrow {
+  .centered-arrow2 {
     font-size: 8rem;
   }
 }

@@ -36,11 +36,12 @@ html {
 }
 
 .button-next {
-  padding: 15px 30px;
+  padding: 15px 20px;
+  font-family: "Mozilla-Text", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
-  background-color: rgba(38, 30, 23);
+  color: #e8e8e8;
+  background-color: #272727;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -49,8 +50,9 @@ html {
 }
 
 .button-next:hover {
-  background-color: #e8e8e8;
-  color: #323131;
+  background-color: #353535;
+  color: white;
+  animation: slide-right-pulse 1.5s ease-in-out infinite;
 }
 
 .slide-content {
@@ -77,9 +79,21 @@ html {
   }
 }
 
+@keyframes slide-right-pulse {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .centered-arrow:hover,
 .centered-arrow2:hover {
-  animation: point-down 1.5s ease-in-out infinite;
+  animation: point-down 2s ease-in-out infinite;
   cursor: pointer;
 }
 
@@ -254,8 +268,8 @@ html {
     background-position: center center;
   }
   .button-next {
-    font-size: 0.6rem;
-    padding: 12px 22px;
+    font-size: 0.5rem;
+    padding: 10px 15px;
   }
 
   .slide-content {

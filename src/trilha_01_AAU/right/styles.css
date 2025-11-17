@@ -38,11 +38,14 @@ html {
 }
 
 .button-next {
-  padding: 20px 30px;
-  font-size: 1.3rem;
+  position: absolute;
+  bottom: 3rem;
+  padding: 15px 20px;
+  font-family: "Mozilla-Text", sans-serif;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #323131;
-  background-color: #e8e8e8;
+  color: #e8e8e8;
+  background-color: #272727;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -50,8 +53,9 @@ html {
 }
 
 .button-next:hover {
-  background-color: #323131;
-  color: #e8e8e8;
+  background-color: #353535;
+  color: white;
+  animation: slide-up-pulse 1.5s ease-in-out infinite;
 }
 
 .slide-content {
@@ -62,6 +66,18 @@ html {
   align-items: center;
   position: absolute;
   bottom: 2rem;
+}
+
+@keyframes slide-up-pulse {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .slide-img-01 {
@@ -122,8 +138,8 @@ html {
   }
 
   .button-next {
-    font-size: 0.6rem;
-    padding: 12px 22px;
+    font-size: 0.5rem;
+    padding: 10px 15px;
   }
 
   .slide-content {
