@@ -227,16 +227,16 @@ html {
   }
 
   .mobile-text-02::before {
-    content: "PROGRESSO";
+    content: "☛";
     order: 1;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+    margin-top: 10px;
     line-height: 100%;
   }
   .mobile-text-02::after {
-    content: "☛";
+    content: "PROGRESSO";
     order: 2;
-    font-size: 1.5rem;
-    margin-top: 10px;
+    font-size: 3.5rem;
     line-height: 100%;
   }
 

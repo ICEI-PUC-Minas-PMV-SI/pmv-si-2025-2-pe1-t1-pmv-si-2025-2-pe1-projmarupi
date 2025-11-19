@@ -78,19 +78,19 @@ html {
     width: 90vw;
     height: auto;
     max-height: none;
-
     padding: 1.5rem;
     min-width: 0;
     overflow: visible;
   }
 
   .container-text h1 {
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     overflow-wrap: break-word;
   }
 
   .container-text p {
+    font-size: 1rem;
     line-height: 1.6rem;
   }
 
@@ -105,11 +105,12 @@ html {
   }
 
   .container-text h1 {
-    font-size: 1.8rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
   }
 
   .container-text p {
+    font-size: 0.9rem;
     line-height: 1.5rem;
   }
 
