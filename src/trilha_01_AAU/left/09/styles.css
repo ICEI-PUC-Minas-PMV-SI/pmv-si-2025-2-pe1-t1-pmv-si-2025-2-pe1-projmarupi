@@ -110,8 +110,8 @@ body {
 }
 
 .grid-item.selected {
-  transform: scale(1.05);
-  box-shadow: 0 0 3px 0 #59e546;
+  transform: scale(1.07);
+  filter: grayscale(60%) contrast(120%);
 }
 
 .card-header.error {
