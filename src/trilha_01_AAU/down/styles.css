@@ -97,18 +97,6 @@ html {
   cursor: pointer;
 }
 
-.slide-img-03 {
-  background-image: url("./images/compressed/02.jpg");
-}
-.slide-img-04 {
-  background-image: url("./images/compressed/02_invert.jpg");
-}
-.slide-img-05 {
-  background-image: url("./images/compressed/03.jpg");
-}
-.slide-img-06 {
-  background-image: url("./images/compressed/03_invert.jpg");
-}
 .slide-img-07 {
   background-image: url("./images/compressed/04.jpg");
 }
@@ -185,6 +173,10 @@ html {
 
 .slide-img-01,
 .slide-img-02,
+.slide-img-03,
+.slide-img-04,
+.slide-img-05,
+.slide-img-06,
 .slide-img-09,
 .slide-img-10,
 .slide-img-11,
@@ -196,6 +188,10 @@ html {
 @media (max-width: 600px) {
   .slide-img-01 .background-video,
   .slide-img-02 .background-video,
+  .slide-img-03 .background-video,
+  .slide-img-04 .background-video,
+  .slide-img-05 .background-video,
+  .slide-img-06 .background-video,
   .slide-img-09 .background-video,
   .slide-img-10 .background-video,
   .slide-img-11 .background-video,
@@ -212,6 +208,22 @@ html {
 
   .slide-img-02 {
     background-image: url("./images/compressed/01_invert.jpg");
+  }
+
+  .slide-img-03 {
+    background-image: url("./images/compressed/02.jpg");
+  }
+
+  .slide-img-04 {
+    background-image: url("./images/compressed/03.jpg");
+  }
+
+  .slide-img-05 {
+    background-image: url("./images/compressed/03_invert.jpg");
+  }
+
+  .slide-img-06 {
+    background-image: url("./images/compressed/02_invert.jpg");
   }
 
   .slide-img-09 {
