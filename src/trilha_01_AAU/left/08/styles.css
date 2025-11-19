@@ -4,11 +4,13 @@
 
 body {
   background-color: #fff;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
 }
 
 .img-left {
@@ -27,9 +29,8 @@ body {
   border-radius: 8px;
   width: 32vw;
   min-width: 500px;
-  max-height: 85vh;
   overflow-y: auto;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .container-text h1 {
@@ -81,7 +82,7 @@ body {
 
 .escape-btn {
   font-family: Lato, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fafafa;
   width: 100%;
