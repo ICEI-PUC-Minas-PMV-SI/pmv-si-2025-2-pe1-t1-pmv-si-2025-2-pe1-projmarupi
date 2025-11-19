@@ -3,12 +3,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ededed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .container-global {
-  background-color: #fff;
-  height: 100vh;
-  width: 100vw;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   display: grid;
-  grid-template-rows: 2fr 0.5fr;
+  grid-template-rows: 1fr auto;
   gap: 2rem;
   padding: 2rem;
 }
@@ -69,7 +79,7 @@
 .image-bg {
   grid-area: stack;
   place-self: end center;
-  width: 70%;
+  width: 90%;
   opacity: 0.2;
   mix-blend-mode: multiply;
   z-index: 1;
@@ -78,7 +88,7 @@
 .overflow-image {
   grid-area: stack;
   place-self: center;
-  width: 40%;
+  width: 60%;
   height: 60%;
   object-fit: contain;
   max-width: 450px;
@@ -86,6 +96,7 @@
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
+  place-self: end center;
 }
 
 .text-content h1 {
