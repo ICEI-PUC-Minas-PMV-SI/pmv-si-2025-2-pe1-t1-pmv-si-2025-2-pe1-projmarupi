@@ -118,6 +118,9 @@ html {
 
 .guide-arrow {
   position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 6;
   color: #000;
   font-family: sans-serif;
@@ -127,17 +130,8 @@ html {
   cursor: pointer;
 }
 
-.slide-img-01 .guide-arrow-left {
-  bottom: 50%;
-  left: 60%;
-}
-.slide-img-02 .guide-arrow-right {
-  bottom: 20%;
-  left: 30%;
-}
-
 .guide-arrow:hover {
-  transform: translateX(10px);
+  transform: translate(calc(-50% + 15px), -50%);
 }
 
 .mobile-text-01,

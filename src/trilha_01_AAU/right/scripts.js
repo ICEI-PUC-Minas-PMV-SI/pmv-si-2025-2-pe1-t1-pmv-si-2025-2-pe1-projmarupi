@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed-horizontal");
   const btn = document.querySelector(".button-next");
+  const arrows = document.querySelectorAll(".guide-arrow");
 
   const wheelSensitivity = 1.0;
   const touchSensitivity = 2.5;
@@ -39,6 +40,17 @@ document.addEventListener("DOMContentLoaded", () => {
     feed.scrollLeft = Math.round(currentScroll);
     requestAnimationFrame(smoothScrollLoop);
   }
+
+  arrows.forEach((arrow) => {
+    arrow.addEventListener("click", () => {
+      const event = new KeyboardEvent("keydown", {
+        key: "End",
+        bubbles: true,
+        cancelable: true,
+      });
+      document.dispatchEvent(event);
+    });
+  });
 
   feed.addEventListener(
     "wheel",

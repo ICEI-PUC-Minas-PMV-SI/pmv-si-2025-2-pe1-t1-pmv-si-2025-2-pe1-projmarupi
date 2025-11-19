@@ -2,6 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const allGridItems = document.querySelectorAll(".grid-item");
   const btnsVerifyList = document.querySelectorAll(".btn-verify");
   const btnsInfos = document.querySelectorAll(".btn-info");
+  const dockerItems = document.querySelectorAll(".docker-footer .docker-item");
+
+  const teleportLocations = [
+    "https://www.google.com/maps?layer=c&cbll=-19.92998,-43.94932",
+    "https://www.google.com/maps?layer=c&cbll=-19.91536,-43.93621",
+    "https://www.google.com/maps?layer=c&cbll=-19.89058,-43.91333",
+    "https://www.google.com/maps?layer=c&cbll=-19.92615,-43.92824",
+    "https://www.google.com/maps?layer=c&cbll=-19.92429,-43.93485",
+    "https://www.google.com/maps?layer=c&cbll=-20.00021,-43.99822",
+  ];
 
   allGridItems.forEach((item) => {
     item.addEventListener("click", () => {
@@ -71,6 +81,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       checkAllCardsForWin();
     });
+  });
+
+  teleportLocations.sort(() => Math.random() - 0.5);
+  dockerItems.forEach((item, index) => {
+    const locIndex = index % teleportLocations.length;
+    item.href = teleportLocations[locIndex];
+    item.target = "_blank";
+    item.title = "Conheça aleatoriamente uma árvore incrível em sua cidade!";
   });
 
   btnsInfos[0].addEventListener("click", () => {
