@@ -5,23 +5,27 @@
 body,
 html {
   background-color: #f2f2f2;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 2rem 0;
 }
 
 .container-text {
   display: flex;
   flex-direction: column;
+  background-color: transparent;
   border-radius: 8px;
   width: 40vw;
-  min-width: 500px;
+  min-width: auto;
   max-width: 800px;
-  max-height: 85vh;
-  overflow-y: auto;
+  max-height: none;
+  overflow-y: visible;
 }
 
 .container-text h1 {
@@ -37,10 +41,10 @@ html {
 .container-text p {
   color: #323131;
   font-family: Lato;
-  font-size: 1.075rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.925rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -73,20 +77,20 @@ html {
   .container-text {
     width: 90vw;
     height: auto;
-    max-height: 90vh;
-    overflow-y: auto;
+    max-height: none;
+
     padding: 1.5rem;
     min-width: 0;
+    overflow: visible;
   }
 
   .container-text h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     overflow-wrap: break-word;
   }
 
   .container-text p {
-    font-size: 1rem;
     line-height: 1.6rem;
   }
 
@@ -101,12 +105,11 @@ html {
   }
 
   .container-text h1 {
-    font-size: 1.5rem;
-    line-height: 1.9rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
 
   .container-text p {
-    font-size: 0.9rem;
     line-height: 1.5rem;
   }
 

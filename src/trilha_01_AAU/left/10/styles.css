@@ -9,8 +9,9 @@ html {
 
 body {
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
+  height: auto;
   display: grid;
   grid-template-rows: auto 1fr;
   padding: 2rem 1.5rem;
@@ -81,11 +82,10 @@ body {
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8rem;
+  gap: 4rem;
   width: 80%;
   max-width: 1100px;
-  height: 100%;
-  max-height: 400px;
+  height: auto;
   z-index: 2;
   position: relative;
 }
@@ -97,7 +97,8 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  height: 100%;
+  height: auto;
+  min-height: 400px;
 }
 
 .card-row-1 {

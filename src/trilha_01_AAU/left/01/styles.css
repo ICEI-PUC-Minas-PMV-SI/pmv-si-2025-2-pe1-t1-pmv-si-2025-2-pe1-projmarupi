@@ -34,10 +34,10 @@ body {
 .container-text p {
   color: #e8e8e8;
   font-family: Lato;
-  font-size: 1.075rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.925rem;
+  line-height: 2rem;
   text-align: justify;
 }
 

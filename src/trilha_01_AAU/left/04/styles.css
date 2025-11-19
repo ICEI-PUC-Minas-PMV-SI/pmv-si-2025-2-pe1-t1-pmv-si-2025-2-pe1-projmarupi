@@ -4,11 +4,13 @@
 
 body {
   background-color: #fff;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem 0;
 }
 
 .img-left {
@@ -25,10 +27,10 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  width: 30vw;
+  width: 40vw;
   min-width: 500px;
-  max-height: 85vh;
-  overflow-y: auto;
+  max-height: none;
+  overflow: visible;
 }
 
 .container-text h1 {
@@ -45,10 +47,10 @@ body {
 .container-text p {
   color: #323131;
   font-family: Lato;
-  font-size: 1.075rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.925rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -98,9 +100,8 @@ body {
 
   .container-text {
     width: 90vw;
-    height: auto;
-    max-height: 90vh;
-    overflow-y: auto;
+    max-height: none;
+    overflow: visible;
     padding: 1.5rem;
     min-width: 0;
   }
