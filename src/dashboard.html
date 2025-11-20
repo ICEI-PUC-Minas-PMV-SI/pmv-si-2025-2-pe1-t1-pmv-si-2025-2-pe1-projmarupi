@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -225,6 +225,22 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                            <tr>
+                                                <td>Arqueologia Urbana arbórea</td>
+                                                <td>
+                                                    <span class="chip">Iniciante</span>
+                                                    <span class="chip">Botânica</span>
+                                                    <span class="chip">História</span>
+                                                    <span class="chip">Urbanismo</span>
+
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn--secondary btn--small" onclick="resumeActivity()">Retomar</button>
+                                                </td>
+                                            </tr>
+
+
                                             <tr>
                                                 <td>Passeio arqueológico arbóreo em Belo Horizonte</td>
                                                 <td>
@@ -251,7 +267,7 @@
                                                 </td>
                                                 <td>
                                                     <a href="./trilha_01_AAU/left/01/intro.html">
-                                                    <button class="btn btn--primary btn--small">Retomar</button>
+                                                    <button class="btn btn--primary btn--small">Começar</button>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -271,7 +287,7 @@
                                                 </td>
                                                 <td>
                                                     <a href="./trilha_01_AAU/left/09/desafio.html">
-                                                    <button class="btn btn--primary btn--small">Retomar</button>
+                                                    <button class="btn btn--primary btn--small">Começar</button>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -687,6 +703,18 @@
                 navigateToModule(module);
             }
         };
+
+
+        // salve salve, Tales. To na área. Adicionei essa função pra retomar de onde o user estiver!!!!
+
+        window.resumeActivity = function() {
+            const savedLocation = localStorage.getItem("userActivityProgress");
+            
+            if (savedLocation) {
+                window.location.href = savedLocation;
+            } else {
+                window.location.href = "./trilha_01_AAU/left/01/intro.html"; 
+            }}
     </script>
 </body>
 
