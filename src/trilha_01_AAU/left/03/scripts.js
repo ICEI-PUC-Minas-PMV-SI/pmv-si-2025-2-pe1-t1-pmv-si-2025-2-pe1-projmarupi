@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
+
 const buttonsList = document.querySelectorAll(".btn-caminhar");
 
 const btn_esc = document.querySelector("#btn-esc");

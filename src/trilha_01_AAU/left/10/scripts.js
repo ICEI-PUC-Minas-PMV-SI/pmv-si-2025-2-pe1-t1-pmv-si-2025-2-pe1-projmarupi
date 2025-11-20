@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
   const allAnswers = document.querySelectorAll(".nested-row");
 
   function checkWinCondition() {

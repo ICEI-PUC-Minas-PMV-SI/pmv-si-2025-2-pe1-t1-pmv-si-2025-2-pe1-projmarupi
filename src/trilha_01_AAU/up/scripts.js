@@ -1,6 +1,6 @@
-"use strict";
-
 window.addEventListener("load", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+
   if (history.scrollRestoration) {
     history.scrollRestoration = "manual";
   }

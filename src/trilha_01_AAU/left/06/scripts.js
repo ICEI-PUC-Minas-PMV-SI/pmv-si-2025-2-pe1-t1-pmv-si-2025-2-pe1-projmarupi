@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
+
 const btn_volta = document.querySelector("#btn-volta");
 const btn_vai_ipe = document.querySelector("#vai-ipe");
 const btn_vai_sibi = document.querySelector("#vai-sibi");

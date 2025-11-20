@@ -1,5 +1,10 @@
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
+
 const btn_esc = document.querySelector("#btn-esc");
 const dockerItems = document.querySelectorAll(".docker-item");
+const treeLinks = document.querySelectorAll(".tree-link-wrapper");
 
 const treeUrls = [
   "https://www.google.com/search?tbm=isch&q=sapucaia+arvore",
@@ -35,6 +40,14 @@ const treeUrls = [
   "https://www.google.com/search?tbm=isch&q=palmeira+areca+arvore",
   "https://www.google.com/search?tbm=isch&q=licuri+arvore",
 ];
+
+treeLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const targetUrl = link.getAttribute("data-url");
+    window.location.href = targetUrl;
+  });
+});
 
 treeUrls.sort(() => Math.random() - 0.5);
 

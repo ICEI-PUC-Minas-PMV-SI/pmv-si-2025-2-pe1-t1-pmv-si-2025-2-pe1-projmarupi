@@ -1,6 +1,6 @@
-"use strict";
-
 document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+
   const feed = document.querySelector(".image-feed");
   const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");

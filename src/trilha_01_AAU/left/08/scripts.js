@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
+
 const escButton = document.querySelector("#escape-btn");
 const moveOnButton = document.querySelector("#move-on-btn");
 

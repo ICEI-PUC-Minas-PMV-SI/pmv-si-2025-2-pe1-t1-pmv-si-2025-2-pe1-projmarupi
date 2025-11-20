@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
   const allGridItems = document.querySelectorAll(".grid-item");
   const btnsVerifyList = document.querySelectorAll(".btn-verify");
   const btnsInfos = document.querySelectorAll(".btn-info");

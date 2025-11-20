@@ -1,4 +1,6 @@
-"use strict";
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const slider = document.querySelector(".carrousel-slider");

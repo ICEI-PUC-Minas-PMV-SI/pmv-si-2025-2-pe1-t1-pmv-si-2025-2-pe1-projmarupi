@@ -1,6 +1,5 @@
-"use strict";
-
 document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
   const feed = document.querySelector(".image-feed-horizontal");
   const btn = document.querySelector(".button-next");
   const arrows = document.querySelectorAll(".guide-arrow");

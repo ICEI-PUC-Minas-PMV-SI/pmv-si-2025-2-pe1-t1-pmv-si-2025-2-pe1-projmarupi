@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  localStorage.setItem("userActivityProgress", window.location.href);
+});
+
 const btn = document.querySelector("#btn");
 const btnBack = document.querySelector("#btn-back");
 
