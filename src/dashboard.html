@@ -145,11 +145,10 @@
                                 <div class="panel-geral">
                                     <div class="reminder">
                                         <img src="./assets/iaua_thumbnail.png" alt="ativo urbano clorofílico">
-                                        <h3>Atividade Inicial - Passeio arqueológico</h3>
-                                        <p>Aprenda a enxergar clorofila pela cidade.</p>
-                                        <a href="./trilha_01_AAU/down/start.html">
-                                            <button class="btn btn--primary">Começar</button>
-                                        </a>
+                                        <h3>Inventário Arqueológico Arbóreo Urbano de BH</h3>
+                                        <p>Continue aprendendo a enxergar clorofila pela cidade.</p>
+                                        <button class="btn btn--primary" onclick="resumeActivity()">Retomar</button>
+                                        <button class="btn btn--secondary btn--small" onclick="resetActivity()">Reiniciar</button>
                                     </div>
                                     <div class="recent-token">
                                         <h2>Token mais recente</h2>
@@ -715,6 +714,13 @@
             } else {
                 window.location.href = "./trilha_01_AAU/left/01/intro.html"; 
             }}
+
+        window.resetActivity = function() {
+    if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha?")) {
+        localStorage.removeItem("userActivityProgress");
+        window.location.href = "./trilha_01_AAU/down/start.html"; 
+    }
+};
     </script>
 </body>
 
