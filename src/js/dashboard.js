@@ -77,27 +77,49 @@ import './tokens.js';
         showTokens(moduleId);
     }
 
-    function showTokens(moduleId){
+    function showTokens(moduleId) {
         const tokensList = document.getElementById(`${moduleId}-token-list`);
-        
+
         const tokens = TokenService.getTokensId(moduleId);
-        if (!tokens || tokens.length !== 0) {
-            tokensList.innerHTML = '';
+        if (tokens == undefined || tokens == null || tokens.length == 0) {
+            return;
         }
+
+        // Recent token
+        const recentTokenId = tokens[tokens.length - 1];
+        const recentTokenData = TokenService.getTokenData(recentTokenId, moduleId);
+        if (recentTokenData) {
+            const recentTokenContainer = document.querySelector(`#${moduleId}-recent-token .content`);
+            if (recentTokenContainer) {
+                recentTokenContainer.innerHTML = '';
+
+                const tokenImage = createTokenImg(recentTokenData);
+                recentTokenContainer.appendChild(tokenImage);
+            }
+        }
+        // All tokens
+        tokensList.innerHTML = '';
         tokens.forEach(tokenId => {
             const tokenData = TokenService.getTokenData(tokenId, moduleId);
             if (tokenData) {
                 const tokenItem = document.createElement('li');
                 tokenItem.classList.add('token-item');
 
-                const tokenImage = document.createElement('img');
-                tokenImage.src = tokenData.imageUrl;
-                tokenImage.alt = tokenData.name;
+                const tokenImage = createTokenImg(tokenData)
 
                 tokenItem.appendChild(tokenImage);
                 tokensList.appendChild(tokenItem);
             }
         });
+
+        function createTokenImg(tokenData) {
+            const img = document.createElement('img');
+            img.src = tokenData.imageUrl;
+            img.alt = tokenData.name || 'Token';
+            img.style.width = '200px';
+            img.style.height = '200px';
+            return img;
+        }
     }
 
     // Add click handlers to module buttons
