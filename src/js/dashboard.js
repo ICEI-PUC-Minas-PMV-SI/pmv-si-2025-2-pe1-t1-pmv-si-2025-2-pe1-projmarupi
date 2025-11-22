@@ -1,3 +1,5 @@
+import './tokens.js';
+
 // Module navigation
 (function () {
     const moduleButtons = document.querySelectorAll('.menu-container nav button');
@@ -37,6 +39,7 @@
 
         // Update active tab content
         hideAllOtherModulesPanels(moduleId);
+
         // Show panels of the selected module
         panelsKeys.forEach(panelKey => {
             const panelToShow = document.querySelector(`#panel-${panelKey}-${moduleId}`);
@@ -50,7 +53,6 @@
         Object.keys(moduleContent)
             .filter(moduleId => moduleId != actualModuleId)
             .forEach(moduleId => {
-                const module = moduleContent[moduleId];
                 panelsKeys.forEach(panelKey => {
                     const panel = document.querySelector(`#panel-${panelKey}-${moduleId}`);
                     if (panel) {
@@ -70,6 +72,32 @@
 
         // Update content
         updateMainContent(moduleId);
+
+        // Show tokens
+        showTokens(moduleId);
+    }
+
+    function showTokens(moduleId){
+        const tokensList = document.getElementById(`${moduleId}-token-list`);
+        
+        const tokens = TokenService.getTokensId(moduleId);
+        if (!tokens || tokens.length !== 0) {
+            tokensList.innerHTML = '';
+        }
+        tokens.forEach(tokenId => {
+            const tokenData = TokenService.getTokenData(tokenId, moduleId);
+            if (tokenData) {
+                const tokenItem = document.createElement('li');
+                tokenItem.classList.add('token-item');
+
+                const tokenImage = document.createElement('img');
+                tokenImage.src = tokenData.imageUrl;
+                tokenImage.alt = tokenData.name;
+
+                tokenItem.appendChild(tokenImage);
+                tokensList.appendChild(tokenItem);
+            }
+        });
     }
 
     // Add click handlers to module buttons
@@ -139,6 +167,7 @@
         const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
         positionInkbar(active);
     });
+
     tablist.addEventListener('scroll', () => {
         const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
         positionInkbar(active);
