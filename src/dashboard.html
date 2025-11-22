@@ -43,7 +43,7 @@
                         Identidade
                     </button>
                 </li>
-                <li id="sbc">
+                <!-- <li id="sbc">
                     <button>
                         <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -52,7 +52,7 @@
                         </svg>
                         Municípios
                     </button>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </aside>
@@ -86,614 +86,310 @@
 
             <div class="panels">
                 <section role="tabpanel" id="panel-apresentacao" aria-labelledby="tab-apresentacao">
-
+                    <div id="panel-apresentacao-iaua" class="panel-apresentacao">
+                        <div class="text-block">
+                            <p class="caption">MÓDULO AAU</p>
+                            <h1 class="headline">Arqueologia Arbórea Urbana</h1>
+                            <h2 class="subheadline">Descobrindo a história das árvores em nossa cidade</h2>
+                            <p class="body">
+                                Neste módulo, você conhecerá a história arbórea de Belo Horizonte.
+                                Aprenderá técnicas de identificação de árvores urbanas e passará a enxergar
+                                tudo isso como patrimônio fundamental e promissor para qualquer cidade.
+                            </p>
+                        </div>
+                        <div class="text-block">
+                            <p class="caption">PRÓXIMOS PASSOS</p>
+                            <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
+                                Comece sua jornada de aprendizado
+                            </h2>
+                            <p class="body" style="margin-bottom: 15px;">
+                                Explore os fundamentos da arqueologia arbórea urbana.
+                            </p>
+                            <a href="./trilha_01_AAU/down/start.html">
+                                <button class="btn btn--primary">Começar</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="panel-apresentacao-idd" class="panel-apresentacao">
+                        <div class="text-block">
+                            <p class="caption">MÓDULO IDENTIDADE</p>
+                            <h1 class="headline">Descobrindo Suas Raízes</h1>
+                            <h2 class="subheadline">Uma viagem pela história da imigração no Brasil e sua história
+                                pessoal</h2>
+                            <p class="body">
+                                Embarque em uma trilha lúdica e interativa que conecta a rica história da imigração
+                                no Brasil com sua própria trajetória pessoal. Através de dois módulos envolventes,
+                                você terá a oportunidade de explorar suas origens, descobrir sua herança cultural e,
+                                em conjunto com sua família, construir uma Árvore Genealógica única.
+                            </p>
+                        </div>
+                        <div class="text-block">
+                            <p class="caption">CONSTRUA SUA HISTÓRIA</p>
+                            <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
+                                Fortaleça seu senso de pertencimento
+                            </h2>
+                            <p class="body" style="margin-bottom: 15px;">
+                                Explore suas raízes, descubra histórias familiares e amplie seu
+                                repertório sociocultural nesta jornada de autodescobrimento.
+                            </p>
+                            <a href="./trilha_02_IDD">
+                                <button class="btn btn--primary">Começar Jornada</button>
+                            </a>
+                        </div>
+                    </div>
                 </section>
 
                 <section role="tabpanel" id="panel-geral" aria-labelledby="tab-geral" hidden>
-
+                    <div id="panel-geral-iaua" class="panel-geral">
+                        <div class="reminder">
+                            <img src="./assets/iaua_thumbnail.png" alt="ativo urbano clorofílico">
+                            <h3>Inventário Arqueológico Arbóreo Urbano de BH</h3>
+                            <p>Continue aprendendo a enxergar clorofila pela cidade.</p>
+                            <button class="btn btn--primary" onclick="resumeActivity()">Retomar</button>
+                            <button class="btn btn--secondary btn--small" onclick="resetActivity()">Reiniciar</button>
+                        </div>
+                        <div class="recent-token">
+                            <h2>Token mais recente</h2>
+                            <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                    fill="#DDE1E6" />
+                            </svg>
+                        </div>
+                        <div class="progress">
+                            <h2>Progresso</h2>
+                            <div class="labels">
+                                <label><span class="finished"></span> Concluído</label>
+                                <label><span class="pending"></span> Pendente</label>
+                            </div>
+                            <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
+                                style="--value: 97"></div>
+                        </div>
+                        <div class="tokens">
+                            <h2>Tokens</h2>
+                            <ul>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="panel-geral-idd" class="panel-geral">
+                        <div class="reminder">
+                            <img src="module1.png" alt="Module 1 img">
+                            <h3>Descobrindo Suas Raízes</h3>
+                            <p>Uma viagem pela história da imigração no Brasil e sua história pessoal.</p>
+                            <a href="./trilha_02_IDD">
+                                <button class="btn btn--primary">Começar</button>
+                            </a>
+                        </div>
+                        <div class="recent-token">
+                            <h2>Token mais recente</h2>
+                            <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                    fill="#DDE1E6" />
+                            </svg>
+                        </div>
+                        <div class="progress">
+                            <h2>Progresso</h2>
+                            <div class="labels">
+                                <label><span class="finished"></span> Concluído</label>
+                                <label><span class="pending"></span> Pendente</label>
+                            </div>
+                            <div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                                style="--value: 20"></div>
+                        </div>
+                        <div class="tokens">
+                            <h2>Tokens</h2>
+                            <ul>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
+                                            fill="#DDE1E6" />
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
 
                 <section role="tabpanel" id="panel-atividades" aria-labelledby="tab-atividades" hidden>
+                    <div id="panel-atividades-iaua" class="panel-atividades">
+                        <table class="tbl">
+                            <colgroup>
+                                <col class="col-atividade"><!-- grows -->
+                                <col class="col-tags">
+                                <col class="col-acoes"><!-- smallest -->
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Atividade</th>
+                                    <th>Tags</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
+                                <tr>
+                                    <td>Arqueologia Urbana arbórea</td>
+                                    <td>
+                                        <span class="chip">Iniciante</span>
+                                        <span class="chip">Botânica</span>
+                                        <span class="chip">História</span>
+                                        <span class="chip">Urbanismo</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn--secondary btn--small"
+                                            onclick="resumeActivity()">Retomar</button>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>Passeio arqueológico arbóreo em Belo Horizonte</td>
+                                    <td>
+                                        <span class="chip">Iniciante</span>
+                                        <span class="chip">Botânica</span>
+                                        <span class="chip">História</span>
+                                        <span class="chip">Urbanismo</span>
+                                    </td>
+                                    <td>
+                                        <a href="./trilha_01_AAU/down/start.html">
+                                            <button class="btn btn--primary btn--small">Começar</button>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Experimentação do inventário arbóreo de BH</td>
+                                    <td>
+                                        <span class="chip">Iniciante</span>
+                                        <span class="chip">Urbanismo</span>
+                                        <span class="chip">Botânica</span>
+                                        <span class="chip">Cidadania</span>
+                                    </td>
+                                    <td>
+                                        <a href="./trilha_01_AAU/left/01/intro.html">
+                                            <button class="btn btn--primary btn--small">Começar</button>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sedimentação avaliativa</td>
+                                    <td>
+                                        <span class="chip">Iniciante</span>
+                                        <span class="chip">Urbanismo</span>
+                                        <span class="chip">Botânica</span>
+                                        <span class="chip">Ecologia</span>
+                                        <span class="chip">Cidadania</span>
+                                        <span class="chip">Matemática</span>
+                                    </td>
+                                    <td>
+                                        <a href="./trilha_01_AAU/left/09/desafio.html">
+                                            <button class="btn btn--primary btn--small">Começar</button>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="panel-atividades-idd" class="panel-atividades">
+                        <table class="tbl">
+                            <colgroup>
+                                <col class="col-atividade"><!-- grows -->
+                                <col class="col-tags">
+                                <col class="col-acoes"><!-- smallest -->
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Atividade</th>
+                                    <th>Tags</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Descobrindo Suas Raízes</td>
+                                    <td>
+                                        <span class="chip">Cultura</span>
+                                        <span class="chip">História</span>
+                                    </td>
+                                    <td>
+                                        <a href="./trilha_02_IDD">
+                                            <button class="btn btn--primary btn--small">Começar</button>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
             </div>
         </div>
         </a>
     </main>
-
+    <script src="./js/dashboard.js"></script>
     <script>
-        // Module navigation
-        (function () {
-            const moduleButtons = document.querySelectorAll('.menu-container nav button');
-            const mainContent = document.querySelector('main');
-
-            const moduleContent = {
-                'iaua': {
-                    title: 'Arqueologia Arborea Urbana',
-                    panels: {
-                        apresentacao: {
-                            title: 'Introdução à Arqueologia Arbórea',
-                            description: 'Explore a história das árvores em nossa cidade.',
-                            content: `
-                                <div class="panel-apresentacao">
-                                    <div class="text-block">
-                                        <p class="caption">MÓDULO AAU</p>
-                                        <h1 class="headline">Arqueologia Arbórea Urbana</h1>
-                                        <h2 class="subheadline">Descobrindo a história das árvores em nossa cidade</h2>
-                                        <p class="body">
-                                            Neste módulo, você conhecerá a história arbórea de Belo Horizonte.
-                                            Aprenderá técnicas de identificação de árvores urbanas e passará a enxergar
-                                            tudo isso como patrimônio fundamental e promissor para qualquer cidade.
-                                        </p>
-                                    </div>
-                                    <div class="text-block">
-                                        <p class="caption">PRÓXIMOS PASSOS</p>
-                                        <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
-                                            Comece sua jornada de aprendizado
-                                        </h2>
-                                        <p class="body" style="margin-bottom: 15px;">
-                                            Explore os fundamentos da arqueologia arbórea urbana.
-                                        </p>
-                                        <a href="./trilha_01_AAU/down/start.html">
-                                            <button class="btn btn--primary">Começar</button>
-                                        </a>
-                                    </div>
-                                </div>`
-                        },
-                        geral: {
-                            content: `
-                                <div class="panel-geral">
-                                    <div class="reminder">
-                                        <img src="./assets/iaua_thumbnail.png" alt="ativo urbano clorofílico">
-                                        <h3>Inventário Arqueológico Arbóreo Urbano de BH</h3>
-                                        <p>Continue aprendendo a enxergar clorofila pela cidade.</p>
-                                        <button class="btn btn--primary" onclick="resumeActivity()">Retomar</button>
-                                        <button class="btn btn--secondary btn--small" onclick="resetActivity()">Reiniciar</button>
-                                    </div>
-                                    <div class="recent-token">
-                                        <h2>Token mais recente</h2>
-                                        <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                fill="#DDE1E6" />
-                                        </svg>
-                                    </div>
-                                    <div class="progress">
-                                        <h2>Progresso</h2>
-                                        <div class="labels">
-                                            <label><span class="finished"></span> Concluído</label>
-                                            <label><span class="pending"></span> Pendente</label>
-                                        </div>
-                                        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
-                                            style="--value: 97"></div>
-                                    </div>
-                                    <div class="tokens">
-                                        <h2>Tokens</h2>
-                                        <ul>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>`
-                        },
-                        atividades: {
-                            content: `
-                                <div class="panel-atividades">
-                                    <table class="tbl">
-                                        <colgroup>
-                                            <col class="col-atividade"><!-- grows -->
-                                            <col class="col-tags">
-                                            <col class="col-acoes"><!-- smallest -->
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th>Atividade</th>
-                                                <th>Tags</th>
-                                                <th>Ações</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr>
-                                                <td>Arqueologia Urbana arbórea</td>
-                                                <td>
-                                                    <span class="chip">Iniciante</span>
-                                                    <span class="chip">Botânica</span>
-                                                    <span class="chip">História</span>
-                                                    <span class="chip">Urbanismo</span>
-
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--secondary btn--small" onclick="resumeActivity()">Retomar</button>
-                                                </td>
-                                            </tr>
-
-
-                                            <tr>
-                                                <td>Passeio arqueológico arbóreo em Belo Horizonte</td>
-                                                <td>
-                                                    <span class="chip">Iniciante</span>
-                                                    <span class="chip">Botânica</span>
-                                                    <span class="chip">História</span>
-                                                    <span class="chip">Urbanismo</span>
-
-                                                </td>
-                                                <td>
-                                                    <a href="./trilha_01_AAU/down/start.html">
-                                                        <button class="btn btn--primary btn--small">Começar</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Experimentação do inventário arbóreo de BH</td>
-                                                <td>
-                                                    <span class="chip">Iniciante</span>
-                                                    <span class="chip">Urbanismo</span>
-                                                    <span class="chip">Botânica</span>
-                                                    <span class="chip">Cidadania</span>
-
-                                                </td>
-                                                <td>
-                                                    <a href="./trilha_01_AAU/left/01/intro.html">
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Sedimentação avaliativa</td>
-                                                <td>
-                                                    <span class="chip">Iniciante</span>
-                                                    <span class="chip">Urbanismo</span>
-                                                    <span class="chip">Botânica</span>
-                                                    <span class="chip">Ecologia</span>
-                                                    <span class="chip">Cidadania</span>
-                                                    <span class="chip">Matemática</span>
-                                                    
-
-
-                                                </td>
-                                                <td>
-                                                    <a href="./trilha_01_AAU/left/09/desafio.html">
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>`
-                        }
-                    }
-                },
-                'idd': {
-                    title: 'Identidade',
-                    panels: {
-                        apresentacao: {
-                            title: 'Identidade',
-                            description: 'Uma jornada de descoberta pessoal e cultural.',
-                            content: `
-                                <div class="panel-apresentacao">
-                                    <div class="text-block">
-                                        <p class="caption">MÓDULO IDENTIDADE</p>
-                                        <h1 class="headline">Descobrindo Suas Raízes</h1>
-                                        <h2 class="subheadline">Uma viagem pela história da imigração no Brasil e sua história pessoal</h2>
-                                        <p class="body">
-                                            Embarque em uma trilha lúdica e interativa que conecta a rica história da imigração 
-                                            no Brasil com sua própria trajetória pessoal. Através de dois módulos envolventes, 
-                                            você terá a oportunidade de explorar suas origens, descobrir sua herança cultural e, 
-                                            em conjunto com sua família, construir uma Árvore Genealógica única.
-                                        </p>
-                                    </div>
-                                    <div class="text-block">
-                                        <p class="caption">CONSTRUA SUA HISTÓRIA</p>
-                                        <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
-                                            Fortaleça seu senso de pertencimento
-                                        </h2>
-                                        <p class="body" style="margin-bottom: 15px;">
-                                            Explore suas raízes, descubra histórias familiares e amplie seu 
-                                            repertório sociocultural nesta jornada de autodescobrimento.
-                                        </p>
-                                        <a href="./trilha_02_IDD">
-                                            <button class="btn btn--primary">Começar Jornada</button>
-                                        </a>
-                                    </div>
-                                </div>`
-                        },
-                        geral: {
-                            content: `
-                                <div class="panel-geral">
-                                    <div class="reminder">
-                                        <img src="module1.png" alt="Module 1 img">
-                                        <h3>Descobrindo Suas Raízes</h3>
-                                        <p>Uma viagem pela história da imigração no Brasil e sua história pessoal.</p>
-                                        <a href="./trilha_02_IDD">
-                                            <button class="btn btn--primary">Começar</button>
-                                        </a>
-                                    </div>
-                                    <div class="recent-token">
-                                        <h2>Token mais recente</h2>
-                                        <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                fill="#DDE1E6" />
-                                        </svg>
-                                    </div>
-                                    <div class="progress">
-                                        <h2>Progresso</h2>
-                                        <div class="labels">
-                                            <label><span class="finished"></span> Concluído</label>
-                                            <label><span class="pending"></span> Pendente</label>
-                                        </div>
-                                        <div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
-                                            style="--value: 20"></div>
-                                    </div>
-                                    <div class="tokens">
-                                        <h2>Tokens</h2>
-                                        <ul>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>`
-                        },
-                        atividades: {
-                            content: `
-                                <div class="panel-atividades">
-                                    <table class="tbl">
-                                        <colgroup>
-                                            <col class="col-atividade"><!-- grows -->
-                                            <col class="col-tags">
-                                            <col class="col-acoes"><!-- smallest -->
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th>Atividade</th>
-                                                <th>Tags</th>
-                                                <th>Ações</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Descobrindo Suas Raízes</td>
-                                                <td>
-                                                    <span class="chip">Cultura</span>
-                                                    <span class="chip">História</span>
-                                                </td>
-                                                <td>
-                                                    <a href="./trilha_02_IDD">
-                                                        <button class="btn btn--primary btn--small">Começar</button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>`
-                        }
-                    }
-                },
-                'sbc': {
-                    title: 'Sistema de Busca de Cidades',
-                    panels: {
-                        apresentacao: {
-                            title: 'Sistema de Busca',
-                            description: 'Encontre informações sobre cidades.',
-                            content: `
-                                <div class="panel-apresentacao">
-                                    <div class="text-block">
-                                        <p class="caption">MÓDULO SBC</p>
-                                        <h1 class="headline">Sistema de Busca de Cidades</h1>
-                                        <h2 class="subheadline">Explore dados e informações municipais</h2>
-                                        <p class="body">
-                                            Acesse e analise dados sobre diferentes cidades, 
-                                            incluindo informações demográficas, ambientais e culturais.
-                                            Descubra ferramentas poderosas para pesquisa e análise de dados municipais.
-                                        </p>
-                                    </div>
-                                    <div class="text-block">
-                                        <p class="caption">PRÓXIMOS PASSOS</p>
-                                        <h2 class="subheadline" style="margin:0; margin-bottom: 5px;">
-                                            Comece a explorar os municípios
-                                        </h2>
-                                        <p class="body" style="margin-bottom: 15px;">
-                                            Aprenda a usar as ferramentas de busca e análise de dados municipais.
-                                        </p>
-                                        <button class="btn btn--primary">Começar</button>
-                                    </div>
-                                </div>`
-                        },
-                        geral: {
-                            content: `
-                                <div class="panel-geral">
-                                    <div class="reminder">
-                                        <img src="module1.png" alt="Module 1 img">
-                                        <h3>Pesquisa de Municípios</h3>
-                                        <p>Aprenda a utilizar as ferramentas de busca e análise.</p>
-                                        <button class="btn btn--primary">Começar</button>
-                                    </div>
-                                    <div class="recent-token">
-                                        <h2>Token mais recente</h2>
-                                        <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                fill="#DDE1E6" />
-                                        </svg>
-                                    </div>
-                                    <div class="progress">
-                                        <h2>Progresso</h2>
-                                        <div class="labels">
-                                            <label><span class="finished"></span> Concluído</label>
-                                            <label><span class="pending"></span> Pendente</label>
-                                        </div>
-                                        <div role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
-                                            style="--value: 45"></div>
-                                    </div>
-                                    <div class="tokens">
-                                        <h2>Tokens</h2>
-                                        <ul>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                            <li>
-                                                <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M121.961 1.44086C153.837 -2.19132 189.082 -0.365391 212.142 23.653C235.441 47.9209 245.857 87.4296 236.69 120.939C228.65 150.327 191.59 152.733 171.042 173.887C151.531 193.974 148.399 233.304 121.961 239.049C94.1074 245.102 69.2619 221.074 48.1188 200.599C25.392 178.589 -0.184408 153.886 0.00100215 120.939C0.185883 88.0866 26.4666 64.3295 49.01 42.2411C70.088 21.5885 93.6439 4.66742 121.961 1.44086Z"
-                                                        fill="#DDE1E6" />
-                                                </svg>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>`
-                        },
-                        atividades: {
-                            content: `
-                                <div class="panel-atividades">
-                                    <table class="tbl">
-                                        <colgroup>
-                                            <col class="col-atividade"><!-- grows -->
-                                            <col class="col-tags">
-                                            <col class="col-acoes"><!-- smallest -->
-                                        </colgroup>
-                                        <thead>
-                                            <tr>
-                                                <th>Atividade</th>
-                                                <th>Tags</th>
-                                                <th>Ações</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Busca Básica</td>
-                                                <td>
-                                                    <span class="chip">Pesquisa</span>
-                                                    <span class="chip">Básico</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Análise de Dados</td>
-                                                <td>
-                                                    <span class="chip">Análise</span>
-                                                    <span class="chip">Dados</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Visualização</td>
-                                                <td>
-                                                    <span class="chip">Gráficos</span>
-                                                    <span class="chip">Mapas</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn--primary btn--small">Começar</button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>`
-                        }
-                    }
-                }
-            };
-
-            function updateMainContent(moduleId) {
-                const module = moduleContent[moduleId];
-                if (!module) return;
-
-                // Update page title
-                const pageTitle = mainContent.querySelector('h1');
-                if (pageTitle) pageTitle.textContent = module.title;
-
-                // Update active tab content
-                const activeTab = document.querySelector('.tab.is-active');
-                const activePanel = activeTab.getAttribute('data-tab');
-
-                if (module.panels[activePanel]) {
-                    const panel = document.querySelector(`#panel-${activePanel}`);
-                    if (panel) {
-                        panel.innerHTML = module.panels[activePanel].content;
-                    }
-                }
-            }
-
-            function navigateToModule(moduleId) {
-                // Remove active state from all buttons
-                moduleButtons.forEach(btn => btn.classList.remove('is-active'));
-
-                // Add active state to clicked button
-                const clickedButton = document.querySelector(`#${moduleId} button`);
-                if (clickedButton) clickedButton.classList.add('is-active');
-
-                // Update content
-                updateMainContent(moduleId);
-            }
-
-            // Add click handlers to module buttons
-            moduleButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const moduleId = button.closest('li').id;
-                    navigateToModule(moduleId);
-                });
-            });
-
-            // Add tab change listener to update content
-            document.querySelectorAll('.tab').forEach(tab => {
-                tab.addEventListener('click', () => {
-                    const activeModuleId = document.querySelector('.menu-container nav button.is-active')
-                        ?.closest('li')?.id;
-                    if (activeModuleId) {
-                        setTimeout(() => updateMainContent(activeModuleId), 0);
-                    }
-                });
-            });
-
-            window.navigateToModule = navigateToModule;
-
-            // Initialize with first module
-            navigateToModule('iaua');
-        })();
-
-        // Tabs behavior + animated underline
-        (function () {
-            const root = document.getElementById('tabs-demo');
-            const tablist = root.querySelector('.tablist');
-            const inkbar = root.querySelector('.inkbar');
-            const tabs = Array.from(tablist.querySelectorAll('.tab:not(.more)'));
-            const panels = Array.from(root.querySelectorAll('[role="tabpanel"]'));
-
-            function positionInkbar(target) {
-                const rect = target.getBoundingClientRect();
-                const parentRect = tablist.getBoundingClientRect();
-                const left = rect.left - parentRect.left + tablist.scrollLeft;
-                inkbar.style.left = `${left}px`;
-                inkbar.style.width = `${rect.width}px`;
-            }
-
-            function activate(tab) {
-                // Update active state
-                tabs.forEach(t => {
-                    const active = t === tab;
-                    t.classList.toggle('is-active', active);
-                    t.setAttribute('aria-selected', String(active));
-                    t.tabIndex = active ? 0 : -1;
-
-                    const panelId = t.getAttribute('aria-controls');
-                    const panel = root.querySelector('#' + panelId);
-                    if (panel) panel.hidden = !active;
-                });
-
-                positionInkbar(tab);
-            }
-
-            // Click support
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => activate(tab));
-            });
-
-            // Recalc on resize/scroll
-            window.addEventListener('resize', () => {
-                const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
-                positionInkbar(active);
-            });
-            tablist.addEventListener('scroll', () => {
-                const active = tabs.find(t => t.classList.contains('is-active')) || tabs[0];
-                positionInkbar(active);
-            });
-
-            window.switchTab = activate;
-            // Init
-            activate(tabs[0]);
-        })();
-
         window.onload = function () {
             const queryParams = new URLSearchParams(window.location.search);
             var module = queryParams.get('module');
@@ -703,24 +399,23 @@
             }
         };
 
-
-        // salve salve, Tales. To na área. Adicionei essa função pra retomar de onde o user estiver!!!!
-
-        window.resumeActivity = function() {
+        // salve salve, Tales. To na área. Adicionei essa função pra retomar de onde o user estiver!!!! 
+        window.resumeActivity = function () {
             const savedLocation = localStorage.getItem("userActivityProgress");
-            
+
             if (savedLocation) {
                 window.location.href = savedLocation;
             } else {
-                window.location.href = "./trilha_01_AAU/left/01/intro.html"; 
-            }}
+                window.location.href = "./trilha_01_AAU/left/01/intro.html";
+            }
+        }
 
-        window.resetActivity = function() {
-    if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha?")) {
-        localStorage.removeItem("userActivityProgress");
-        window.location.href = "./trilha_01_AAU/down/start.html";
-    }
-};
+        window.resetActivity = function () {
+            if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha?")) {
+                localStorage.removeItem("userActivityProgress");
+                window.location.href = "./trilha_01_AAU/down/start.html";
+            }
+        };
     </script>
 </body>
 

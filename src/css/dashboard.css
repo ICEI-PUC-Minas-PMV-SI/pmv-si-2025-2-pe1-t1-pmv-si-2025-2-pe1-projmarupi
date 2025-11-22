@@ -323,7 +323,7 @@ main {
       display: flex;
       flex-direction: column;
     }
-    
+
     button {
       margin: 0 15px 25px 15px;
     }
@@ -516,4 +516,8 @@ tbody td {
   font-size: 12px;
   line-height: 1;
   white-space: nowrap;
+}
+
+[hidden] {
+  display: none !important;
 }
