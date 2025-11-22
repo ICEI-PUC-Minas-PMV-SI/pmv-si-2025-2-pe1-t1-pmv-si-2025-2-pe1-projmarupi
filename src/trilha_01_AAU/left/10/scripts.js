@@ -1,4 +1,8 @@
+import "../../../js/tokens.js";
+
 document.addEventListener("DOMContentLoaded", () => {
+TokenService.addToken("captchasFinished", "iaua", true);
+
   localStorage.setItem("userActivityProgress", window.location.href);
   const allAnswers = document.querySelectorAll(".nested-row");
 

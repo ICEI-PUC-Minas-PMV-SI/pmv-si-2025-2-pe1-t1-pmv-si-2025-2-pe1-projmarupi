@@ -1,3 +1,5 @@
+import "../../../js/tokens.js";
+
 document.addEventListener("DOMContentLoaded", () => {
   localStorage.setItem("userActivityProgress", window.location.href);
 
@@ -94,7 +96,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("keydown", handleKeyDown);
 
   btnRestart.addEventListener("click", () => {
-    window.location.href = "../../../dashboard.html";
+    TokenService.addToken("finished", "iaua", true);
+    setTimeout(() => {
+      window.location.href = "../../../dashboard.html";
+    }, 1200);
   });
 
   updateMaxScroll();

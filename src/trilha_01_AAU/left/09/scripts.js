@@ -1,3 +1,5 @@
+import "../../../js/tokens.js";
+
 document.addEventListener("DOMContentLoaded", () => {
   localStorage.setItem("userActivityProgress", window.location.href);
   const allGridItems = document.querySelectorAll(".grid-item");
@@ -25,9 +27,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const failHeaders = document.querySelectorAll(".card-header.error");
 
     if (successfulHeaders.length === 3) {
+      const firstTry = localStorage.getItem("firstTryCaptcha");
+      if (firstTry == null || firstTry === undefined || firstTry === "") {
+        TokenService.addToken("first", "iaua", true);
+        localStorage.setItem("firstTryCaptcha", "false");
+      }
       setTimeout(() => {
         window.location.href = "../10/avaliacao.html";
-      }, 500);
+      }, 1200);
     } else if (failHeaders.length === 3) {
       alert("Precisamos aprender um pouco mais!");
       window.location.href = "../05/quearvore.html";
