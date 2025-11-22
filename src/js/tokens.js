@@ -11,22 +11,22 @@
             introduction: {
                 name: 'Árvore Ancestral',
                 description: 'Conquistado por completar a Introdução à Arqueologia Arbórea.',
-                imageUrl: 'assets/tokens/tree_ancestor.png'
+                imageUrl: 'assets/tokens/iaua/tree_ancestor.png'
             },
             first: {
                 name: 'Raízes do Conhecimento',
                 description: 'Conquistado por acertar as questões de primeira.',
-                imageUrl: 'assets/tokens/roots_of_knowledge.png'
+                imageUrl: 'assets/tokens/iaua/roots_of_knowledge.png'
             },
             captchasFinished: {
                 name: 'Guardião do Bosque',
                 description: 'Conquistado por completar todos os captchas do módulo.',
-                imageUrl: 'assets/tokens/forest_guardian.png'
+                imageUrl: 'assets/tokens/iaua/forest_guardian.png'
             },
             finished: {
                 name: 'Guardião das Árvores',
                 description: 'Conquistado por completar todas as atividades do módulo.',
-                imageUrl: 'assets/tokens/tree_guardian.png'
+                imageUrl: 'assets/tokens/iaua/tree_guardian.png'
             }
         }
     }
@@ -36,11 +36,11 @@
             throw new Error(`Invalid module ID - ${moduleId}`);
         }
 
-        if (!Object.keys(tokensByModule[moduleId] || {}).includes(tokenId)) {
+        if (!Object.keys(TokenService.tokensByModule[moduleId] || {}).includes(tokenId)) {
             throw new Error(`Invalid token ID: ${tokenId} for module ID: ${moduleId}`);
         }
 
-        const tokens = TokenService.getTokensId(`tokens-${moduleId}`);
+        const tokens = TokenService.getTokensId(moduleId);
         tokens.push(tokenId);
         localStorage.setItem(`tokens-${moduleId}`, JSON.stringify(tokens));
     }
@@ -89,6 +89,19 @@
         }
 
         return JSON.parse(items);
+    }
+    
+    TokenService.getTokenData = function(tokenId, moduleId) {
+        if (!moduleIds.includes(moduleId)) {
+            throw new Error(`Invalid module ID: ${moduleId}`);
+        }
+
+        const tokenData = TokenService.tokensByModule[moduleId][tokenId];
+        if (!tokenData) {
+            throw new Error(`Invalid token ID: ${tokenId} for module ID: ${moduleId}`);
+        }
+
+        return tokenData;
     }
 
     TokenService.getAvailableTokens = function (moduleId) {
