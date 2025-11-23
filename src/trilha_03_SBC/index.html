@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Resultado da Pesquisa: São João do Exemplo - MG</title>
+    <title class="SBCtitle">SBC: Belo Horizonte - MG</title>
 </head>
 
 <body>
@@ -23,13 +23,14 @@
         </div>
     </header>
 
-    <img src="/src/trilha_03_SBC/sbc_img/backgroud/imgexemplovaledomucuri.jpg" class="img-banner">
+   <!-- <img src="/src/trilha_03_SBC/sbc_img/backgroud/imgexemplovaledomucuri.jpg" class="img-banner"> -->
 
-    <main class="context">
+    <main class="context" id='mainSBC'>
+        <div class="loading"></div>
 
         <article class="articleSBC">
-            <h1 id="id-h1-municipio">São João do Exemplo (Cidade exemplo)</h1>
-            <h3 id="id-h3-municipio">Região do _ em _.</h3>
+            <h1 id="id-h1-municipio">Belo Horizonte - MG</h1>
+            <h3 id="id-h3-municipio">Região: Metropolitana de Belo Horizonte.</h3>
             <p id="id-p-municipio">Algumas informações sobre o local, conforme dados do IBGE:</p>
         </article>
 
@@ -43,27 +44,27 @@
                             <img src="./sbc_img/icon/iconpopulacaototal.png" alt="Ícone de População" aria-hidden="true">
                         </div>
                         <p class="card-titulo">População Total:</p>
-                        <p class="card-valor">98.677</p>
+                        <p class="card-valor" id="card-pop">2415872</p>
                     </div>
                 </div>
 
                 <div class="cardIBGE">
                     <div class="card-conteudo">
                         <div class="card-icone">
-                            <img src=".sbc_img/icon/iconmulherehomem.png" alt="Ícone de Gênero" aria-hidden="true">
+                            <img src="./sbc_img/icon/mapincon.png" alt="Ícone de Gênero" aria-hidden="true">
                         </div>
-                        <p class="card-titulo">População Feminina x Masculina:</p>
-                        <p class="card-valor">56,3% x 43,7%</p>
+                        <p class="card-titulo">Area Mapeada (IBGE):</p>
+                        <p class="card-valor" id="card-map">274.23 km²</p>
                     </div>
                 </div>
 
                 <div class="cardIBGE">
                     <div class="card-conteudo">
                         <div class="card-icone">
-                            <img src="./sbc_img/icon/icononu.png" alt="Ícone de IDH" aria-hidden="true">
+                            <img src="./sbc_img/icon/pibicon.png" alt="Ícone de IDH" aria-hidden="true">
                         </div>
-                        <p class="card-titulo">IDH:</p>
-                        <p class="card-valor">0,762</p>
+                        <p class="card-titulo">PIB Municipal:</p>
+                        <p class="card-valor" id="card-pib">R$ 20647181</p>
                     </div>
                 </div>
             </div>
@@ -82,9 +83,8 @@
         
         <!-- Se existirem conteúdos de outras trilhas para a localidade, 
          com JS podem ser adicionado links para as trilhas, logo abaixo dos card-infos de dados do IBGE -->
-
     </main>
-    <footer>
+    <footer id="footerSBC">
         <p>© 2025 Marupí. Todos os direitos reservados.</p>
     </footer>
 
