@@ -32,8 +32,8 @@ Testes e verificação do cumprimento dos requisitos funcionais e não funcionai
 |  **Resultado esperado**   | O medidor de progresso deve marcar 100% e os tokens recebidos devem estar visíveis.                                                                                       |
 |   **Resultado obtido**    | Sucesso                                                                                                                                                                   |
 
-|     **Caso de Teste**     | \*\*CT04 - Persistência de dados do usuário                                                                                                                                        | localStorage\*\* |
-| :-----------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+|     **Caso de Teste**     | \*\*CT04 - Persistência de dados do usuário                                                                                                                                        |
+| :-----------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     **Procedimento**      | 1) Reinicie uma trilha e avance algumas etapas <br> 2) Feche a aba do navegador <br> 3) Acesse a plataforma novamente <br> 4) Entre na trilha novamente a partir do dashboard <br> |
 | **Requisitos associados** | RF-06                                                                                                                                                                              |
 |  **Resultado esperado**   | O dashboard deve sinalizar que etapas já foram concluídas e permitir retomar do mesmo ponto em que o usuário parou.                                                                |
