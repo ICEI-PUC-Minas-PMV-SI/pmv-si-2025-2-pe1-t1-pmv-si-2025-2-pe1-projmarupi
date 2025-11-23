@@ -5,7 +5,7 @@
 
     const TokenService = {}
     const moduleIds = ['iaua', 'idd'];
-    const BASE_URL = window.location.pathname.replace(/\/[^/]*$/, '') + '/';
+    const BASE_URL = getBaseUrl();
 
     TokenService.tokensByModule = {
         'iaua': {
@@ -226,4 +226,24 @@
     }
 
     window.TokenService = TokenService;
+
+    function getBaseUrl() {
+        const path = window.location.pathname;
+
+        // Exemplo: /repo/index.html → ["", "repo", "index.html"]
+        const parts = path.split('/').filter(Boolean);
+
+        // Local (ex: /src/)
+        if (parts.length === 1 && parts[0] === 'src') {
+            return '/src/';
+        }
+
+        // GitHub Pages ou subpasta
+        if (parts.length > 1) {
+            return '/' + parts[0] + '/';
+        }
+
+        // raiz
+        return '/';
+    }
 })();
