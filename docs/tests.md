@@ -1,148 +1,72 @@
 # Testes
 
-Neste projeto serão realizados dois tipos de testes:
+Marupi utilizará dois tipos de testes:
 
- - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
- - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
+- A **Verificação de conformidade**, na qual o próprio grupo analisará o cumprimento ou não dos requisitos funcionais e não funcionais que propusemos para o sistema.
+- O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por usuários do público alvo da plataforma.
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
-
-A documentação dos testes é dividida nas seguintes seções:
-
- - [Plano de Testes de Software](#plano-de-testes-de-software)
- - [Registro dos Testes de Software](#registro-dos-testes-de-software)
- - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
- - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
-
-# Teste de Software
-
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
+# Verificação de conformidade
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+Testes e verificação do cumprimento dos requisitos funcionais e não funcionais do sistema.
 
+|     **Caso de Teste**     | **CT01 - Localizar e começar uma trilha a partir da landing page**                                                                                                                                                                                                 |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     **Procedimento**      | 1) Acesse o endereço https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projmarupi/ <br> 2) Clique no botão "COMEÇAR AGORA" ou "EXPLORAR" <br> 2) Localize qual trilha deseja fazer no menu lateral <br> 3) Clique no botão "Começar". |
+| **Requisitos associados** | RF-01 e RF-02                                                                                                                                                                                                                                                      |
+|  **Resultado esperado**   | Iniciar uma trilha                                                                                                                                                                                                                                                 |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                                                                                                            |
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+|     **Caso de Teste**     | **CT02 - Interação com conteúdo da trilha**                                                  |
+| :-----------------------: | -------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Inicie a trilha Arqueologia Arbórea Urbana <br> 2) Desbloqueie etapas sucessivamente <br> |
+| **Requisitos associados** | RF-03                                                                                        |
+|  **Resultado esperado**   | Avançar até a etapa "Avaliação"                                                              |
+|   **Resultado obtido**    | Sucesso                                                                                      |
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+|     **Caso de Teste**     | **CT03 - Visualização de recompensas e progresso**                                                                                                                        |
+| :-----------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Complete todas as etapas de uma trilha <br> 2) Retorne ao dashboard <br> 3) Verifique a aba "Geral" <br> 4) Verifique os tokens conquistados e o progresso obtido <br> |
+| **Requisitos associados** | RF-04 e RF-07                                                                                                                                                             |
+|  **Resultado esperado**   | O medidor de progresso deve marcar 100% e os tokens recebidos devem estar visíveis.                                                                                       |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                   |
 
-## Registro dos Testes de Software
+|     **Caso de Teste**     | \*\*CT04 - Persistência de dados do usuário                                                                                                                                        | localStorage\*\* |
+| :-----------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+|     **Procedimento**      | 1) Reinicie uma trilha e avance algumas etapas <br> 2) Feche a aba do navegador <br> 3) Acesse a plataforma novamente <br> 4) Entre na trilha novamente a partir do dashboard <br> |
+| **Requisitos associados** | RF-06                                                                                                                                                                              |
+|  **Resultado esperado**   | O dashboard deve sinalizar que etapas já foram concluídas e permitir retomar do mesmo ponto em que o usuário parou.                                                                |
+|   **Resultado obtido**    | Sucesso                                                                                                                                                                            |
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+|     **Caso de Teste**     | **CT05 - Reiniciar o progresso**                                                                                                   |
+| :-----------------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Com algum progresso salvo, acesse a aba geral do dashboard <br> 2) Clique no botão "Reiniciar" <br> 3) Confirme o reinício <br> |
+| **Requisitos associados** | RF-01                                                                                                                              |
+|  **Resultado esperado**   | O dashboard deve zerar o progresso do usuário e todos os tokens conquistados devem sumir.                                          |
+|   **Resultado obtido**    | Sucesso                                                                                                                            |
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|     **Caso de Teste**     | **CT06 - Responsividade e Layout (mobile)**                                                                           |
+| :-----------------------: | --------------------------------------------------------------------------------------------------------------------- |
+|     **Procedimento**      | 1) Acesse a plataforma a partir de um celular <br> 2) Selecione uma das trilhas <br> 3) Tente completar a trilha <br> |
+| **Requisitos associados** | RNF-03                                                                                                                |
+|  **Resultado esperado**   | O usuário deve conseguir concluir a trilha, com o conteúdo adaptado para a interface mobile.                          |
+|   **Resultado obtido**    | Sucesso                                                                                                               |
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+## Teste de usabilidade
 
+Foram inúmeros os desafios para criar interfaces e recursos que permitissem o aprendizado experimentado que Marupí propõe. Seria falso omitir que testamos as trilhas durante seu próprio processo de desenvolvimento, já que algumas idéias funcionavam bem, outras nem tanto. Há alguns recursos que rompem com o padrão de navegação que o usuário está acostumado (como inversões dos sentidos dos scrolls e alguma desorientação na lógica de navegação e progressão da trilha de Arqueologia Arbórea Urbana, por exemplo.) O retorno qualitativo dessas experimentações foi fundamental para balizar os caminhos que o grupo resolveu apostar.
 
-## Avaliação dos Testes de Software
+Há um vídeo dessa navegação, disponível em: [teste_de_usabilidade](videos/teste_de_usabilidade.mp4)
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+## Avaliação das verificações de conformidade
 
-## Testes de unidade automatizados (Opcional)
+Quando idealizamos Marupi, imaginávamos que seria possível desenvolver 3 ou 4 trilhas. Mas esse desenvolvimento foi bem mais trabalhoso do que calculamos. Terminamos com uma trilha pronta e outras 3 em desenvolvimento. E pretendemos seguir alimentando a plataforma com novas trilhas.
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
-# Testes de Usabilidade
-
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-
-## Cenários de Teste de Usabilidade
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
-
-
-## Registro de Testes de Usabilidade
-
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+Os requisitos funcionais e não funcionais foram cumpridos e atendidos.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
-
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
-
+A plataforma mãe (landing page e dashboard) passou em todos os testes empíricos de navegação e interação do usuário. Não detectamos nenhuma estranheza ou confusão do usuário nesse acesso.
+Na trilha Arqueologia Urbana Arbórea, detectamos alguma confusão do usuário na tela "Que Árvore é essa". Mas ao se deparar com o desafio e eventualmente fracassar, a maioria dos usuários dedica mais tempo às telas informativas de cada árvore para, então, superar o desafio.
+A maior parte dos usuários se mostrou bastante satisfeita com a experiência.
