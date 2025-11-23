@@ -241,7 +241,7 @@
         if (moduleIds.indexOf(moduleId) === -1) {
             throw new Error(`Module ID:'${moduleId}' is not valid.`);
         }
-        debugger
+        
         const actualStep = ProgressService.getActualStep(moduleId);
         const totalSteps = ProgressService.calcTotalSteps(moduleId);
 
