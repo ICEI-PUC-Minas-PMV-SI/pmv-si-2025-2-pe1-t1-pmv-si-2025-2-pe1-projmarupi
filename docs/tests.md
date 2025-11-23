@@ -57,7 +57,7 @@ Testes e verificação do cumprimento dos requisitos funcionais e não funcionai
 
 Foram inúmeros os desafios para criar interfaces e recursos que permitissem o aprendizado experimentado que Marupí propõe. Seria falso omitir que testamos as trilhas durante seu próprio processo de desenvolvimento, já que algumas idéias funcionavam bem, outras nem tanto. Há alguns recursos que rompem com o padrão de navegação que o usuário está acostumado (como inversões dos sentidos dos scrolls e alguma desorientação na lógica de navegação e progressão da trilha de Arqueologia Arbórea Urbana, por exemplo.) O retorno qualitativo dessas experimentações foi fundamental para balizar os caminhos que o grupo resolveu apostar.
 
-Há um vídeo dessa navegação, disponível em: [teste_de_usabilidade](videos/teste_de_usabilidade.mp4)
+Há um vídeo dessa navegação, disponível em: [teste_de_usabilidade](https://drive.google.com/file/d/10U8M4p-8WAXwLsjroOA593SthDU8R8KT/view?usp=drive_link)
 
 ## Avaliação das verificações de conformidade
 
