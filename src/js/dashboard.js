@@ -1,4 +1,5 @@
 import './tokens.js';
+import './progress.js';
 
 // Module navigation
 (function () {
@@ -75,6 +76,18 @@ import './tokens.js';
 
         // Show tokens
         showTokens(moduleId);
+
+        // Show Progress
+        showProgress(moduleId);
+
+        // Show Activities
+        showActivities(moduleId);
+
+        // Show Reminder
+        showReminder(moduleId);
+
+        // Set actual module id
+        window.ActualModuleId = moduleId;
     }
 
     function showTokens(moduleId) {
@@ -120,6 +133,122 @@ import './tokens.js';
             img.style.height = '200px';
             return img;
         }
+    }
+
+    function showProgress(moduleId) {
+        const progressBar = document.getElementById(`${moduleId}-progress`);
+
+        const percentage = ProgressService.getProgressPercentage(moduleId);
+        if (progressBar) {
+            progressBar.style = `--value: ${Math.floor(percentage)}`;
+        }
+    }
+
+    function showReminder(moduleId) {
+        let actualStep = ProgressService.getActualStep(moduleId);
+        const steps = ProgressService.getSteps(moduleId);
+
+        const reminderCard = document.getElementById(`${moduleId}-reminder`);
+        const title = reminderCard.querySelector("h3");
+        const text = reminderCard.querySelector("p");
+
+        if (!actualStep) {
+            actualStep = steps.at(0);
+
+            title.textContent = actualStep.name;
+            text.textContent = actualStep.continueText;
+            // clear actions
+            reminderCard
+                .querySelectorAll("button")
+                .forEach(button => reminderCard.removeChild(button))
+            const startBtn = document.createElement("button");
+            startBtn.textContent = "Começar"
+            startBtn.classList.add("btn");
+            startBtn.classList.add("btn--primary");
+            startBtn.onclick = () => window.location.href = actualStep.href;
+
+            reminderCard.appendChild(startBtn)
+        } else {
+            title.textContent = actualStep.name;
+            text.textContent = actualStep.continueText;
+
+            // clear actions
+            reminderCard
+                .querySelectorAll("button")
+                .forEach(button => reminderCard.removeChild(button))
+
+            const continueBtn = document.createElement("button");
+            continueBtn.textContent = "Retomar"
+            continueBtn.classList.add("btn");
+            continueBtn.classList.add("btn--primary");
+            continueBtn.onclick = () => window.location.href = actualStep.href;
+
+            const resetBtn = document.createElement("button");
+            resetBtn.textContent = "Reiniciar"
+            resetBtn.classList.add("btn");
+            resetBtn.classList.add("btn--secondary");
+            resetBtn.onclick = () => {
+                if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha? Você perdera todos os tokens ativos também!")) {
+                    ProgressService.resetProgress(window.ActualModuleId);
+                    TokenService.clearTokens(window.ActualModuleId);
+                    // gambiarra, foi mal
+                    localStorage.removeItem("firstTryCaptcha");
+                    window.location.reload();
+                }
+            }
+
+            reminderCard.appendChild(continueBtn)
+            reminderCard.appendChild(resetBtn)
+        }
+    }
+
+    function showActivities(moduleId) {
+        const activitiesTable = document.getElementById(`${moduleId}-activities-table`);
+
+        const steps = ProgressService.getSteps(moduleId);
+        const actualStep = ProgressService.getActualStep(moduleId);
+        if (steps == undefined || steps == null || steps.length == 0) {
+            return;
+        }
+
+        activitiesTable.innerHTML = '';
+        steps.forEach(step => {
+            const row = document.createElement('tr');
+
+            const nameCell = document.createElement('td');
+            nameCell.textContent = step.name || 'Atividade sem nome';
+
+            const tagsCell = document.createElement('td');
+            tagsCell.innerHTML = step.tags.map(tag => `<span class="chip">${tag}</span>`).join(' ');
+
+            const actionsCell = document.createElement('td');
+
+            const anchor = document.createElement('a');
+            anchor.href = step.href;
+            
+            if (actualStep == null || actualStep == undefined) {
+                // No progress yet
+                if (step.step == 0) {
+                    anchor.innerHTML = `<button class="btn btn--primary btn--small">Iniciar</button>`;
+                } else {
+                    anchor.innerHTML = `<button class="btn btn--primary btn--small" disabled>Bloqueado</button>`;
+                }
+            }
+            else if (actualStep && step.id === actualStep.id) {
+                anchor.innerHTML = `<button class="btn btn--primary btn--small">Continuar</button>`;
+            } else if (actualStep && step.step < actualStep.step) {
+                anchor.innerHTML = `<button class="btn btn--secondary btn--small">Revisitar</button>`;
+            } else {
+                anchor.innerHTML = `<button class="btn btn--primary btn--small" disabled>Bloqueado</button>`;
+            }
+            actionsCell.appendChild(anchor);
+
+            row.appendChild(nameCell);
+            row.appendChild(tagsCell);
+            row.appendChild(actionsCell);
+
+            activitiesTable.appendChild(row);
+        });
     }
 
     // Add click handlers to module buttons

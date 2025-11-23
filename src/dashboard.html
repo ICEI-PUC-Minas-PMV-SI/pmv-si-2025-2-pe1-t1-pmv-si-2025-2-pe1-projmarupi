@@ -131,7 +131,7 @@
 
                 <section role="tabpanel" id="panel-geral" aria-labelledby="tab-geral" hidden>
                     <div id="panel-geral-iaua" class="panel-geral">
-                        <div class="reminder">
+                        <div id="iaua-reminder" class="reminder">
                             <img src="./assets/iaua_thumbnail.png" alt="ativo urbano clorofílico">
                             <h3>Inventário Arqueológico Arbóreo Urbano de BH</h3>
                             <p>Continue aprendendo a enxergar clorofila pela cidade.</p>
@@ -155,8 +155,8 @@
                                 <label><span class="finished"></span> Concluído</label>
                                 <label><span class="pending"></span> Pendente</label>
                             </div>
-                            <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
-                                style="--value: 97"></div>
+                            <div id="iaua-progress" role="progressbar" aria-valuenow="67" aria-valuemin="0"
+                                aria-valuemax="100" style="--value: 97"></div>
                         </div>
                         <div class="tokens">
                             <h2>Tokens</h2>
@@ -220,12 +220,12 @@
                                 <label><span class="finished"></span> Concluído</label>
                                 <label><span class="pending"></span> Pendente</label>
                             </div>
-                            <div role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
-                                style="--value: 20"></div>
+                            <div id="idd-progress" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                aria-valuemax="100" style="--value: 20"></div>
                         </div>
                         <div class="tokens">
                             <h2>Tokens</h2>
-                            <ul id="iaua-token-list">
+                            <ul id="idd-token-list">
                                 <li>
                                     <svg width="240" height="240" viewBox="0 0 240 240" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -278,69 +278,7 @@
                                     <th>Ações</th>
                                 </tr>
                             </thead>
-                            <tbody>
-
-                                <tr>
-                                    <td>Arqueologia Urbana arbórea</td>
-                                    <td>
-                                        <span class="chip">Iniciante</span>
-                                        <span class="chip">Botânica</span>
-                                        <span class="chip">História</span>
-                                        <span class="chip">Urbanismo</span>
-                                    </td>
-                                    <td>
-                                        <button class="btn btn--secondary btn--small"
-                                            onclick="resumeActivity()">Retomar</button>
-                                    </td>
-                                </tr>
-
-
-                                <tr>
-                                    <td>Passeio arqueológico arbóreo em Belo Horizonte</td>
-                                    <td>
-                                        <span class="chip">Iniciante</span>
-                                        <span class="chip">Botânica</span>
-                                        <span class="chip">História</span>
-                                        <span class="chip">Urbanismo</span>
-                                    </td>
-                                    <td>
-                                        <a href="./trilha_01_AAU/down/start.html">
-                                            <button class="btn btn--primary btn--small">Começar</button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Experimentação do inventário arbóreo de BH</td>
-                                    <td>
-                                        <span class="chip">Iniciante</span>
-                                        <span class="chip">Urbanismo</span>
-                                        <span class="chip">Botânica</span>
-                                        <span class="chip">Cidadania</span>
-                                    </td>
-                                    <td>
-                                        <a href="./trilha_01_AAU/left/01/intro.html">
-                                            <button class="btn btn--primary btn--small">Começar</button>
-                                        </a>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Sedimentação avaliativa</td>
-                                    <td>
-                                        <span class="chip">Iniciante</span>
-                                        <span class="chip">Urbanismo</span>
-                                        <span class="chip">Botânica</span>
-                                        <span class="chip">Ecologia</span>
-                                        <span class="chip">Cidadania</span>
-                                        <span class="chip">Matemática</span>
-                                    </td>
-                                    <td>
-                                        <a href="./trilha_01_AAU/left/09/desafio.html">
-                                            <button class="btn btn--primary btn--small">Começar</button>
-                                        </a>
-                                    </td>
-                                </tr>
-
+                            <tbody id="iaua-activities-table">
                             </tbody>
                         </table>
                     </div>
@@ -359,7 +297,7 @@
                                     <th>Ações</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="idd-activities-table">
                                 <tr>
                                     <td>Descobrindo Suas Raízes</td>
                                     <td>
@@ -384,28 +322,28 @@
     <script>
         window.onload = function () {
             const queryParams = new URLSearchParams(window.location.search);
-            var module = queryParams.get('module');
+            var moduleId = queryParams.get('module');
 
-            if (module) {
-                navigateToModule(module);
+            if (moduleId) {
+                navigateToModule(moduleId);
             }
         };
 
         // salve salve, Tales. To na área. Adicionei essa função pra retomar de onde o user estiver!!!! 
         window.resumeActivity = function () {
-            const savedLocation = localStorage.getItem("userActivityProgress");
+            const actualStep = ProgressService.getActualStep(window.ActualModuleId);
 
-            if (savedLocation) {
-                window.location.href = savedLocation;
-            } else {
-                window.location.href = "./trilha_01_AAU/left/01/intro.html";
-            }
+            if (actualStep) {
+                window.location.href = actualStep.href;
+            } 
         }
 
         window.resetActivity = function () {
-            if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha?")) {
-                localStorage.removeItem("userActivityProgress");
-                window.location.href = "./trilha_01_AAU/down/start.html";
+            if (confirm("Tem certeza que deseja reiniciar seu progresso nessa trilha? Você perdera todos os tokens ativos também!")) {
+                ProgressService.resetProgress(window.ActualModuleId);
+                TokenService.clearTokens(window.ActualModuleId);
+                window.location.reload();
+                // window.location.href = "./trilha_01_AAU/down/start.html";
             }
         };
     </script>
