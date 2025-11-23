@@ -80,7 +80,7 @@
 
     TokenService.clearAllTokens = function () {
         moduleIds.forEach(moduleId => {
-            localStorage.removeItem(`tokens-${moduleId}`);
+            TokenService.clearTokens(moduleId);
         });
     }
 
@@ -162,7 +162,7 @@
         toast.style.alignItems = 'center';
         toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.4)';
         toast.style.maxWidth = '320px';
-        toast.style.fontFamily = 'system-ui, sans-serif';
+        toast.style.fontFamily = 'Roboto, system-ui, sans-serif';
         toast.style.cursor = 'pointer';
         toast.style.opacity = '0';
         toast.style.transition = 'opacity 0.2s ease-out, transform 0.2s ease-out';
