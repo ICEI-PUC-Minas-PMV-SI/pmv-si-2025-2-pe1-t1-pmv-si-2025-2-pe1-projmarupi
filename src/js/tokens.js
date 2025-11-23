@@ -12,22 +12,22 @@
             introduction: {
                 name: 'Árvore Ancestral',
                 description: 'Conquistado por completar a Introdução à Arqueologia Arbórea.',
-                imageUrl: BASE_URL + '/assets/tokens/iaua/tree_ancestor.png'
+                imageUrl: BASE_URL + 'assets/tokens/iaua/tree_ancestor.png'
             },
             first: {
                 name: 'Raízes do Conhecimento',
                 description: 'Conquistado por acertar as questões de primeira.',
-                imageUrl: BASE_URL + '/assets/tokens/iaua/roots_of_knowledge.png'
+                imageUrl: BASE_URL + 'assets/tokens/iaua/roots_of_knowledge.png'
             },
             captchasFinished: {
                 name: 'Guardião do Bosque',
                 description: 'Conquistado por completar todos os captchas do módulo.',
-                imageUrl: BASE_URL + '/assets/tokens/iaua/forest_guardian.png'
+                imageUrl: BASE_URL + 'assets/tokens/iaua/forest_guardian.png'
             },
             finished: {
                 name: 'Guardião das Árvores',
                 description: 'Conquistado por completar todas as atividades do módulo.',
-                imageUrl: BASE_URL + '/assets/tokens/iaua/tree_guardian.png'
+                imageUrl: BASE_URL + 'assets/tokens/iaua/tree_guardian.png'
             }
         }
     }
