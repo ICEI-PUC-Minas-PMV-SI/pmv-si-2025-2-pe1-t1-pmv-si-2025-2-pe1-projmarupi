@@ -1,7 +1,9 @@
 import "../../../js/tokens.js";
+import "../../../js/progress.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "captchaDesafio");
+
   const allGridItems = document.querySelectorAll(".grid-item");
   const btnsVerifyList = document.querySelectorAll(".btn-verify");
   const btnsInfos = document.querySelectorAll(".btn-info");

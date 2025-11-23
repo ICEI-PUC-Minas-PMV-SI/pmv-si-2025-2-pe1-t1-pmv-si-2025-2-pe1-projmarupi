@@ -1,9 +1,10 @@
 import "../../../js/tokens.js";
+import "../../../js/progress.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-TokenService.addToken("captchasFinished", "iaua", true);
+  TokenService.addToken("captchasFinished", "iaua", true);
+  ProgressService.setActualStep("iaua", "avaliacao");
 
-  localStorage.setItem("userActivityProgress", window.location.href);
   const allAnswers = document.querySelectorAll(".nested-row");
 
   function checkWinCondition() {

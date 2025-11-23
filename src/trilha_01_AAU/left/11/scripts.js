@@ -1,7 +1,8 @@
 import "../../../js/tokens.js";
+import "../../../js/progress.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "inspiracao");
 
   const feed = document.querySelector(".image-feed-horizontal");
   const btnRestart = document.querySelector("#btn-restart");

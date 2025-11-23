@@ -1,5 +1,8 @@
+import "../../js/progress.js";
+
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "right");
+
   const feed = document.querySelector(".image-feed-horizontal");
   const btn = document.querySelector(".button-next");
   const arrows = document.querySelectorAll(".guide-arrow");

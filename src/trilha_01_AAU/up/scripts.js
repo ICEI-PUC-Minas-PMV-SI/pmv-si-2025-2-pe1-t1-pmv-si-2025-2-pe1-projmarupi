@@ -1,5 +1,7 @@
+import "../../js/progress.js";
+
 window.addEventListener("load", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "up");
 
   if (history.scrollRestoration) {
     history.scrollRestoration = "manual";

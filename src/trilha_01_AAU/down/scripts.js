@@ -1,5 +1,7 @@
+import "../../js/progress.js";
+
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "down");
 
   const feed = document.querySelector(".image-feed");
   const buttonContainer = document.querySelector(".slide-content");

@@ -1,5 +1,6 @@
+import "../../../js/progress.js";
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+    ProgressService.setActualStep("iaua", "arqueologia");
 });
 
 const btn = document.querySelector("#btn");

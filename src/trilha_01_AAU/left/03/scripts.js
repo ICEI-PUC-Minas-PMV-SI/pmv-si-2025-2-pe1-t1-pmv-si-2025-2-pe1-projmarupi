@@ -1,5 +1,7 @@
+import "../../../js/progress.js";
+
 document.addEventListener("DOMContentLoaded", () => {
-  localStorage.setItem("userActivityProgress", window.location.href);
+  ProgressService.setActualStep("iaua", "mapa");
 });
 
 const buttonsList = document.querySelectorAll(".btn-caminhar");
