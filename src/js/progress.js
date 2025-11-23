@@ -6,13 +6,15 @@
     const ProgressService = {}
     const moduleIds = ['iaua', 'idd'];
 
+    const BASE_URL = window.location.pathname.replace(/\/[^/]*$/, '') + '/';
+
     ProgressService.stepsByModule = {
         iaua: {
             down: {
                 step: 0,
                 name: "Início",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/down/start.html",
+                href: BASE_URL + "/trilha_01_AAU/down/start.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -24,7 +26,7 @@
                 step: 1,
                 name: "Progresso",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/right/right.html",
+                href: BASE_URL + "/trilha_01_AAU/right/right.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -36,7 +38,7 @@
                 step: 2,
                 name: "Edificar",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/up/up.html",
+                href: BASE_URL + "/trilha_01_AAU/up/up.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -48,7 +50,7 @@
                 step: 3,
                 name: "Introdução",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/01/intro.html",
+                href: BASE_URL + "/trilha_01_AAU/left/01/intro.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -60,7 +62,7 @@
                 step: 4,
                 name: "Arqueologia Arbórea",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/02/arqueologia.html",
+                href: BASE_URL + "/trilha_01_AAU/left/02/arqueologia.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -72,7 +74,7 @@
                 step: 5,
                 name: "Passeio Arbóreo",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/03/mapa.html",
+                href: BASE_URL + "/trilha_01_AAU/left/03/mapa.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -84,7 +86,7 @@
                 step: 6,
                 name: "Repertório",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/04/repertorio.html",
+                href: BASE_URL + "/trilha_01_AAU/left/04/repertorio.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -96,7 +98,7 @@
                 step: 7,
                 name: "Que Árvore é essa?",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/05/quearvore.html",
+                href: BASE_URL + "/trilha_01_AAU/left/05/quearvore.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -108,7 +110,7 @@
                 step: 8,
                 name: "Captcha Clorofílico",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/08/captcha.html",
+                href: BASE_URL + "/trilha_01_AAU/left/08/captcha.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -120,7 +122,7 @@
                 step: 9,
                 name: "Desafio Captcha Arbóreo",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/09/desafio.html",
+                href: BASE_URL + "/trilha_01_AAU/left/09/desafio.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -132,7 +134,7 @@
                 step: 10,
                 name: "Avaliação",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/10/avaliacao.html",
+                href: BASE_URL + "/trilha_01_AAU/left/10/avaliacao.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
@@ -144,7 +146,7 @@
                 step: 11,
                 name: "Inspiração",
                 continueText: "Continue a aprender sobre a história das árvores em bh.",
-                href: window.location.origin + "/src/trilha_01_AAU/left/11/inspiracao.html",
+                href: BASE_URL + "/trilha_01_AAU/left/11/inspiracao.html",
                 tags: [
                     "Iniciante",
                     "Botânica",
