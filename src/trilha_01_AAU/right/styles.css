@@ -94,7 +94,7 @@ html {
   z-index: 5;
   color: #000;
   font-family: "Rubik 80s Fade", sans-serif;
-  font-size: 650px;
+  font-size: 32rem;
   line-height: 100%;
   font-weight: 400;
   transition: transform 0.6s ease-out;
@@ -118,7 +118,7 @@ html {
 
 .guide-arrow {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 6;
