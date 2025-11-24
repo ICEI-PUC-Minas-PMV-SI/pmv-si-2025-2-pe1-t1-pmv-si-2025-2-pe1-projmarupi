@@ -31,7 +31,7 @@ html {
   z-index: 1;
 }
 
-.image-slide-horizontal:nth-child(11) {
+.image-slide-horizontal:nth-child(12) {
   position: sticky;
   left: 0;
   z-index: 1;
@@ -66,6 +66,9 @@ html {
 }
 .slide-img-09 {
   background-image: url("./images/compressed/09.jpg");
+}
+.slide-img-09b {
+  background-image: url("./images/compressed/09b.jpg");
 }
 .slide-img-10 {
   background-image: url("./images/compressed/10.jpg");
