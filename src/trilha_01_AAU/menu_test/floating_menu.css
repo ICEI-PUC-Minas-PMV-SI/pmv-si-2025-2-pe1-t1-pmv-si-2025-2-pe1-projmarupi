@@ -1,0 +1,177 @@
+.floating-container {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  z-index: 9999;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s ease;
+}
+.floating-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+  color: #21272a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.floating-btn svg {
+  width: 32px;
+  height: 32px;
+  transition: all 0.3s ease;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.75;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+    border: 0px solid rgba(255, 255, 255, 0);
+  }
+}
+
+.floating-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  animation: pulse-ring 2.5s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.floating-btn:hover::after,
+.floating-container.active .floating-btn::after {
+  animation: none;
+  opacity: 0;
+}
+
+.floating-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.floating-container.active .floating-btn {
+  background: #13575a;
+  color: white;
+  border-color: transparent;
+}
+
+.floating-dropdown {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 240px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-container.active .floating-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #697077;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #697077;
+}
+
+.floating-dropdown ul {
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 12px;
+  text-decoration: none;
+  color: #21272a;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu-link svg {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.menu-link:hover {
+  background: rgba(19, 87, 90, 0.1);
+  color: #13575a;
+}
+
+@media (max-width: 768px) {
+  .floating-container {
+    top: 16px;
+    left: 16px;
+  }
+
+  .floating-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+
+  .floating-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .floating-btn::after {
+    border-radius: 12px;
+  }
+
+  .floating-dropdown {
+    top: 60px;
+    width: 220px;
+  }
+}
