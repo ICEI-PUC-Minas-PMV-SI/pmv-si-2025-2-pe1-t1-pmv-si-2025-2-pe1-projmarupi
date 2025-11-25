@@ -17,7 +17,7 @@ https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-p
 - Ana Paula Medeiros dos Santos
 - Eduarda Gonçalves da Silva Andrade
 - Erick Samuel Gomes
-- Guilherme Alarcón
+- Guilherme Alarcón Peixoto
 - Pedro Hilário Mendes Pereira
 - Tales Lopes Ramos
 
