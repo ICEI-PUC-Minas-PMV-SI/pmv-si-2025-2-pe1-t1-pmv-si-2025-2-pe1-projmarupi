@@ -233,6 +233,7 @@ import "./progress.js";
           ProgressService.resetProgress(window.ActualModuleId);
           TokenService.clearTokens(window.ActualModuleId);
           // gambiarra, foi mal
+          // gambiarra nao! recurso!
           localStorage.removeItem("firstTryCaptcha");
           window.location.reload();
         }
