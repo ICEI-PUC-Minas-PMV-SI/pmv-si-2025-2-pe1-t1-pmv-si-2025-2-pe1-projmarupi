@@ -3,7 +3,9 @@ import './progress.js';
 
 // Module navigation
 (function () {
+    console.log('Dashboard.js: Module navigation IIFE starting...');
     const moduleButtons = document.querySelectorAll('.menu-container nav button');
+    console.log('Dashboard.js: Found', moduleButtons.length, 'module buttons');
     const mainContent = document.querySelector('main');
     const panelsKeys = ['apresentacao', 'geral', 'atividades'];
 
@@ -25,6 +27,16 @@ import './progress.js';
                 apresentacao: {
                     title: 'Identidade',
                     description: 'Uma jornada de descoberta pessoal e cultural.',
+                },
+            }
+        },
+        'trilha4': {
+            hide: false,
+            title: 'Diversão',
+            panels: {
+                apresentacao: {
+                    title: 'Diversão',
+                    description: 'Teste sua memória e desbloqueie conquistas.',
                 },
             }
         }
@@ -75,16 +87,32 @@ import './progress.js';
         updateMainContent(moduleId);
 
         // Show tokens
-        showTokens(moduleId);
+        try {
+            showTokens(moduleId);
+        } catch (error) {
+            console.warn('Error showing tokens for module', moduleId, error);
+        }
 
         // Show Progress
-        showProgress(moduleId);
+        try {
+            showProgress(moduleId);
+        } catch (error) {
+            console.warn('Error showing progress for module', moduleId, error);
+        }
 
         // Show Activities
-        showActivities(moduleId);
+        try {
+            showActivities(moduleId);
+        } catch (error) {
+            console.warn('Error showing activities for module', moduleId, error);
+        }
 
         // Show Reminder
-        showReminder(moduleId);
+        try {
+            showReminder(moduleId);
+        } catch (error) {
+            console.warn('Error showing reminder for module', moduleId, error);
+        }
 
         // Set actual module id
         window.ActualModuleId = moduleId;
@@ -149,10 +177,13 @@ import './progress.js';
         const steps = ProgressService.getSteps(moduleId);
 
         const reminderCard = document.getElementById(`${moduleId}-reminder`);
+        if (!reminderCard) return; // Module doesn't have a reminder card
+        
         const title = reminderCard.querySelector("h3");
         const text = reminderCard.querySelector("p");
 
         if (!actualStep) {
+            if (!steps || steps.length === 0) return; // No steps defined for this module
             actualStep = steps.at(0);
 
             title.textContent = actualStep.name;
@@ -255,9 +286,11 @@ import './progress.js';
     moduleButtons.forEach(button => {
         button.addEventListener('click', () => {
             const moduleId = button.closest('li').id;
+            console.log('Dashboard.js: Button clicked for module:', moduleId);
             navigateToModule(moduleId);
         });
     });
+    console.log('Dashboard.js: Event listeners attached to', moduleButtons.length, 'buttons');
 
     // Add tab change listener to update content
     document.querySelectorAll('.tab').forEach(tab => {
@@ -273,7 +306,9 @@ import './progress.js';
     window.navigateToModule = navigateToModule;
 
     // Initialize with first module
+    console.log('Dashboard.js: Initializing with iaua module');
     navigateToModule('iaua');
+    console.log('Dashboard.js: Initialization complete');
 })();
 
 // Tabs behavior + animated underline

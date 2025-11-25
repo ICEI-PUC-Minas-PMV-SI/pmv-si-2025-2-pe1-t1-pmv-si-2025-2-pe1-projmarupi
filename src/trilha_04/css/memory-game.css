@@ -1,0 +1,232 @@
+/* Estilos do Jogo da Memoria */
+body {
+    background-image: url('../images/background/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.memory-game-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.game-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game-header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.game-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.game-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    background: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0f62fe;
+}
+
+.game-controls {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-game {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0f62fe;
+    color: white;
+}
+
+.btn-game:hover {
+    background-color: #0353e9;
+}
+
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.memory-card {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.memory-card.flipped .card-inner,
+.memory-card.matched .card-inner {
+    transform: rotateY(180deg);
+}
+
+.memory-card.matched {
+    pointer-events: none;
+}
+
+.memory-card.matched .card-front {
+    border-color: #24a148;
+    box-shadow: 0 0 10px rgba(36, 161, 72, 0.5);
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 3px solid var(--card-border);
+    background: white;
+}
+
+.card-back {
+    background: #f2f4f8;
+}
+
+.card-back::after {
+    content: '?';
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0f62fe;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+    padding: 10px;
+}
+
+.card-front img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.game-message {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid var(--card-border);
+}
+
+.game-message.success {
+    border-color: #24a148;
+    background: #e6f4ea;
+}
+
+.game-message h2 {
+    color: #24a148;
+    margin-bottom: 10px;
+}
+
+.game-message.hidden {
+    display: none;
+}
+
+/* Difficulty selector */
+.difficulty-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-selector label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.difficulty-selector select {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Para telas menores */
+@media (max-width: 768px) {
+    .memory-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    
+    .memory-card {
+        height: 90px;
+    }
+    
+    .game-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .memory-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+    
+    .memory-card {
+        height: 70px;
+    }
+    
+    .game-stats {
+        gap: 15px;
+    }
+}

@@ -4,7 +4,7 @@
         return;
 
     const ProgressService = {}
-    const moduleIds = ['iaua', 'idd'];
+    const moduleIds = ['iaua', 'idd', 'trilha4'];
 
     const BASE_URL = getBaseUrl();
 
@@ -153,7 +153,38 @@
                     "História",
                     "Urbanismo",
                 ]
+            }
+        },
+        idd: {},
+        trilha4: {
+            easy_win: {
+                step: 0,
+                name: "Vencedor Fácil",
+                continueText: "Venceu o jogo no modo Fácil",
+                href: BASE_URL + "trilha_04/index.html",
+                tags: ["Jogo da Memória", "Fácil"]
             },
+            hard_win: {
+                step: 1,
+                name: "Vencedor Difícil",
+                continueText: "Venceu o jogo no modo Difícil",
+                href: BASE_URL + "trilha_04/index.html",
+                tags: ["Jogo da Memória", "Difícil"]
+            },
+            speed: {
+                step: 2,
+                name: "Velocista",
+                continueText: "Venceu em menos de 1 minuto",
+                href: BASE_URL + "trilha_04/index.html",
+                tags: ["Jogo da Memória", "Velocidade"]
+            },
+            efficient: {
+                step: 3,
+                name: "Eficiente",
+                continueText: "Venceu com 20 movimentos ou menos",
+                href: BASE_URL + "trilha_04/index.html",
+                tags: ["Jogo da Memória", "Eficiência"]
+            }
         }
     }
 
@@ -170,17 +201,22 @@
             throw new Error(`Module ID:'${moduleId}' is not valid.`);
         }
 
+        const moduleSteps = ProgressService.stepsByModule[moduleId];
+        if (!moduleSteps || Object.keys(moduleSteps).length === 0) {
+            throw new Error(`Module ID:'${moduleId}' has no steps defined.`);
+        }
+
         const firstStepId = Object
-            .keys(ProgressService.stepsByModule[moduleId])
+            .keys(moduleSteps)
             .filter(key => key !== 'totalSteps')
-            .filter(stepId => ProgressService.stepsByModule[moduleId][stepId].step === stepNumber)
+            .filter(stepId => moduleSteps[stepId].step === stepNumber)
             .at(0);
 
-        if (firstStepId == undefined || ProgressService.stepsByModule[moduleId][firstStepId] == undefined) {
+        if (firstStepId == undefined || moduleSteps[firstStepId] == undefined) {
             throw new Error(`Step number:'${stepNumber}' is not valid for Module ID:'${moduleId}'.`);
         }
 
-        return ProgressService.stepsByModule[moduleId][firstStepId];
+        return moduleSteps[firstStepId];
     }
 
     ProgressService.setActualStepByPositon = function (moduleId, stepNumber) {
@@ -231,15 +267,32 @@
             return null;
         }
 
+        const moduleSteps = ProgressService.stepsByModule[moduleId];
+        if (!moduleSteps || !moduleSteps[stepId]) {
+            return null;
+        }
+
         return {
             id: stepId,
-            ...ProgressService.stepsByModule[moduleId][stepId]
+            ...moduleSteps[stepId]
         };
     }
 
     ProgressService.getProgressPercentage = function (moduleId) {
         if (moduleIds.indexOf(moduleId) === -1) {
             throw new Error(`Module ID:'${moduleId}' is not valid.`);
+        }
+        
+        const moduleSteps = ProgressService.stepsByModule[moduleId];
+        if (!moduleSteps || Object.keys(moduleSteps).length === 0) {
+            return 0;
+        }
+        
+        // Special handling for trilha4: count all achievements (tokens)
+        if (moduleId === 'trilha4') {
+            const tokens = JSON.parse(localStorage.getItem('tokens-trilha4') || '[]');
+            const totalSteps = ProgressService.calcTotalSteps(moduleId);
+            return totalSteps > 0 ? (tokens.length / totalSteps) * 100 : 0;
         }
         
         const actualStep = ProgressService.getActualStep(moduleId);
@@ -258,13 +311,18 @@
             throw new Error(`Module ID:'${moduleId}' is not valid.`);
         }
 
+        const moduleSteps = ProgressService.stepsByModule[moduleId];
+        if (!moduleSteps || Object.keys(moduleSteps).length === 0) {
+            return [];
+        }
+
         return Object
-            .keys(ProgressService.stepsByModule[moduleId])
+            .keys(moduleSteps)
             .filter(key => key !== 'totalSteps')
             .map(key => {
                 return {
                     id: key,
-                    ...ProgressService.stepsByModule[moduleId][key],
+                    ...moduleSteps[key],
                 };
             });
     }

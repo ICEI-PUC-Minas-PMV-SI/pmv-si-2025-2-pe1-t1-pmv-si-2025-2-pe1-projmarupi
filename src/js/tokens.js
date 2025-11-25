@@ -4,7 +4,7 @@
         return;
 
     const TokenService = {}
-    const moduleIds = ['iaua', 'idd'];
+    const moduleIds = ['iaua', 'idd', 'trilha4'];
     const BASE_URL = getBaseUrl();
 
     TokenService.tokensByModule = {
@@ -28,6 +28,29 @@
                 name: 'Guardião das Árvores',
                 description: 'Conquistado por completar todas as atividades do módulo.',
                 imageUrl: BASE_URL + 'assets/tokens/iaua/tree_guardian.png'
+            }
+        },
+        'idd': {},
+        'trilha4': {
+            easy_win: {
+                name: 'Vencedor Fácil',
+                description: 'Conquistado por vencer o jogo no modo Fácil',
+                imageUrl: BASE_URL + 'assets/tokens/trilha4/token_easy_win.png'
+            },
+            hard_win: {
+                name: 'Vencedor Difícil',
+                description: 'Conquistado por vencer o jogo no modo Difícil',
+                imageUrl: BASE_URL + 'assets/tokens/trilha4/token_hard_win.png'
+            },
+            speed: {
+                name: 'Velocista',
+                description: 'Conquistado por vencer em menos de 1 minuto',
+                imageUrl: BASE_URL + 'assets/tokens/trilha4/token_speed.png'
+            },
+            efficient: {
+                name: 'Eficiente',
+                description: 'Conquistado por vencer com 20 movimentos ou menos',
+                imageUrl: BASE_URL + 'assets/tokens/trilha4/token_efficient.png'
             }
         }
     }
@@ -109,7 +132,12 @@
             throw new Error(`Invalid module ID: ${moduleId}`);
         }
 
-        const tokenData = TokenService.tokensByModule[moduleId][tokenId];
+        const moduleTokens = TokenService.tokensByModule[moduleId];
+        if (!moduleTokens) {
+            return null;
+        }
+
+        const tokenData = moduleTokens[tokenId];
         if (!tokenData) {
             throw new Error(`Invalid token ID: ${tokenId} for module ID: ${moduleId}`);
         }
@@ -122,11 +150,16 @@
             throw new Error(`Invalid module ID: ${moduleId}`);
         }
 
+        const moduleTokens = TokenService.tokensByModule[moduleId];
+        if (!moduleTokens) {
+            return [];
+        }
+
         const tokenIds = TokenService.getTokensId(moduleId);
         const availableTokens = tokenIds.map(tokenId => {
             return {
                 id: tokenId,
-                ...TokenService.tokensByModule[moduleId][tokenId]
+                ...moduleTokens[tokenId]
             };
         });
 

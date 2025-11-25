@@ -48,3 +48,18 @@
         background: rgba(15, 98, 254, 0.18);
     }
 }
+
+/* Secondary button */
+.btn--secondary {
+    background: transparent;
+    color: var(--primary-60);
+    border: 1px solid var(--cool-gray-30);
+
+    &:hover {
+        background: var(--cool-gray-10);
+    }
+
+    &:active {
+        background: var(--cool-gray-20);
+    }
+}
