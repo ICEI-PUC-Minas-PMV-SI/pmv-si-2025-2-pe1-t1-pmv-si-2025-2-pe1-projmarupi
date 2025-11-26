@@ -17,6 +17,10 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
 .header-corner-img {
   position: fixed;
   transform: scaleX(-1);
