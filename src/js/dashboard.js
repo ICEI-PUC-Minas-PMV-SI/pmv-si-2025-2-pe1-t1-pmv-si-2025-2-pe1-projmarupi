@@ -12,7 +12,7 @@ import "./progress.js";
   const moduleContent = {
     iaua: {
       hide: false,
-      title: "Arqueologia Arborea Urbana",
+      title: "Arqueologia Arbórea Urbana",
       panels: {
         apresentacao: {
           title: "Introdução à Arqueologia Arbórea",
