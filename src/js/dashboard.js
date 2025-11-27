@@ -40,6 +40,17 @@ import "./progress.js";
         },
       },
     },
+
+    sbc: {
+      hide: false,
+      title: "Buscador de trilhas",
+      panels: {
+        apresentacao: {
+          title: "Localizador de trilhas",
+          description: "Encontre um Marupi perto de você.",
+        },
+      },
+    },
   };
 
   function updateMainContent(moduleId) {
