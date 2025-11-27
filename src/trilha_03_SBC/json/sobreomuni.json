@@ -365,6 +365,1845 @@
         "txt": "Xapuri é um município do Acre com cerca de 20 mil habitantes, conhecido por ser a terra natal de Chico Mendes, líder seringueiro e ambientalista. Sua economia é voltada para a agricultura, pecuária e extrativismo, especialmente da borracha. A cidade tem importância histórica"
     },
     {
+        "id": 1200807,
+        "nome": "Porto Acre",
+        "txt": "Porto Acre é um município do estado do Acre com cerca de 20 mil habitantes. Localizado próximo à capital Rio Branco, sua economia é baseada na agricultura, pecuária e atividades ligadas ao extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1300029,
+        "nome": "Alvarães",
+        "txt": "Alvarães é um município do Amazonas com aproximadamente 15 mil habitantes, situado às margens do rio Solimões. Sua economia é voltada para a agricultura, pesca e extrativismo, além de preservar tradições culturais ribeirinhas típicas da região amazônica."
+    },
+    {
+        "id": 1300060,
+        "nome": "Amaturá",
+        "txt": "Amaturá é um município do Amazonas com cerca de 10 mil habitantes, localizado na região do Alto Solimões. Sua economia é baseada na agricultura, pesca e comércio local. A cidade preserva tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1300086,
+        "nome": "Anamã",
+        "txt": "Anamã é um município do Amazonas com aproximadamente 12 mil habitantes, conhecido por estar em área sujeita a cheias do rio Solimões. Sua economia é voltada para a pesca, agricultura e extrativismo. A cidade mantém forte ligação com a vida ribeirinha."
+    },
+    {
+        "id": 1300102,
+        "nome": "Anori",
+        "txt": "Anori é um município do Amazonas com cerca de 20 mil habitantes, localizado às margens do rio Solimões. Sua economia é baseada na agricultura, pesca e comércio regional. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1300144,
+        "nome": "Apuí",
+        "txt": "Apuí é um município do Amazonas com aproximadamente 22 mil habitantes, situado na região sul do estado. Sua economia é voltada para a pecuária e agricultura, especialmente na produção de grãos. A cidade também é conhecida por suas áreas de floresta e potencial turístico."
+    },
+    {
+        "id": 1300201,
+        "nome": "Atalaia do Norte",
+        "txt": "Atalaia do Norte é um município do Amazonas com cerca de 20 mil habitantes, localizado na região do Alto Solimões, próximo à fronteira com o Peru. Sua economia é baseada na agricultura, pesca e comércio de fronteira. A cidade preserva tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1300300,
+        "nome": "Autazes",
+        "txt": "Autazes é um município do Amazonas com aproximadamente 40 mil habitantes, conhecido como a 'terra do queijo' devido à forte produção leiteira. Localizado próximo a Manaus, sua economia é voltada para a pecuária, agricultura e comércio regional."
+    },
+    {
+        "id": 1300409,
+        "nome": "Barcelos",
+        "txt": "Barcelos é um município do Amazonas com cerca de 27 mil habitantes, localizado às margens do rio Negro. É conhecido como a 'capital do peixe ornamental', sendo referência mundial na exportação de espécies amazônicas. A cidade também possui grande potencial turístico e cultural."
+    },
+    {
+        "id": 1300508,
+        "nome": "Barreirinha",
+        "txt": "Barreirinha é um município do Amazonas com aproximadamente 30 mil habitantes, situado às margens do rio Andirá. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1300607,
+        "nome": "Benjamin Constant",
+        "txt": "Benjamin Constant é um município do Amazonas com cerca de 40 mil habitantes, localizado na região do Alto Solimões, próximo à fronteira com o Peru. Sua economia é voltada para o comércio de fronteira, agricultura e pesca. A cidade tem importância estratégica e cultural."
+    },
+    {
+        "id": 1300631,
+        "nome": "Beruri",
+        "txt": "Beruri é um município do Amazonas com aproximadamente 20 mil habitantes, situado às margens do rio Purus. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1300680,
+        "nome": "Boa Vista do Ramos",
+        "txt": "Boa Vista do Ramos é um município do Amazonas com cerca de 20 mil habitantes, localizado às margens do rio Amazonas. Sua economia é voltada para a agricultura, pesca e produção de farinha de mandioca, sendo reconhecido como um dos maiores produtores do estado."
+    },
+    {
+        "id": 1300706,
+        "nome": "Boca do Acre",
+        "txt": "Boca do Acre é um município do Amazonas com aproximadamente 35 mil habitantes, situado na região sul do estado, próximo à divisa com o Acre. Sua economia é baseada na pecuária, agricultura e extrativismo. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1300805,
+        "nome": "Borba",
+        "txt": "Borba é um município do Amazonas com cerca de 40 mil habitantes, localizado às margens do rio Madeira. Sua economia é voltada para a agricultura, pecuária e pesca. A cidade também possui importância histórica e cultural na região."
+    },
+    {
+        "id": 1300839,
+        "nome": "Caapiranga",
+        "txt": "Caapiranga é um município do Amazonas com aproximadamente 7 mil habitantes, situado às margens do rio Negro. Sua economia é baseada na agricultura familiar, pesca e extrativismo. A cidade preserva tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1300904,
+        "nome": "Canutama",
+        "txt": "Canutama é um município do Amazonas com cerca de 15 mil habitantes, localizado às margens do rio Purus. Sua economia é voltada para a agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1301001,
+        "nome": "Carauari",
+        "txt": "Carauari é um município do Amazonas com aproximadamente 28 mil habitantes, situado às margens do rio Juruá. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1301100,
+        "nome": "Careiro",
+        "txt": "Careiro é um município do Amazonas com cerca de 38 mil habitantes, localizado próximo a Manaus. Sua economia é voltada para a agricultura, pecuária e comércio regional. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1301159,
+        "nome": "Careiro da Várzea",
+        "txt": "Careiro da Várzea é um município do Amazonas com aproximadamente 30 mil habitantes, situado às margens do rio Amazonas. Sua economia é baseada na agricultura, pecuária e pesca. A cidade preserva tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1301209,
+        "nome": "Coari",
+        "txt": "Coari é um município do Amazonas com cerca de 85 mil habitantes, localizado às margens do rio Solimões. É conhecido pela produção de gás natural e petróleo, além de ter economia voltada para agricultura e comércio. A cidade é um dos polos econômicos mais importantes do estado."
+    },
+    {
+        "id": 1301308,
+        "nome": "Codajás",
+        "txt": "Codajás é um município do Amazonas com aproximadamente 25 mil habitantes, situado às margens do rio Solimões. Sua economia é baseada na agricultura, pesca e produção de farinha de mandioca. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1301407,
+        "nome": "Eirunepé",
+        "txt": "Eirunepé é um município do Amazonas com cerca de 35 mil habitantes, localizado às margens do rio Juruá. Sua economia é voltada para a agricultura, pecuária e comércio regional. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1301506,
+        "nome": "Envira",
+        "txt": "Envira é um município do Amazonas com aproximadamente 20 mil habitantes, situado às margens do rio Envira. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1301605,
+        "nome": "Fonte Boa",
+        "txt": "Fonte Boa é um município do Amazonas com cerca de 20 mil habitantes, localizado às margens do rio Solimões. Sua economia é voltada para a agricultura, pesca e extrativismo, além de preservar tradições culturais ribeirinhas e indígenas."
+    },
+    {
+        "id": 1301654,
+        "nome": "Guajará",
+        "txt": "Guajará é um município do Amazonas com aproximadamente 4 mil habitantes, situado na região do rio Japurá. Sua economia é baseada na agricultura familiar, pesca e extrativismo. A cidade preserva o estilo de vida simples e comunitário da Amazônia."
+    },
+    {
+        "id": 1301704,
+        "nome": "Humaitá",
+        "txt": "Humaitá é um município do Amazonas com cerca de 60 mil habitantes, localizado às margens do rio Madeira. Sua economia é diversificada, incluindo agricultura, pecuária, comércio e serviços. A cidade também possui importância histórica e cultural na região sul do estado."
+    },
+    {
+        "id": 1301803,
+        "nome": "Ipixuna",
+        "txt": "Ipixuna é um município do Amazonas com aproximadamente 30 mil habitantes, situado às margens do rio Juruá. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1301852,
+        "nome": "Iranduba",
+        "txt": "Iranduba é um município do Amazonas com cerca de 50 mil habitantes, localizado próximo a Manaus, na região metropolitana. Sua economia é baseada na agricultura, pecuária e comércio, além de se beneficiar da proximidade com a capital. A cidade também possui potencial turístico."
+    },
+    {
+        "id": 1301902,
+        "nome": "Itacoatiara",
+        "txt": "Itacoatiara é um dos maiores municípios do Amazonas, com aproximadamente 100 mil habitantes. Localizado às margens do rio Amazonas, é conhecido como um importante polo econômico e cultural do estado. Sua economia é diversificada, incluindo agricultura, pecuária, indústria e comércio."
+    },
+    {
+        "id": 1301951,
+        "nome": "Itamarati",
+        "txt": "Itamarati é um município do Amazonas com cerca de 8 mil habitantes, situado às margens do rio Juruá. Sua economia é voltada para a agricultura familiar, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1302009,
+        "nome": "Itapiranga",
+        "txt": "Itapiranga é um município do Amazonas com aproximadamente 20 mil habitantes, localizado às margens do rio Amazonas. Sua economia é baseada na agricultura, pesca e comércio regional. A cidade preserva tradições culturais ribeirinhas e indígenas."
+    },
+    {
+        "id": 1302108,
+        "nome": "Japurá",
+        "txt": "Japurá é um município do Amazonas com cerca de 15 mil habitantes, situado na região do rio Japurá. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1302207,
+        "nome": "Juruá",
+        "txt": "Juruá é um município do Amazonas com aproximadamente 12 mil habitantes, localizado às margens do rio Juruá. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1302306,
+        "nome": "Jutaí",
+        "txt": "Jutaí é um município do Amazonas com cerca de 15 mil habitantes, situado às margens do rio Jutaí. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1302405,
+        "nome": "Lábrea",
+        "txt": "Lábrea é um município do Amazonas com aproximadamente 45 mil habitantes, localizado às margens do rio Purus. Sua economia é baseada na pecuária, agricultura e extrativismo. A cidade possui importância histórica e cultural na região sul do estado."
+    },
+    {
+        "id": 1302504,
+        "nome": "Manacapuru",
+        "txt": "Manacapuru é um município do Amazonas com cerca de 100 mil habitantes, localizado às margens do rio Solimões. Conhecida como a 'Princesinha do Solimões', sua economia é baseada na agricultura, pesca, comércio e turismo. A cidade também se destaca por suas festas populares e pela proximidade com Manaus."
+    },
+    {
+        "id": 1302553,
+        "nome": "Manaquiri",
+        "txt": "Manaquiri é um município do Amazonas com aproximadamente 30 mil habitantes, situado na região metropolitana de Manaus. Sua economia é voltada para a agricultura, pecuária e pesca. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1302603,
+        "nome": "Manaus",
+        "txt": "Manaus é a capital do Amazonas e o município mais populoso da região Norte, com cerca de 2,2 milhões de habitantes. Localizada às margens do rio Negro, é um importante centro econômico, cultural e turístico da Amazônia. Sua economia é impulsionada pela Zona Franca de Manaus, além do comércio e serviços."
+    },
+    {
+        "id": 1302702,
+        "nome": "Manicoré",
+        "txt": "Manicoré é um município do Amazonas com aproximadamente 55 mil habitantes, localizado às margens do rio Madeira. Sua economia é baseada na agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e possui importância regional no sul do estado."
+    },
+    {
+        "id": 1302801,
+        "nome": "Maraã",
+        "txt": "Maraã é um município do Amazonas com cerca de 18 mil habitantes, situado às margens do rio Japurá. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais ribeirinhas e indígenas."
+    },
+    {
+        "id": 1302900,
+        "nome": "Maués",
+        "txt": "Maués é um município do Amazonas com aproximadamente 65 mil habitantes, conhecido como a 'terra do guaraná'. Localizado às margens do rio Maués-Açu, sua economia é baseada na produção de guaraná, agricultura e pesca. A cidade também possui grande potencial turístico e cultural."
+    },
+    {
+        "id": 1303007,
+        "nome": "Nhamundá",
+        "txt": "Nhamundá é um município do Amazonas com cerca de 20 mil habitantes, situado às margens do rio Nhamundá. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303106,
+        "nome": "Nova Olinda do Norte",
+        "txt": "Nova Olinda do Norte é um município do Amazonas com aproximadamente 40 mil habitantes, localizado às margens do rio Madeira. Sua economia é baseada na agricultura, pecuária e pesca. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303205,
+        "nome": "Novo Airão",
+        "txt": "Novo Airão é um município do Amazonas com cerca de 20 mil habitantes, situado às margens do rio Negro. É conhecido pelo turismo ecológico, especialmente pela observação de botos e visita ao Parque Nacional de Anavilhanas. Sua economia é voltada para o turismo, pesca e agricultura."
+    },
+    {
+        "id": 1303304,
+        "nome": "Novo Aripuanã",
+        "txt": "Novo Aripuanã é um município do Amazonas com aproximadamente 25 mil habitantes, localizado às margens do rio Aripuanã. Sua economia é baseada na agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303403,
+        "nome": "Parintins",
+        "txt": "Parintins é um município do Amazonas com cerca de 120 mil habitantes, localizado às margens do rio Amazonas. É mundialmente conhecido pelo Festival Folclórico de Parintins, que celebra os bois Garantido e Caprichoso. Sua economia é impulsionada pelo turismo, comércio e agricultura."
+    },
+    {
+        "id": 1303502,
+        "nome": "Pauini",
+        "txt": "Pauini é um município do Amazonas com cerca de 20 mil habitantes, localizado às margens do rio Purus. Sua economia é voltada para a agricultura, pecuária e extrativismo, especialmente da borracha e da castanha. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303536,
+        "nome": "Presidente Figueiredo",
+        "txt": "Presidente Figueiredo é um município do Amazonas com aproximadamente 40 mil habitantes, conhecido como a 'terra das cachoeiras'. Localizado próximo a Manaus, sua economia é baseada no turismo ecológico, agricultura e pecuária. A cidade é famosa por suas belezas naturais e potencial turístico."
+    },
+    {
+        "id": 1303569,
+        "nome": "Rio Preto da Eva",
+        "txt": "Rio Preto da Eva é um município do Amazonas com cerca de 35 mil habitantes, situado na região metropolitana de Manaus. Sua economia é voltada para a agricultura, especialmente na produção de frutas tropicais, além do comércio e turismo. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1303601,
+        "nome": "Santa Isabel do Rio Negro",
+        "txt": "Santa Isabel do Rio Negro é um município do Amazonas com aproximadamente 25 mil habitantes, localizado às margens do rio Negro. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais indígenas e ribeirinhas, sendo marcada pela diversidade étnica."
+    },
+    {
+        "id": 1303700,
+        "nome": "Santo Antônio do Içá",
+        "txt": "Santo Antônio do Içá é um município do Amazonas com cerca de 25 mil habitantes, situado na região do Alto Solimões. Sua economia é voltada para a agricultura, pesca e comércio regional. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303809,
+        "nome": "São Gabriel da Cachoeira",
+        "txt": "São Gabriel da Cachoeira é um município do Amazonas com aproximadamente 50 mil habitantes, localizado às margens do rio Negro. É considerado o município mais indígena do Brasil, com grande diversidade de etnias e línguas. Sua economia é baseada na agricultura, pesca e comércio, além de preservar forte identidade cultural."
+    },
+    {
+        "id": 1303908,
+        "nome": "São Paulo de Olivença",
+        "txt": "São Paulo de Olivença é um município do Amazonas com cerca de 40 mil habitantes, situado na região do Alto Solimões. Sua economia é voltada para a agricultura, pesca e comércio de fronteira. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1303957,
+        "nome": "São Sebastião do Uatumã",
+        "txt": "São Sebastião do Uatumã é um município do Amazonas com aproximadamente 10 mil habitantes, localizado às margens do rio Uatumã. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1304005,
+        "nome": "Silves",
+        "txt": "Silves é um município do Amazonas com cerca de 10 mil habitantes, situado em uma ilha fluvial no rio Amazonas. Sua economia é voltada para a agricultura, pesca e turismo ecológico. A cidade preserva tradições culturais ribeirinhas e possui grande potencial turístico."
+    },
+    {
+        "id": 1304062,
+        "nome": "Tabatinga",
+        "txt": "Tabatinga é um município do Amazonas com aproximadamente 65 mil habitantes, localizado na tríplice fronteira entre Brasil, Colômbia e Peru. Sua economia é baseada no comércio de fronteira, agricultura e serviços. A cidade tem importância estratégica e cultural por sua posição internacional."
+    },
+    {
+        "id": 1304104,
+        "nome": "Tapauá",
+        "txt": "Tapauá é um município do Amazonas com cerca de 20 mil habitantes, situado às margens do rio Purus. Sua economia é voltada para a agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1304203,
+        "nome": "Tefé",
+        "txt": "Tefé é um município do Amazonas com cerca de 60 mil habitantes, localizado às margens do rio Solimões. Sua economia é baseada na agricultura, pesca, comércio e serviços, além de possuir importância regional como centro educacional e cultural. A cidade também é conhecida pelo turismo ecológico, com destaque para o Lago de Tefé."
+    },
+    {
+        "id": 1304237,
+        "nome": "Tonantins",
+        "txt": "Tonantins é um município do Amazonas com aproximadamente 20 mil habitantes, situado na região do Alto Solimões. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1304260,
+        "nome": "Uarini",
+        "txt": "Uarini é um município do Amazonas com cerca de 13 mil habitantes, localizado próximo ao Lago de Tefé. Sua economia é baseada na agricultura, pesca e produção de farinha de mandioca, sendo reconhecido como um dos maiores produtores do estado. A cidade preserva tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1304302,
+        "nome": "Urucará",
+        "txt": "Urucará é um município do Amazonas com aproximadamente 18 mil habitantes, situado às margens do rio Urubu. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1304401,
+        "nome": "Urucurituba",
+        "txt": "Urucurituba é um município do Amazonas com cerca de 20 mil habitantes, localizado às margens do rio Amazonas. Sua economia é baseada na agricultura, pesca e comércio regional. A cidade preserva tradições culturais ribeirinhas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400027,
+        "nome": "Amajari",
+        "txt": "Amajari é um município de Roraima com aproximadamente 13 mil habitantes, localizado na região norte do estado. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade preserva tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1400050,
+        "nome": "Alto Alegre",
+        "txt": "Alto Alegre é um município de Roraima com cerca de 20 mil habitantes, situado na região central do estado. Sua economia é baseada na agricultura, pecuária e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400100,
+        "nome": "Boa Vista",
+        "txt": "Boa Vista é a capital de Roraima e o município mais populoso do estado, com cerca de 450 mil habitantes. Localizada às margens do rio Branco, é o principal centro econômico, político e cultural da região. Sua economia é impulsionada pelo comércio, serviços e administração pública."
+    },
+    {
+        "id": 1400159,
+        "nome": "Bonfim",
+        "txt": "Bonfim é um município de Roraima com aproximadamente 13 mil habitantes, localizado na fronteira com a Guiana. Sua economia é voltada para a agricultura, pecuária e comércio de fronteira. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400175,
+        "nome": "Cantá",
+        "txt": "Cantá é um município de Roraima com cerca de 18 mil habitantes, situado próximo a Boa Vista. Sua economia é baseada na agricultura, pecuária e comércio regional. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400209,
+        "nome": "Caracaraí",
+        "txt": "Caracaraí é um município de Roraima com aproximadamente 22 mil habitantes, localizado às margens do rio Branco. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade possui importância histórica e cultural na região."
+    },
+    {
+        "id": 1400233,
+        "nome": "Caroebe",
+        "txt": "Caroebe é um município de Roraima com cerca de 10 mil habitantes, situado na região sul do estado. Sua economia é baseada na agricultura e pecuária, especialmente na produção de grãos e leite. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1400282,
+        "nome": "Iracema",
+        "txt": "Iracema é um município de Roraima com aproximadamente 10 mil habitantes, localizado próximo à fronteira com a Venezuela. Sua economia é voltada para a agricultura, pecuária e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400308,
+        "nome": "Mucajaí",
+        "txt": "Mucajaí é um município de Roraima com cerca de 20 mil habitantes, localizado na região central do estado. Sua economia é voltada para a agricultura, pecuária e comércio, sendo considerado um dos polos de produção agrícola de Roraima."
+    },
+    {
+        "id": 1400407,
+        "nome": "Normandia",
+        "txt": "Normandia é um município de Roraima com aproximadamente 12 mil habitantes, situado na fronteira com a Guiana. Sua economia é baseada na agricultura, pecuária e comércio de fronteira. A cidade preserva tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1400456,
+        "nome": "Pacaraima",
+        "txt": "Pacaraima é um município de Roraima com cerca de 20 mil habitantes, localizado na fronteira com a Venezuela. Sua economia é voltada para o comércio de fronteira, agricultura e serviços. A cidade possui importância estratégica e cultural por sua posição internacional."
+    },
+    {
+        "id": 1400472,
+        "nome": "Rorainópolis",
+        "txt": "Rorainópolis é um município de Roraima com aproximadamente 30 mil habitantes, situado na região sul do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade é considerada um dos polos de desenvolvimento de Roraima."
+    },
+    {
+        "id": 1400506,
+        "nome": "São João da Baliza",
+        "txt": "São João da Baliza é um município de Roraima com cerca de 8 mil habitantes, localizado na região sul do estado. Sua economia é voltada para a agricultura familiar, pecuária e comércio local. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1400605,
+        "nome": "São Luiz",
+        "txt": "São Luiz é um município de Roraima com aproximadamente 8 mil habitantes, situado na região sul do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1400704,
+        "nome": "Uiramutã",
+        "txt": "Uiramutã é um município de Roraima com cerca de 10 mil habitantes, localizado na fronteira com a Guiana e a Venezuela. É conhecido por suas belezas naturais, como cachoeiras e serras. Sua economia é voltada para a agricultura, pecuária e turismo ecológico."
+    },
+    {
+        "id": 1500107,
+        "nome": "Abaetetuba",
+        "txt": "Abaetetuba é um município do Pará com aproximadamente 160 mil habitantes, localizado às margens do rio Tocantins. Sua economia é baseada na agricultura, pesca, comércio e serviços. A cidade também possui importância cultural e histórica na região nordeste do estado."
+    },
+    {
+        "id": 1500131,
+        "nome": "Abel Figueiredo",
+        "txt": "Abel Figueiredo é um município do Pará com cerca de 6 mil habitantes, situado na região sudeste do estado. Sua economia é voltada para a agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1500206,
+        "nome": "Acará",
+        "txt": "Acará é um município do Pará com aproximadamente 60 mil habitantes, localizado próximo a Belém. Sua economia é baseada na agricultura, pecuária e produção de dendê, sendo um dos maiores produtores do estado. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1500305,
+        "nome": "Afuá",
+        "txt": "Afuá é um município do Pará com cerca de 40 mil habitantes, situado em área de várzea às margens do rio Amazonas. É conhecido como a 'Veneza Marajoara' por suas ruas sobre palafitas. Sua economia é voltada para a pesca, agricultura e turismo ecológico."
+    },
+    {
+        "id": 1500347,
+        "nome": "Água Azul do Norte",
+        "txt": "Água Azul do Norte é um município do Pará com cerca de 25 mil habitantes, localizado na região sudeste do estado. Sua economia é voltada para a mineração, agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1500404,
+        "nome": "Alenquer",
+        "txt": "Alenquer é um município do Pará com aproximadamente 60 mil habitantes, situado às margens do rio Amazonas. Sua economia é baseada na agricultura, pesca e comércio regional. A cidade possui importância histórica e cultural na região oeste do estado."
+    },
+    {
+        "id": 1500503,
+        "nome": "Almeirim",
+        "txt": "Almeirim é um município do Pará com cerca de 35 mil habitantes, localizado às margens do rio Amazonas. Sua economia é voltada para a agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1500602,
+        "nome": "Altamira",
+        "txt": "Altamira é um dos maiores municípios do Pará, com aproximadamente 120 mil habitantes. Localizado na região do Xingu, é conhecido pela Usina Hidrelétrica de Belo Monte. Sua economia é diversificada, incluindo agricultura, pecuária, comércio e serviços. A cidade possui importância estratégica e cultural no estado."
+    },
+    {
+        "id": 1500701,
+        "nome": "Anajás",
+        "txt": "Anajás é um município do Pará com cerca de 25 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na agricultura, pesca e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1500800,
+        "nome": "Ananindeua",
+        "txt": "Ananindeua é um dos maiores municípios do Pará, com aproximadamente 540 mil habitantes, localizado na região metropolitana de Belém. Sua economia é voltada para o comércio, serviços e indústria. A cidade possui grande importância econômica e cultural no estado."
+    },
+    {
+        "id": 1500859,
+        "nome": "Anapu",
+        "txt": "Anapu é um município do Pará com cerca de 25 mil habitantes, situado na região do Xingu. Sua economia é baseada na agricultura e pecuária. A cidade ficou conhecida nacionalmente por questões ligadas à reforma agrária e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1500909,
+        "nome": "Augusto Corrêa",
+        "txt": "Augusto Corrêa é um município do Pará com aproximadamente 40 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pesca e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1500958,
+        "nome": "Aurora do Pará",
+        "txt": "Aurora do Pará é um município do estado do Pará com cerca de 25 mil habitantes, situado na região nordeste. Sua economia é baseada na agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501006,
+        "nome": "Aveiro",
+        "txt": "Aveiro é um município do Pará com aproximadamente 18 mil habitantes, localizado às margens do rio Tapajós. Sua economia é voltada para a agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501105,
+        "nome": "Bagre",
+        "txt": "Bagre é um município do Pará com cerca de 20 mil habitantes, localizado na região do Marajó, às margens do rio Tocantins. Sua economia é voltada para a pesca, agricultura e extrativismo. A cidade preserva tradições culturais ribeirinhas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501204,
+        "nome": "Baião",
+        "txt": "Baião é um município do Pará com aproximadamente 12 mil habitantes, situado às margens do rio Tocantins. Sua economia é baseada na agricultura, pecuária e pesca. Historicamente, Baião foi um importante ponto de navegação fluvial e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1501253,
+        "nome": "Bannach",
+        "txt": "Bannach é um município do Pará com cerca de 4 mil habitantes, localizado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501303,
+        "nome": "Barcarena",
+        "txt": "Barcarena é um município do Pará com aproximadamente 130 mil habitantes, situado próximo a Belém. É conhecido por seu polo industrial, especialmente na produção de alumínio e atividades portuárias. Historicamente, Barcarena foi uma área de colonização portuguesa e hoje é um dos principais centros econômicos do estado."
+    },
+    {
+        "id": 1501402,
+        "nome": "Belém",
+        "txt": "Belém é a capital do Pará e uma das cidades mais importantes da Amazônia, com cerca de 1,5 milhão de habitantes. Fundada em 1616 pelos portugueses, foi um dos primeiros núcleos de colonização da região. Sua economia é diversificada, incluindo comércio, serviços, indústria e turismo. Belém é conhecida pelo Círio de Nazaré, uma das maiores manifestações religiosas do Brasil, e por sua rica cultura amazônica."
+    },
+    {
+        "id": 1501451,
+        "nome": "Belterra",
+        "txt": "Belterra é um município do Pará com aproximadamente 18 mil habitantes, localizado na região oeste do estado, próximo a Santarém. Foi fundado na década de 1930 como parte do projeto de plantação de seringueiras da empresa norte-americana Ford, conhecido como Fordlândia. Sua economia atual é baseada na agricultura, pecuária e turismo ecológico."
+    },
+    {
+        "id": 1501501,
+        "nome": "Benevides",
+        "txt": "Benevides é um município do Pará com cerca de 60 mil habitantes, situado na região metropolitana de Belém. Sua economia é voltada para a agricultura, pecuária e comércio. Historicamente, Benevides foi uma área de colonização agrícola e hoje integra o desenvolvimento urbano da capital."
+    },
+    {
+        "id": 1501576,
+        "nome": "Bom Jesus do Tocantins",
+        "txt": "Bom Jesus do Tocantins é um município do Pará com aproximadamente 15 mil habitantes, localizado na região sudeste do estado. Sua economia é baseada na agricultura, pecuária e mineração. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501600,
+        "nome": "Bonito",
+        "txt": "Bonito é um município do Pará com cerca de 15 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a agricultura e pecuária. Historicamente, Bonito se desenvolveu como uma comunidade agrícola e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1501709,
+        "nome": "Bragança",
+        "txt": "Bragança é um município do Pará com aproximadamente 130 mil habitantes, localizado na região nordeste do estado. Fundada no século XVII, foi um importante centro de colonização portuguesa e de produção agrícola. Sua economia atual é baseada na agricultura, pesca e comércio. Bragança é conhecida por sua cultura popular, especialmente pelo tradicional Círio de Nazaré local e pelo Festival Junino."
+    },{
+        "id": 1501725,
+        "nome": "Brasil Novo",
+        "txt": "Brasil Novo é um município do Pará com cerca de 15 mil habitantes, localizado na região do Xingu. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de grãos. A cidade surgiu a partir de projetos de colonização agrícola e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501758,
+        "nome": "Brejo Grande do Araguaia",
+        "txt": "Brejo Grande do Araguaia é um município do Pará com aproximadamente 6 mil habitantes, situado na região sudeste do estado. Sua economia é baseada na agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1501782,
+        "nome": "Breu Branco",
+        "txt": "Breu Branco é um município do Pará com cerca de 60 mil habitantes, localizado próximo ao rio Tocantins. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade se desenvolveu com a construção da Usina Hidrelétrica de Tucuruí e possui importância regional."
+    },
+    {
+        "id": 1501808,
+        "nome": "Breves",
+        "txt": "Breves é um município do Pará com aproximadamente 100 mil habitantes, situado na Ilha do Marajó. É considerado o maior centro urbano da ilha, com economia baseada na agricultura, pecuária, pesca e comércio. Historicamente, Breves foi um importante ponto de colonização portuguesa na região amazônica."
+    },
+    {
+        "id": 1501907,
+        "nome": "Bujaru",
+        "txt": "Bujaru é um município do Pará com cerca de 30 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1501956,
+        "nome": "Cachoeira do Piriá",
+        "txt": "Cachoeira do Piriá é um município do Pará com aproximadamente 30 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1502004,
+        "nome": "Cachoeira do Arari",
+        "txt": "Cachoeira do Arari é um município do Pará com cerca de 25 mil habitantes, localizado na Ilha do Marajó. Sua economia é voltada para a pecuária, agricultura e pesca. Historicamente, a cidade foi um dos primeiros núcleos de colonização da ilha e preserva tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1502103,
+        "nome": "Cametá",
+        "txt": "Cametá é um município do Pará com aproximadamente 140 mil habitantes, situado às margens do rio Tocantins. Fundado no século XVII, foi um dos primeiros núcleos de colonização portuguesa na Amazônia. Sua economia atual é baseada na agricultura, pesca, comércio e serviços. A cidade possui grande importância histórica e cultural no estado."
+    },
+    {
+        "id": 1502152,
+        "nome": "Canaã dos Carajás",
+        "txt": "Canaã dos Carajás é um município do Pará com cerca de 70 mil habitantes, localizado na região sudeste do estado. Sua economia é fortemente impulsionada pela mineração, especialmente pela exploração de ferro e cobre. A cidade se desenvolveu rapidamente nas últimas décadas e é considerada um polo econômico regional."
+    },
+    {
+        "id": 1502202,
+        "nome": "Capanema",
+        "txt": "Capanema é um município do Pará com aproximadamente 70 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. Historicamente, Capanema se desenvolveu como centro regional e hoje possui importância econômica e cultural."
+    },
+    {
+        "id": 1502301,
+        "nome": "Capitão Poço",
+        "txt": "Capitão Poço é um município do Pará com cerca de 55 mil habitantes, localizado na região nordeste do estado. É conhecido como a 'capital da laranja' devido à forte produção de citros. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e possui importância regional."
+    },
+    {
+        "id": 1502400,
+        "nome": "Castanhal",
+        "txt": "Castanhal é um município do Pará com cerca de 200 mil habitantes, localizado na região nordeste do estado. Fundado no início do século XX, se desenvolveu como importante centro agrícola e comercial. Hoje integra a região metropolitana de Belém, com economia voltada para comércio, serviços e agroindústria."
+    },
+    {
+        "id": 1502509,
+        "nome": "Chaves",
+        "txt": "Chaves é um município do Pará com aproximadamente 22 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na pecuária, agricultura e pesca. Historicamente, Chaves foi um dos primeiros núcleos de colonização da ilha e mantém tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1502608,
+        "nome": "Colares",
+        "txt": "Colares é um município do Pará com cerca de 12 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pesca e comércio local. Colares ficou conhecido nacionalmente pelo fenômeno 'Chupa-Chupa' nos anos 1970, que atraiu atenção da imprensa e da Força Aérea Brasileira."
+    },
+    {
+        "id": 1502707,
+        "nome": "Conceição do Araguaia",
+        "txt": "Conceição do Araguaia é um município do Pará com aproximadamente 50 mil habitantes, situado às margens do rio Araguaia. Fundado no século XIX, foi um importante centro de colonização e comércio fluvial. Sua economia atual é baseada na pecuária, agricultura e comércio regional."
+    },
+    {
+        "id": 1502756,
+        "nome": "Concórdia do Pará",
+        "txt": "Concórdia do Pará é um município do Pará com cerca de 30 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1502764,
+        "nome": "Cumaru do Norte",
+        "txt": "Cumaru do Norte é um município do Pará com aproximadamente 12 mil habitantes, situado na região sudeste do estado. Sua economia é baseada na pecuária, agricultura e mineração. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1502772,
+        "nome": "Curionópolis",
+        "txt": "Curionópolis é um município do Pará com cerca de 20 mil habitantes, localizado na região sudeste do estado. Sua economia é fortemente ligada à mineração, especialmente de ouro, marcada pela história da Serra Pelada nos anos 1980. Hoje também desenvolve atividades agrícolas e comerciais."
+    },
+    {
+        "id": 1502806,
+        "nome": "Curralinho",
+        "txt": "Curralinho é um município do Pará com aproximadamente 30 mil habitantes, situado na Ilha do Marajó. Sua economia é voltada para a pecuária, agricultura e pesca. A cidade preserva tradições culturais ribeirinhas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1502855,
+        "nome": "Curuá",
+        "txt": "Curuá é um município do Pará com cerca de 14 mil habitantes, localizado na região oeste do estado. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém estilo de vida comunitário."
+    },
+    {
+        "id": 1502905,
+        "nome": "Curuçá",
+        "txt": "Curuçá é um município do Pará com aproximadamente 35 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a pesca, agricultura e comércio local. Historicamente, Curuçá foi um importante ponto de navegação fluvial e mantém tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1502939,
+        "nome": "Dom Eliseu",
+        "txt": "Dom Eliseu é um município do Pará com cerca de 60 mil habitantes, localizado na região sudeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade se desenvolveu a partir de projetos de colonização agrícola e hoje é um polo regional."
+    },
+    {
+        "id": 1502954,
+        "nome": "Eldorado do Carajás",
+        "txt": "Eldorado do Carajás é um município do Pará com aproximadamente 35 mil habitantes, situado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e mineração. O município ficou marcado pelo massacre de 1996, um dos episódios mais trágicos da história recente do Brasil."
+    },
+    {
+        "id": 1503002,
+        "nome": "Faro",
+        "txt": "Faro é um município do Pará com cerca de 10 mil habitantes, localizado às margens do rio Nhamundá. Sua economia é baseada na agricultura, pesca e extrativismo. Historicamente, Faro foi um dos primeiros núcleos de colonização portuguesa na região amazônica."
+    },
+    {
+        "id": 1503044,
+        "nome": "Floresta do Araguaia",
+        "txt": "Floresta do Araguaia é um município do Pará com aproximadamente 17 mil habitantes, situado na região sudeste do estado. Sua economia é voltada para a agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1503077,
+        "nome": "Garrafão do Norte",
+        "txt": "Garrafão do Norte é um município do Pará com cerca de 30 mil habitantes, localizado na região nordeste do estado. Sua economia é baseada na agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1503093,
+        "nome": "Goianésia do Pará",
+        "txt": "Goianésia do Pará é um município do estado do Pará com aproximadamente 30 mil habitantes, situado na região sudeste. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1503101,
+        "nome": "Gurupá",
+        "txt": "Gurupá é um município do Pará com cerca de 30 mil habitantes, localizado às margens do rio Amazonas. Fundado no século XVII, foi um importante ponto estratégico de colonização portuguesa e defesa da região. Sua economia atual é baseada na agricultura, pesca e comércio regional."
+    },
+    {
+        "id": 1503200,
+        "nome": "Igarapé-Açu",
+        "txt": "Igarapé-Açu é um município do Pará com aproximadamente 40 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1503309,
+        "nome": "Igarapé-Miri",
+        "txt": "Igarapé-Miri é um município do Pará com cerca de 60 mil habitantes, localizado na região nordeste do estado. É conhecido como a 'capital mundial do açaí', devido à intensa produção e comercialização do fruto. Sua economia é voltada para a agricultura, pesca e comércio regional, preservando tradições culturais amazônicas."
+    },
+    {
+        "id": 1503408,
+        "nome": "Inhangapi",
+        "txt": "Inhangapi é um município do Pará com aproximadamente 12 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1503457,
+        "nome": "Ipixuna do Pará",
+        "txt": "Ipixuna do Pará é um município do estado do Pará com cerca de 60 mil habitantes, localizado na região nordeste. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade se desenvolveu a partir de projetos de colonização agrícola e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1503507,
+        "nome": "Irituia",
+        "txt": "Irituia é um município do Pará com aproximadamente 35 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura, pecuária e comércio local. Historicamente, Irituia se desenvolveu como um centro agrícola e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1503606,
+        "nome": "Itaituba",
+        "txt": "Itaituba é um município do Pará com cerca de 130 mil habitantes, localizado às margens do rio Tapajós. É conhecido como 'cidade pepita', devido à intensa atividade garimpeira de ouro desde o século XX. Sua economia atual é diversificada, incluindo mineração, comércio, serviços e agricultura."
+    },
+    {
+        "id": 1503705,
+        "nome": "Itupiranga",
+        "txt": "Itupiranga é um município do Pará com aproximadamente 55 mil habitantes, situado às margens do rio Tocantins. Sua economia é voltada para a agricultura, pecuária e comércio. Historicamente, Itupiranga foi impactada pela construção da Usina Hidrelétrica de Tucuruí, que transformou a região."
+    },
+    {
+        "id": 1503754,
+        "nome": "Jacareacanga",
+        "txt": "Jacareacanga é um município do Pará com cerca de 45 mil habitantes, localizado na região sudoeste do estado. Sua economia é baseada na agricultura, pecuária e mineração. A cidade também possui importância estratégica por estar próxima a áreas indígenas e de preservação ambiental."
+    },
+    {
+        "id": 1503804,
+        "nome": "Jacundá",
+        "txt": "Jacundá é um município do Pará com aproximadamente 60 mil habitantes, situado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade foi impactada pela construção da Usina Hidrelétrica de Tucuruí e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1503903,
+        "nome": "Juruti",
+        "txt": "Juruti é um município do Pará com cerca de 60 mil habitantes, localizado às margens do rio Amazonas. Sua economia é baseada na agricultura, pesca e mineração, especialmente de bauxita. A cidade preserva tradições culturais amazônicas e possui importância econômica regional."
+    },
+    {
+        "id": 1504000,
+        "nome": "Limoeiro do Ajuru",
+        "txt": "Limoeiro do Ajuru é um município do Pará com aproximadamente 30 mil habitantes, situado às margens do rio Tocantins. Sua economia é voltada para a agricultura, pecuária e pesca. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1504059,
+        "nome": "Mãe do Rio",
+        "txt": "Mãe do Rio é um município do Pará com cerca de 30 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio local. A cidade se desenvolveu a partir de projetos de colonização agrícola e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1504109,
+        "nome": "Magalhães Barata",
+        "txt": "Magalhães Barata é um município do Pará com aproximadamente 10 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura familiar e pecuária. O município recebeu este nome em homenagem ao político paraense Magalhães Barata, importante figura da história regional."
+    },
+    {
+        "id": 1504208,
+        "nome": "Marabá",
+        "txt": "Marabá é um dos maiores municípios do Pará, com cerca de 300 mil habitantes, localizado na região sudeste do estado. Fundado no início do século XX, tornou-se um importante polo econômico e cultural. Sua economia é diversificada, incluindo mineração, siderurgia, agricultura e comércio. Marabá também é conhecida por sua relevância histórica durante o ciclo da borracha e pela presença da Usina de Tucuruí."
+    },
+    {
+        "id": 1504307,
+        "nome": "Maracanã",
+        "txt": "Maracanã é um município do Pará com aproximadamente 30 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a agricultura, pesca e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1504406,
+        "nome": "Marapanim",
+        "txt": "Marapanim é um município do Pará com cerca de 30 mil habitantes, localizado no litoral nordeste do estado. Sua economia é baseada na pesca, agricultura e turismo. A cidade é conhecida por suas praias e pelo tradicional Festival do Çairé, manifestação cultural e religiosa da região."
+    },
+    {
+        "id": 1504422,
+        "nome": "Marituba",
+        "txt": "Marituba é um município do Pará com aproximadamente 130 mil habitantes, situado na região metropolitana de Belém. Sua economia é voltada para o comércio, serviços e indústria. A cidade se desenvolveu rapidamente nas últimas décadas e integra o crescimento urbano da capital."
+    },
+    {
+        "id": 1504455,
+        "nome": "Medicilândia",
+        "txt": "Medicilândia é um município do Pará com cerca de 30 mil habitantes, localizado na região do Xingu. É conhecido como a 'capital do cacau', devido à intensa produção do fruto. Sua economia é voltada para a agricultura, pecuária e comércio regional. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1504505,
+        "nome": "Melgaço",
+        "txt": "Melgaço é um município do Pará com aproximadamente 25 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na agricultura, pecuária e pesca. Historicamente, Melgaço foi um dos primeiros núcleos de colonização da ilha e mantém tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1504604,
+        "nome": "Mocajuba",
+        "txt": "Mocajuba é um município do Pará com cerca de 30 mil habitantes, localizado às margens do rio Tocantins. Sua economia é voltada para a agricultura, pecuária e pesca. A cidade preserva tradições culturais amazônicas e possui importância regional como centro de comércio fluvial."
+    },
+    {
+        "id": 1504703,
+        "nome": "Moju",
+        "txt": "Moju é um município do Pará com cerca de 80 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e produção de dendê, sendo um dos maiores produtores do país. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1504752,
+        "nome": "Mojuí dos Campos",
+        "txt": "Mojuí dos Campos é um município do Pará com aproximadamente 20 mil habitantes, situado na região oeste do estado, próximo a Santarém. Sua economia é baseada na agricultura familiar e pecuária. A cidade foi emancipada recentemente, em 2013, e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1504802,
+        "nome": "Monte Alegre",
+        "txt": "Monte Alegre é um município do Pará com cerca de 60 mil habitantes, localizado às margens do rio Amazonas. É conhecido por suas serras e sítios arqueológicos, como a Serra da Lua, com pinturas rupestres milenares. Sua economia é voltada para a agricultura, pecuária e comércio regional."
+    },
+    {
+        "id": 1504901,
+        "nome": "Muaná",
+        "txt": "Muaná é um município do Pará com aproximadamente 40 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na pecuária, agricultura e pesca. Historicamente, Muaná foi um dos primeiros núcleos de colonização da ilha e preserva tradições culturais ribeirinhas."
+    },
+    {
+        "id": 1504950,
+        "nome": "Nova Esperança do Piriá",
+        "txt": "Nova Esperança do Piriá é um município do Pará com cerca de 30 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura e pecuária. A cidade se desenvolveu a partir de projetos de colonização agrícola e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1504976,
+        "nome": "Nova Ipixuna",
+        "txt": "Nova Ipixuna é um município do Pará com aproximadamente 20 mil habitantes, situado na região sudeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1505007,
+        "nome": "Nova Timboteua",
+        "txt": "Nova Timboteua é um município do Pará com cerca de 15 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1505031,
+        "nome": "Novo Progresso",
+        "txt": "Novo Progresso é um município do Pará com aproximadamente 30 mil habitantes, situado na região sudoeste do estado, próximo à BR-163. Sua economia é baseada na agricultura, pecuária e mineração. A cidade se desenvolveu com a expansão da fronteira agrícola e possui importância estratégica na região."
+    },
+    {
+        "id": 1505064,
+        "nome": "Novo Repartimento",
+        "txt": "Novo Repartimento é um município do Pará com cerca de 70 mil habitantes, localizado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade surgiu com a construção da Usina Hidrelétrica de Tucuruí e se consolidou como polo regional."
+    },
+    {
+        "id": 1505106,
+        "nome": "Óbidos",
+        "txt": "Óbidos é um município do Pará com aproximadamente 50 mil habitantes, situado às margens do rio Amazonas. Fundado no século XVII, foi um importante ponto estratégico de colonização portuguesa, conhecido pela 'garganta do Amazonas', trecho mais estreito do rio. Sua economia atual é baseada na agricultura, pesca e comércio regional."
+    },
+    {
+        "id": 1505205,
+        "nome": "Oeiras do Pará",
+        "txt": "Oeiras do Pará é um município do estado do Pará com cerca de 30 mil habitantes, localizado às margens do rio Tocantins. Sua economia é voltada para a agricultura, pecuária e pesca. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1505304,
+        "nome": "Oriximiná",
+        "txt": "Oriximiná é um município do Pará com aproximadamente 70 mil habitantes, situado na região oeste do estado. É conhecido pela mineração de bauxita, uma das maiores do Brasil. Sua economia é baseada na mineração, agricultura e comércio. A cidade também possui importância histórica e cultural na região amazônica."
+    },
+    {
+        "id": 1505403,
+        "nome": "Ourém",
+        "txt": "Ourém é um município do Pará com cerca de 20 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio local. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1505437,
+        "nome": "Ourilândia do Norte",
+        "txt": "Ourilândia do Norte é um município do Pará com aproximadamente 30 mil habitantes, situado na região sudeste do estado. Sua economia é baseada na mineração, agricultura e pecuária. A cidade se desenvolveu com a exploração mineral e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1505486,
+        "nome": "Pacajá",
+        "txt": "Pacajá é um município do Pará com cerca de 60 mil habitantes, localizado na região sudoeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade se desenvolveu com a expansão da fronteira agrícola e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1505494,
+        "nome": "Palestina do Pará",
+        "txt": "Palestina do Pará é um município do estado do Pará com aproximadamente 10 mil habitantes, situado na região sudeste. Sua economia é baseada na agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1505502,
+        "nome": "Paragominas",
+        "txt": "Paragominas é um município do Pará com cerca de 120 mil habitantes, localizado na região nordeste do estado. Fundado na década de 1960, se tornou um importante polo agrícola e madeireiro. Hoje sua economia é diversificada, incluindo agricultura, pecuária, comércio e indústria. A cidade é referência em práticas de sustentabilidade ambiental."
+    },
+    {
+        "id": 1505536,
+        "nome": "Parauapebas",
+        "txt": "Parauapebas é um município do Pará com aproximadamente 220 mil habitantes, situado na região sudeste do estado. É conhecido por abrigar parte da Serra dos Carajás, uma das maiores reservas minerais do mundo. Sua economia é fortemente impulsionada pela mineração de ferro e cobre, além de comércio e serviços."
+    },
+    {
+        "id": 1505551,
+        "nome": "Pau D'Arco",
+        "txt": "Pau D'Arco é um município do Pará com cerca de 6 mil habitantes, localizado na região sudeste do estado. Sua economia é voltada para a agricultura e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1505601,
+        "nome": "Peixe-Boi",
+        "txt": "Peixe-Boi é um município do Pará com aproximadamente 8 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura familiar e pecuária. O nome da cidade remete ao animal amazônico, símbolo da região."
+    },
+    {
+        "id": 1505635,
+        "nome": "Piçarra",
+        "txt": "Piçarra é um município do Pará com cerca de 15 mil habitantes, localizado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1505650,
+        "nome": "Placas",
+        "txt": "Placas é um município do Pará com aproximadamente 25 mil habitantes, situado na região oeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade se desenvolveu com a expansão da fronteira agrícola e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1505700,
+        "nome": "Ponta de Pedras",
+        "txt": "Ponta de Pedras é um município do Pará com cerca de 30 mil habitantes, localizado na Ilha do Marajó. Sua economia é voltada para a pecuária, agricultura e pesca. A cidade preserva tradições culturais ribeirinhas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1505809,
+        "nome": "Portel",
+        "txt": "Portel é um município do Pará com aproximadamente 60 mil habitantes, situado na região do Marajó. Sua economia é baseada na agricultura, pecuária e pesca. Historicamente, Portel foi um dos primeiros núcleos de colonização da ilha e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1505908,
+        "nome": "Porto de Moz",
+        "txt": "Porto de Moz é um município do Pará com cerca de 40 mil habitantes, localizado às margens do rio Xingu. Sua economia é voltada para a agricultura, pesca e comércio regional. A cidade possui importância histórica como ponto de navegação fluvial na Amazônia."
+    },
+    {
+        "id": 1506005,
+        "nome": "Prainha",
+        "txt": "Prainha é um município do Pará com aproximadamente 30 mil habitantes, situado às margens do rio Amazonas. Sua economia é baseada na agricultura, pesca e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1506104,
+        "nome": "Primavera",
+        "txt": "Primavera é um município do Pará com cerca de 10 mil habitantes, localizado na região nordeste do estado. Sua economia é voltada para a agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1506112,
+        "nome": "Quatipuru",
+        "txt": "Quatipuru é um município do Pará com aproximadamente 15 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura, pesca e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1506138,
+        "nome": "Redenção",
+        "txt": "Redenção é um município do Pará com cerca de 85 mil habitantes, localizado na região sudeste do estado. Fundado na década de 1960, se tornou um importante polo agrícola e pecuário. Sua economia atual é diversificada, incluindo comércio e serviços. A cidade também possui relevância histórica ligada à colonização da Amazônia."
+    },
+    {
+        "id": 1506161,
+        "nome": "Rio Maria",
+        "txt": "Rio Maria é um município do Pará com aproximadamente 18 mil habitantes, situado na região sudeste do estado. Sua economia é voltada para a agricultura, pecuária e mineração. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1506187,
+        "nome": "Rondon do Pará",
+        "txt": "Rondon do Pará é um município do estado do Pará com cerca de 50 mil habitantes, localizado na região sudeste. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade se desenvolveu a partir da expansão da fronteira agrícola e mantém tradições culturais amazônicas."
+    },
+    {
+        "id": 1506195,
+        "nome": "Rurópolis",
+        "txt": "Rurópolis é um município do Pará com aproximadamente 50 mil habitantes, situado na região oeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade surgiu com a abertura da rodovia Transamazônica e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1506203,
+        "nome": "Salinópolis",
+        "txt": "Salinópolis é um município do Pará com cerca de 40 mil habitantes, localizado no litoral nordeste do estado. É conhecido por suas praias e pelo turismo, sendo um dos principais destinos turísticos do Pará. Sua economia é voltada para o turismo, pesca e comércio."
+    },
+    {
+        "id": 1506302,
+        "nome": "Salvaterra",
+        "txt": "Salvaterra é um município do Pará com aproximadamente 25 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na pecuária, agricultura e turismo. A cidade preserva tradições culturais ribeirinhas e possui importância histórica na colonização da ilha."
+    },
+    {
+        "id": 1506351,
+        "nome": "Santa Bárbara do Pará",
+        "txt": "Santa Bárbara do Pará é um município do estado do Pará com cerca de 20 mil habitantes, localizado na região metropolitana de Belém. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1506401,
+        "nome": "Santa Cruz do Arari",
+        "txt": "Santa Cruz do Arari é um município do Pará com aproximadamente 10 mil habitantes, situado na Ilha do Marajó. Sua economia é baseada na pecuária, agricultura e pesca. A cidade preserva tradições culturais ribeirinhas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1506500,
+        "nome": "Santa Izabel do Pará",
+        "txt": "Santa Izabel do Pará é um município do estado do Pará com cerca de 80 mil habitantes, localizado na região metropolitana de Belém. Sua economia é voltada para o comércio, serviços e agricultura. A cidade se desenvolveu como parte da expansão urbana da capital."
+    },
+    {
+        "id": 1506559,
+        "nome": "Santa Luzia do Pará",
+        "txt": "Santa Luzia do Pará é um município do Pará com aproximadamente 20 mil habitantes, situado na região nordeste do estado. Sua economia é baseada na agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1506583,
+        "nome": "Santa Maria das Barreiras",
+        "txt": "Santa Maria das Barreiras é um município do Pará com cerca de 20 mil habitantes, localizado na região sul do estado. Sua economia é voltada para a pecuária e agricultura. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1506609,
+        "nome": "Santa Maria do Pará",
+        "txt": "Santa Maria do Pará é um município do estado do Pará com aproximadamente 25 mil habitantes, situado na região nordeste. Sua economia é baseada na agricultura, pecuária e comércio local. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1506708,
+        "nome": "Santana do Araguaia",
+        "txt": "Santana do Araguaia é um município do Pará com cerca de 70 mil habitantes, localizado às margens do rio Araguaia. Sua economia é voltada para a pecuária, agricultura e comércio. A cidade possui importância histórica na colonização da região sul do estado."
+    },
+    {
+        "id": 1506807,
+        "nome": "Santarém",
+        "txt": "Santarém é um dos maiores municípios do Pará, com aproximadamente 330 mil habitantes, localizado às margens do rio Tapajós e do rio Amazonas. Fundada no século XVII, foi um importante núcleo de colonização portuguesa. Sua economia é diversificada, incluindo comércio, serviços, agricultura e turismo. Santarém é conhecida pela praia de Alter do Chão, considerada uma das mais belas do Brasil."
+    },
+    {
+        "id": 1506906,
+        "nome": "Santarém Novo",
+        "txt": "Santarém Novo é um município do Pará com cerca de 6 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a agricultura familiar e pecuária. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1507003,
+        "nome": "Santo Antônio do Tauá",
+        "txt": "Santo Antônio do Tauá é um município do Pará com aproximadamente 30 mil habitantes, localizado na região nordeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1507102,
+        "nome": "São Caetano de Odivelas",
+        "txt": "São Caetano de Odivelas é um município do Pará com cerca de 20 mil habitantes, situado no litoral nordeste do estado. Sua economia é voltada para a pesca, agricultura e turismo. A cidade é conhecida pela tradicional Festa do Çairé, manifestação cultural e religiosa da região."
+    },
+    {
+        "id": 1507151,
+        "nome": "São Domingos do Araguaia",
+        "txt": "São Domingos do Araguaia é um município do Pará com aproximadamente 25 mil habitantes, localizado na região sudeste do estado. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e mantém estilo de vida interiorano."
+    },
+    {
+        "id": 1507201,
+        "nome": "São Domingos do Capim",
+        "txt": "São Domingos do Capim é um município do Pará com cerca de 30 mil habitantes, situado na região nordeste do estado. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade é conhecida pelo Festival do Çairé e pela prática do surf na pororoca do rio Capim."
+    },
+    {
+        "id": 1507300,
+        "nome": "São Félix do Xingu",
+        "txt": "São Félix do Xingu é um município do Pará com aproximadamente 130 mil habitantes, localizado na região sudeste do estado. É um dos maiores municípios em extensão territorial do Brasil. Sua economia é voltada para a pecuária, agricultura e mineração. A cidade possui importância estratégica e cultural na Amazônia."
+    },
+    {
+        "id": 1507409,
+        "nome": "São Francisco do Pará",
+        "txt": "São Francisco do Pará é um município marcado pelo clima quente e úmido típico da Amazônia. Sua história está ligada à colonização agrícola e ao cultivo de mandioca. A culinária local valoriza pratos como a farinha d’água e o peixe assado, preservando tradições culturais amazônicas."
+    },
+    {
+        "id": 1507458,
+        "nome": "São Geraldo do Araguaia",
+        "txt": "São Geraldo do Araguaia possui clima tropical, com chuvas intensas no inverno amazônico. A cidade tem raízes históricas ligadas à ocupação da região do Araguaia. A culinária destaca peixes de rio e pratos à base de mandioca, refletindo a cultura amazônica."
+    },
+    {
+        "id": 1507466,
+        "nome": "São João da Ponta",
+        "txt": "São João da Ponta é um município de clima quente e úmido, típico da região litorânea. Sua história está ligada às comunidades pesqueiras e ribeirinhas. A culinária local valoriza o peixe fresco, o camarão e pratos tradicionais como o tacacá."
+    },
+    {
+        "id": 1507474,
+        "nome": "São João de Pirabas",
+        "txt": "São João de Pirabas possui clima tropical, com forte influência costeira. Sua história está ligada à pesca e à vida ribeirinha. A culinária destaca pratos com frutos do mar, como caranguejo e peixe cozido, além de iguarias amazônicas como o açaí."
+    },
+    {
+        "id": 1507508,
+        "nome": "São João do Araguaia",
+        "txt": "São João do Araguaia é marcado pelo clima quente e pela proximidade do rio Araguaia. Sua história está ligada à navegação fluvial e à colonização agrícola. A culinária valoriza peixes de rio e pratos tradicionais com farinha de mandioca."
+    },
+    {
+        "id": 1507607,
+        "nome": "São Miguel do Guamá",
+        "txt": "São Miguel do Guamá possui clima amazônico, com chuvas abundantes e calor constante. Historicamente, foi um importante centro de produção de cerâmica marajoara. A culinária local valoriza o peixe cozido, o tacacá e a farinha d’água, símbolos da cultura paraense."
+    },
+    {
+        "id": 1507706,
+        "nome": "São Sebastião da Boa Vista",
+        "txt": "São Sebastião da Boa Vista, na Ilha do Marajó, é marcado pelo clima úmido e pela influência dos rios. Sua história está ligada à pecuária bubalina e às tradições marajoaras. A culinária destaca o queijo de búfala, o peixe assado e pratos típicos da ilha."
+    },
+    {
+        "id": 1507755,
+        "nome": "Sapucaia",
+        "txt": "Sapucaia possui clima quente e úmido, típico da Amazônia. Sua história está ligada à expansão agrícola e pecuária na região sudeste do Pará. A culinária valoriza pratos simples, como peixe assado e farinha de mandioca, preservando tradições culturais locais."
+    },
+    {
+        "id": 1507805,
+        "nome": "Senador José Porfírio",
+        "txt": "Senador José Porfírio é marcado pelo clima tropical e pela proximidade do rio Xingu. Sua história está ligada à navegação fluvial e à colonização agrícola. A culinária destaca peixes de rio, como o tambaqui, e pratos tradicionais com tucupi."
+    },
+    {
+        "id": 1507904,
+        "nome": "Soure",
+        "txt": "Soure, na Ilha do Marajó, possui clima úmido e é conhecido como a 'capital do Marajó'. Sua história está ligada à colonização portuguesa e à pecuária bubalina. A culinária destaca o queijo de búfala, o peixe assado e pratos típicos como o tacacá."
+    },
+    {
+        "id": 1507953,
+        "nome": "Tailândia",
+        "txt": "Tailândia é marcada pelo clima quente e úmido da Amazônia. Sua história está ligada à expansão agrícola e ao cultivo de dendê. A culinária valoriza pratos à base de peixe e mandioca, além de comidas típicas amazônicas como o tacacá."
+    },
+    {
+        "id": 1507961,
+        "nome": "Terra Alta",
+        "txt": "Terra Alta possui clima tropical, com chuvas intensas no inverno amazônico. Sua história está ligada à agricultura familiar e ao cultivo de mandioca. A culinária local valoriza pratos simples, como peixe cozido e farinha d’água."
+    },
+    {
+        "id": 1507979,
+        "nome": "Terra Santa",
+        "txt": "Terra Santa é marcada pelo clima quente e úmido, típico da região amazônica. Sua história está ligada à colonização agrícola e à vida ribeirinha. A culinária destaca peixes de rio e pratos tradicionais com tucupi e farinha."
+    },
+    {
+        "id": 1508001,
+        "nome": "Tomé-Açu",
+        "txt": "Tomé-Açu possui clima tropical e é conhecido pela imigração japonesa no início do século XX. Sua história está ligada ao cultivo de pimenta-do-reino e à agricultura diversificada. A culinária valoriza pratos típicos amazônicos e influências orientais, como o uso de hortaliças e temperos."
+    },
+    {
+        "id": 1508035,
+        "nome": "Tracuateua",
+        "txt": "Tracuateua é marcada pelo clima quente e úmido da Amazônia. Sua história está ligada à agricultura familiar e à vida ribeirinha. A culinária valoriza pratos com peixe fresco, farinha d’água e iguarias amazônicas como o tacacá."
+    },
+    {
+        "id": 1508050,
+        "nome": "Trairão",
+        "txt": "Trairão possui clima tropical, com chuvas abundantes e calor constante. Sua história está ligada à expansão da fronteira agrícola e à exploração madeireira. A culinária destaca pratos simples, como peixe assado e farinha de mandioca."
+    },
+    {
+        "id": 1508084,
+        "nome": "Tucumã",
+        "txt": "Tucumã é marcado pelo clima quente e úmido da Amazônia. Sua história está ligada à colonização agrícola e ao cultivo de cacau. A culinária valoriza pratos típicos amazônicos, como peixe cozido, farinha d’água e o uso do açaí."
+    },
+    {
+        "id": 1508100,
+        "nome": "Tucuruí",
+        "txt": "Tucuruí possui clima tropical e é conhecida pela Usina Hidrelétrica de Tucuruí, marco histórico e econômico da região. Sua história está ligada à navegação no rio Tocantins e ao desenvolvimento energético. A culinária valoriza peixes de rio e pratos tradicionais com tucupi."
+    },
+    {
+        "id": 1508126,
+        "nome": "Ulianópolis",
+        "txt": "Ulianópolis é marcada pelo clima quente e úmido da Amazônia. Sua história está ligada à expansão agrícola e pecuária na região sudeste do Pará. A culinária valoriza pratos simples, como peixe assado e farinha d’água, preservando tradições culturais locais."
+    },
+    {
+        "id": 1508159,
+        "nome": "Uruará",
+        "txt": "Uruará é marcado pelo clima quente e úmido da Amazônia. Sua história está ligada à abertura da rodovia Transamazônica e à colonização agrícola. A culinária valoriza pratos simples como peixe assado, farinha d’água e o uso do açaí, preservando tradições culturais amazônicas."
+    },
+    {
+        "id": 1508209,
+        "nome": "Vigia",
+        "txt": "Vigia possui clima tropical úmido e é uma das cidades mais antigas do Pará, fundada no período colonial. Sua história está ligada à navegação e ao comércio fluvial. A culinária destaca pratos como peixe cozido, camarão e o tradicional tacacá, além de festas religiosas como o Círio de Nossa Senhora de Nazaré."
+    },
+    {
+        "id": 1508308,
+        "nome": "Viseu",
+        "txt": "Viseu é marcado pelo clima quente e úmido, típico da região amazônica. Fundado no período colonial, foi um importante ponto de defesa e colonização portuguesa. A culinária valoriza peixes de rio, farinha d’água e pratos tradicionais como o pato no tucupi, refletindo a cultura paraense."
+    },
+    {
+        "id": 1508357,
+        "nome": "Vitória do Xingu",
+        "txt": "Vitória do Xingu possui clima tropical e está ligada historicamente à construção da Usina Hidrelétrica de Belo Monte. A culinária local valoriza peixes de rio, como tambaqui e pirarucu, além de pratos típicos com tucupi e farinha de mandioca."
+    },
+    {
+        "id": 1508407,
+        "nome": "Xinguara",
+        "txt": "Xinguara é marcada pelo clima quente e pela expansão da pecuária na região sudeste do Pará. Sua história está ligada à colonização agrícola e ao desenvolvimento da fronteira econômica. A culinária valoriza pratos simples, como carne bovina, peixe assado e farinha d’água."
+    },
+    {
+        "id": 1600055,
+        "nome": "Serra do Navio",
+        "txt": "Serra do Navio, no Amapá, possui clima equatorial úmido e é conhecida por sua história ligada à mineração de manganês, iniciada na década de 1940. A culinária local valoriza peixes amazônicos e pratos tradicionais com mandioca, além de preservar influências culturais indígenas."
+    },
+    {
+        "id": 1600105,
+        "nome": "Amapá",
+        "txt": "O município de Amapá é marcado pelo clima quente e úmido da Amazônia. Sua história está ligada à colonização portuguesa e à navegação fluvial. A culinária valoriza pratos típicos como peixe cozido, tacacá e o uso do açaí, refletindo tradições culturais amazônicas."
+    },
+    {
+        "id": 1600154,
+        "nome": "Pedra Branca do Amapari",
+        "txt": "Pedra Branca do Amapari possui clima equatorial e sua história está ligada à mineração e à expansão agrícola. A culinária local valoriza peixes de rio, farinha de mandioca e pratos típicos amazônicos, preservando tradições culturais indígenas e ribeirinhas."
+    },
+    {
+        "id": 1600204,
+        "nome": "Calçoene",
+        "txt": "Calçoene é marcado pelo clima úmido e pela proximidade do litoral atlântico. Sua história inclui a descoberta de sítios arqueológicos com estruturas megalíticas, comparadas a 'Stonehenge'. A culinária valoriza frutos do mar, peixe fresco e pratos tradicionais amazônicos."
+    },
+    {
+        "id": 1600212,
+        "nome": "Cutias",
+        "txt": "Cutias possui clima tropical úmido e sua história está ligada à agricultura familiar e à vida ribeirinha. A culinária destaca pratos simples como peixe assado, farinha d’água e o uso do tucupi, preservando tradições amazônicas."
+    },
+    {
+        "id": 1600238,
+        "nome": "Ferreira Gomes",
+        "txt": "Ferreira Gomes é marcado pelo clima quente e úmido e pela presença do rio Araguari. Sua história está ligada à navegação fluvial e à colonização agrícola. A culinária valoriza peixes de rio, como o tucunaré, além de pratos típicos amazônicos."
+    },
+    {
+        "id": 1600253,
+        "nome": "Itaubal",
+        "txt": "Itaubal possui clima equatorial e sua história está ligada à agricultura e à vida ribeirinha. A culinária local valoriza pratos simples, como peixe cozido, farinha d’água e iguarias amazônicas como o tacacá."
+    },
+    {
+        "id": 1600279,
+        "nome": "Laranjal do Jari",
+        "txt": "Laranjal do Jari é marcado pelo clima quente e úmido da Amazônia. Sua história está ligada ao projeto Jari, iniciativa agroindustrial e florestal de grande impacto na região. A culinária valoriza peixes de rio, farinha de mandioca e pratos típicos amazônicos."
+    },
+    {
+        "id": 1600303,
+        "nome": "Macapá",
+        "txt": "Macapá é a capital do Amapá, marcada pelo clima equatorial e pela localização à beira do rio Amazonas. Fundada no período colonial, possui o famoso Marco Zero, onde passa a linha do Equador. A culinária destaca pratos como camarão no bafo, peixe assado e o tradicional tacacá."
+    },
+    {
+        "id": 1600402,
+        "nome": "Mazagão",
+        "txt": "Mazagão possui clima quente e úmido e é conhecida por sua história peculiar: fundada por colonos portugueses vindos da cidade de Mazagão, no Marrocos, no século XVIII. A cultura local preserva festas religiosas como a Festa de São Tiago. A culinária valoriza peixe assado, farinha d’água e pratos típicos amazônicos."
+    },
+    {
+        "id": 1600501,
+        "nome": "Oiapoque",
+        "txt": "Oiapoque é marcado pelo clima equatorial úmido e pela localização na fronteira com a Guiana Francesa. Sua história está ligada a disputas territoriais entre Brasil e França. A culinária valoriza peixes de rio, frutos do mar e pratos tradicionais amazônicos."
+    },
+    {
+        "id": 1600535,
+        "nome": "Porto Grande",
+        "txt": "Porto Grande possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária local valoriza pratos simples como peixe cozido, farinha d’água e iguarias amazônicas como o tacacá."
+    },
+    {
+        "id": 1600550,
+        "nome": "Pracuúba",
+        "txt": "Pracuúba é marcada pelo clima quente e úmido da Amazônia. Sua história está ligada à agricultura familiar e à vida ribeirinha. A culinária valoriza peixes de rio, farinha de mandioca e pratos típicos amazônicos."
+    },
+    {
+        "id": 1600600,
+        "nome": "Santana",
+        "txt": "Santana possui clima equatorial e é conhecida como importante polo industrial e portuário do Amapá. Sua história está ligada ao desenvolvimento econômico da região e à navegação no rio Amazonas. A culinária valoriza peixe assado, camarão e pratos típicos amazônicos como o tacacá."
+    },
+    {
+        "id": 1600709,
+        "nome": "Tartarugalzinho",
+        "txt": "Tartarugalzinho possui clima equatorial úmido, com chuvas abundantes e calor constante. Sua história está ligada à agricultura e à vida ribeirinha. A culinária valoriza pratos simples como peixe assado, farinha d’água e iguarias amazônicas como o tacacá."
+    },
+    {
+        "id": 1600808,
+        "nome": "Vitória do Jari",
+        "txt": "Vitória do Jari é marcada pelo clima quente e úmido da Amazônia. Sua história está ligada ao projeto Jari, que impulsionou o desenvolvimento da região. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos amazônicos, preservando tradições culturais locais."
+    },
+    {
+        "id": 1700251,
+        "nome": "Abreulândia",
+        "txt": "Abreulândia, no Tocantins, possui clima tropical com estação seca bem definida. Sua história está ligada à expansão agrícola e pecuária. A culinária valoriza pratos típicos do cerrado, como galinhada e peixes de rio preparados com farinha."
+    },
+    {
+        "id": 1700301,
+        "nome": "Aguiarnópolis",
+        "txt": "Aguiarnópolis é marcada pelo clima quente e seco do Tocantins. Sua história está ligada à ocupação agrícola e ao comércio regional. A culinária valoriza pratos simples como peixe frito, arroz com pequi e comidas típicas do cerrado."
+    },
+    {
+        "id": 1700350,
+        "nome": "Aliança do Tocantins",
+        "txt": "Aliança do Tocantins possui clima tropical e sua história está ligada à colonização agrícola e pecuária. A culinária destaca pratos regionais como carne de sol, arroz com pequi e peixe assado, refletindo tradições culturais do cerrado."
+    },
+    {
+        "id": 1700400,
+        "nome": "Almas",
+        "txt": "Almas é marcada pelo clima quente e seco, típico do cerrado tocantinense. Sua história está ligada à pecuária e à agricultura. A culinária valoriza pratos como galinhada, peixe frito e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1700707,
+        "nome": "Alvorada",
+        "txt": "Alvorada possui clima tropical e sua história está ligada à expansão agrícola e ao comércio regional. A culinária destaca pratos típicos como arroz com pequi, carne de sol e peixe assado, preservando tradições culturais do Tocantins."
+    },
+    {
+        "id": 1701002,
+        "nome": "Ananás",
+        "txt": "Ananás é marcada pelo clima quente e úmido, com chuvas intensas no verão. Sua história está ligada à agricultura e à produção de frutas tropicais. A culinária valoriza pratos simples como peixe cozido, farinha de mandioca e doces regionais."
+    },
+    {
+        "id": 1701051,
+        "nome": "Angico",
+        "txt": "Angico possui clima tropical e sua história está ligada à agricultura familiar e à pecuária. A culinária destaca pratos típicos do cerrado, como galinhada, peixe assado e comidas à base de mandioca."
+    },
+    {
+        "id": 1701101,
+        "nome": "Aparecida do Rio Negro",
+        "txt": "Aparecida do Rio Negro é marcada pelo clima quente e úmido, com influência do rio Tocantins. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio, farinha d’água e pratos tradicionais do Tocantins."
+    },
+    {
+        "id": 1701309,
+        "nome": "Aragominas",
+        "txt": "Aragominas possui clima tropical e sua história está ligada à expansão agrícola e pecuária. A culinária destaca pratos típicos como carne de sol, arroz com pequi e peixe assado, preservando tradições culturais regionais."
+    },
+    {
+        "id": 1701903,
+        "nome": "Araguacema",
+        "txt": "Araguacema é marcada pelo clima quente e pela proximidade do rio Araguaia. Sua história está ligada à navegação fluvial e à vida ribeirinha. A culinária valoriza peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1702000,
+        "nome": "Araguaçu",
+        "txt": "Araguaçu possui clima tropical e sua história está ligada à pecuária e à agricultura. A culinária destaca pratos regionais como peixe assado, arroz com pequi e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1702109,
+        "nome": "Araguaína",
+        "txt": "Araguaína é um dos principais centros urbanos do Tocantins, marcada pelo clima quente e seco. Sua história está ligada ao desenvolvimento econômico da região norte do estado. A culinária valoriza pratos típicos como galinhada, carne de sol e peixe assado, além de doces regionais."
+    },
+    {
+        "id": 1702158,
+        "nome": "Araguanã",
+        "txt": "Araguanã possui clima tropical e sua história está ligada à agricultura e à vida ribeirinha. A culinária destaca peixes de rio, farinha de mandioca e pratos simples típicos do cerrado."
+    },
+    {
+        "id": 1702208,
+        "nome": "Araguatins",
+        "txt": "Araguatins é marcada pelo clima quente e pela proximidade do rio Araguaia. Sua história está ligada à navegação fluvial e ao comércio regional. A culinária valoriza peixes de rio, farinha d’água e pratos tradicionais do Tocantins."
+    },
+    {
+        "id": 1702307,
+        "nome": "Arapoema",
+        "txt": "Arapoema possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária destaca pratos típicos como peixe assado, arroz com pequi e comidas tradicionais com mandioca, preservando a cultura regional."
+    },
+{
+        "id": 1702406,
+        "nome": "Arraias",
+        "txt": "Arraias possui clima tropical, com verões quentes e chuvosos e invernos secos. Sua história remonta ao período colonial, sendo um dos núcleos mais antigos da região. A culinária valoriza pratos típicos como galinhada, arroz com pequi e peixe assado, além de doces caseiros tradicionais."
+    },
+    {
+        "id": 1702554,
+        "nome": "Augustinópolis",
+        "txt": "Augustinópolis é marcada pelo clima quente e úmido, influenciado pelo rio Tocantins. Sua história está ligada ao desenvolvimento agrícola e ao comércio regional. A culinária destaca peixes de rio preparados com farinha, carne de sol e pratos típicos do cerrado."
+    },
+    {
+        "id": 1702703,
+        "nome": "Aurora do Tocantins",
+        "txt": "Aurora do Tocantins possui clima tropical e é conhecida por suas paisagens serranas e rios cristalinos. Sua história está ligada à colonização agrícola e ao turismo ecológico. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1702901,
+        "nome": "Axixá do Tocantins",
+        "txt": "Axixá do Tocantins é marcada pelo clima quente e pela proximidade do rio Tocantins. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes frescos, farinha d’água e pratos típicos do cerrado."
+    },
+    {
+        "id": 1703008,
+        "nome": "Babaçulândia",
+        "txt": "Babaçulândia possui clima tropical e sua história está ligada ao extrativismo do babaçu, que deu nome ao município. A culinária valoriza pratos à base de peixe, arroz com pequi e derivados do babaçu, como óleo e farinha."
+    },
+    {
+        "id": 1703057,
+        "nome": "Bandeirantes do Tocantins",
+        "txt": "Bandeirantes do Tocantins é marcada pelo clima quente e seco. Sua história está ligada à expansão agrícola e pecuária. A culinária destaca pratos típicos como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1703073,
+        "nome": "Barra do Ouro",
+        "txt": "Barra do Ouro possui clima tropical e sua história está ligada à mineração e à agricultura. A culinária valoriza pratos simples como peixe frito, arroz com pequi e farinha d’água, preservando tradições culturais regionais."
+    },
+    {
+        "id": 1703107,
+        "nome": "Barrolândia",
+        "txt": "Barrolândia é marcada pelo clima quente e úmido. Sua história está ligada à pecuária e ao cultivo agrícola. A culinária destaca pratos típicos como galinhada, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1703206,
+        "nome": "Bernardo Sayão",
+        "txt": "Bernardo Sayão possui clima tropical e recebeu este nome em homenagem ao engenheiro responsável pela construção da rodovia Belém-Brasília. Sua história está ligada à expansão agrícola e ao transporte rodoviário. A culinária valoriza pratos simples como peixe assado e arroz com pequi."
+    },
+    {
+        "id": 1703305,
+        "nome": "Bom Jesus do Tocantins",
+        "txt": "Bom Jesus do Tocantins é marcada pelo clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos típicos como carne de sol, peixe frito e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1703602,
+        "nome": "Brasilândia do Tocantins",
+        "txt": "Brasilândia do Tocantins possui clima tropical e sua história está ligada à colonização agrícola. A culinária valoriza pratos simples como peixe assado, arroz com pequi e farinha d’água, preservando tradições culturais locais."
+    },
+    {
+        "id": 1703701,
+        "nome": "Brejinho de Nazaré",
+        "txt": "Brejinho de Nazaré é marcada pelo clima quente e úmido, com influência dos rios da região. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1703800,
+        "nome": "Buriti do Tocantins",
+        "txt": "Buriti do Tocantins possui clima tropical e seu nome remete à palmeira buriti, abundante na região. Sua história está ligada à agricultura e ao extrativismo. A culinária valoriza pratos à base de peixe, arroz com pequi e doces regionais."
+    },
+    {
+        "id": 1703826,
+        "nome": "Cachoeirinha",
+        "txt": "Cachoeirinha é marcada pelo clima quente e pela presença de rios e cachoeiras. Sua história está ligada à colonização agrícola e à vida ribeirinha. A culinária destaca peixes frescos, farinha d’água e pratos típicos do cerrado."
+    },
+    {
+        "id": 1703842,
+        "nome": "Campos Lindos",
+        "txt": "Campos Lindos possui clima tropical e é conhecida pela produção agrícola em larga escala. Sua história está ligada à expansão da fronteira agrícola no Tocantins. A culinária valoriza pratos simples como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1703867,
+        "nome": "Cariri do Tocantins",
+        "txt": "Cariri do Tocantins é marcada pelo clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos típicos como galinhada, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1703883,
+        "nome": "Carmolândia",
+        "txt": "Carmolândia possui clima tropical e sua história está ligada à agricultura familiar e à pecuária. A culinária valoriza pratos simples como peixe frito, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1703891,
+        "nome": "Carrasco Bonito",
+        "txt": "Carrasco Bonito é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1703909,
+        "nome": "Caseara",
+        "txt": "Caseara possui clima tropical e é conhecida por sua proximidade ao Parque Nacional do Araguaia. Sua história está ligada à vida ribeirinha e ao turismo ecológico. A culinária valoriza peixes de rio, arroz com pequi e comidas tradicionais amazônicas."
+    },
+    {
+        "id": 1704105,
+        "nome": "Centenário",
+        "txt": "Centenário é marcada pelo clima quente e seco. Sua história está ligada à colonização agrícola e à pecuária. A culinária destaca pratos típicos como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1704600,
+        "nome": "Chapada de Areia",
+        "txt": "Chapada de Areia possui clima tropical e é conhecida por suas paisagens naturais e formações rochosas. Sua história está ligada à agricultura e à vida comunitária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1705102,
+        "nome": "Chapada da Natividade",
+        "txt": "Chapada da Natividade possui clima tropical, com verões chuvosos e invernos secos. Sua história remonta ao período colonial, sendo um dos núcleos mais antigos da região sudeste do Tocantins. A culinária valoriza pratos típicos como peixe assado, arroz com pequi e doces caseiros, preservando tradições culturais locais."
+    },
+    {
+        "id": 1705508,
+        "nome": "Colinas do Tocantins",
+        "txt": "Colinas do Tocantins é marcada pelo clima quente e seco. Sua história está ligada ao desenvolvimento da rodovia Belém-Brasília, que impulsionou o crescimento da cidade. A culinária destaca pratos regionais como carne de sol, galinhada e peixe frito, além de doces tradicionais do cerrado."
+    },
+    {
+        "id": 1705557,
+        "nome": "Combinado",
+        "txt": "Combinado possui clima tropical e sua história está ligada à colonização agrícola e pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1705607,
+        "nome": "Conceição do Tocantins",
+        "txt": "Conceição do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha, além de pratos típicos do cerrado."
+    },
+    {
+        "id": 1706001,
+        "nome": "Couto Magalhães",
+        "txt": "Couto Magalhães possui clima tropical e recebeu este nome em homenagem ao engenheiro responsável pela construção da rodovia Belém-Brasília. Sua história está ligada à expansão agrícola e ao transporte rodoviário. A culinária valoriza pratos simples como peixe assado e arroz com pequi."
+    },
+    {
+        "id": 1706100,
+        "nome": "Cristalândia",
+        "txt": "Cristalândia é marcada pelo clima quente e seco. Sua história está ligada à pecuária e à agricultura. A culinária destaca pratos típicos como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1706258,
+        "nome": "Crixás do Tocantins",
+        "txt": "Crixás do Tocantins possui clima tropical e sua história está ligada à agricultura familiar e à pecuária. A culinária valoriza pratos simples como peixe frito, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1706506,
+        "nome": "Darcinópolis",
+        "txt": "Darcinópolis é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1707009,
+        "nome": "Dianópolis",
+        "txt": "Dianópolis possui clima tropical e é uma das cidades mais antigas do Tocantins, fundada ainda no período colonial. Sua história está ligada à mineração e ao comércio regional. A culinária valoriza pratos típicos como galinhada, peixe assado e doces tradicionais."
+    },
+    {
+        "id": 1707108,
+        "nome": "Divinópolis do Tocantins",
+        "txt": "Divinópolis do Tocantins é marcada pelo clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos simples como carne de sol, peixe frito e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1707207,
+        "nome": "Dois Irmãos do Tocantins",
+        "txt": "Dois Irmãos do Tocantins possui clima tropical e sua história está ligada à colonização agrícola. A culinária valoriza pratos típicos como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1707306,
+        "nome": "Dueré",
+        "txt": "Dueré é marcada pelo clima quente e úmido. Sua história está ligada à pecuária e à agricultura. A culinária destaca pratos regionais como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1707405,
+        "nome": "Esperantina",
+        "txt": "Esperantina possui clima tropical e sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio preparados com farinha, além de pratos típicos do cerrado."
+    },
+    {
+        "id": 1707553,
+        "nome": "Fátima",
+        "txt": "Fátima é marcada pelo clima quente e seco. Sua história está ligada à colonização agrícola e à pecuária. A culinária destaca pratos simples como galinhada, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1707652,
+        "nome": "Figueirópolis",
+        "txt": "Figueirópolis possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos típicos como carne de sol, arroz com pequi e peixe assado."
+    },
+    {
+        "id": 1707702,
+        "nome": "Filadélfia",
+        "txt": "Filadélfia é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e ao comércio regional. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1708205,
+        "nome": "Formoso do Araguaia",
+        "txt": "Formoso do Araguaia possui clima tropical e é conhecido por suas extensas áreas de cerrado e rios. Sua história está ligada à pecuária e à agricultura. A culinária valoriza pratos típicos como peixe assado, arroz com pequi e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1708254,
+        "nome": "Tabocão",
+        "txt": "Tabocão é marcada pelo clima quente e seco. Sua história está ligada à colonização agrícola e ao cultivo de grãos. A culinária destaca pratos simples como carne de sol, peixe assado e farinha d’água."
+    },
+    {
+        "id": 1708304,
+        "nome": "Goianorte",
+        "txt": "Goianorte possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos típicos como galinhada, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1709005,
+        "nome": "Goiatins",
+        "txt": "Goiatins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1709302,
+        "nome": "Guaraí",
+        "txt": "Guaraí possui clima tropical e sua história está ligada ao desenvolvimento da rodovia Belém-Brasília, que impulsionou seu crescimento. A culinária valoriza pratos típicos como carne de sol, arroz com pequi e peixe assado, preservando tradições culturais regionais."
+    },
+    {
+        "id": 1709500,
+        "nome": "Gurupi",
+        "txt": "Gurupi possui clima quente e seco, típico do cerrado. Sua história está ligada ao desenvolvimento da rodovia Belém-Brasília, que impulsionou seu crescimento como polo regional. A culinária valoriza pratos como galinhada, carne de sol e peixe assado, além de doces tradicionais do cerrado."
+    },
+    {
+        "id": 1709807,
+        "nome": "Ipueiras",
+        "txt": "Ipueiras é marcada pelo clima tropical, com chuvas concentradas no verão. Sua história está ligada à agricultura familiar e à pecuária. A culinária destaca pratos simples como peixe frito, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1710508,
+        "nome": "Itacajá",
+        "txt": "Itacajá possui clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio preparados com farinha, além de pratos típicos do cerrado."
+    },
+    {
+        "id": 1710706,
+        "nome": "Itaguatins",
+        "txt": "Itaguatins é marcada pelo clima tropical e pela proximidade do rio Tocantins. Sua história está ligada à navegação fluvial e ao comércio regional. A culinária destaca peixes frescos, farinha d’água e pratos tradicionais do Tocantins."
+    },
+    {
+        "id": 1710904,
+        "nome": "Itapiratins",
+        "txt": "Itapiratins possui clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos típicos como carne de sol, arroz com pequi e peixe assado."
+    },
+    {
+        "id": 1711100,
+        "nome": "Itaporã do Tocantins",
+        "txt": "Itaporã do Tocantins é marcada pelo clima tropical. Sua história está ligada à colonização agrícola e ao cultivo de grãos. A culinária destaca pratos simples como peixe assado, farinha d’água e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1711506,
+        "nome": "Jaú do Tocantins",
+        "txt": "Jaú do Tocantins possui clima quente e úmido. Sua história está ligada à agricultura e à vida comunitária. A culinária valoriza pratos típicos como peixe frito, arroz com pequi e farinha de mandioca."
+    },
+    {
+        "id": 1711803,
+        "nome": "Juarina",
+        "txt": "Juarina é marcada pelo clima tropical. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha, além de pratos típicos do cerrado."
+    },
+    {
+        "id": 1711902,
+        "nome": "Lagoa da Confusão",
+        "txt": "Lagoa da Confusão possui clima quente e é conhecida por suas áreas de várzea e rios. Sua história está ligada à agricultura irrigada e ao turismo ecológico. A culinária valoriza peixes frescos, arroz com pequi e comidas tradicionais amazônicas."
+    },
+    {
+        "id": 1711951,
+        "nome": "Lagoa do Tocantins",
+        "txt": "Lagoa do Tocantins é marcada pelo clima tropical. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária destaca pratos simples como peixe assado, farinha d’água e comidas típicas do cerrado."
+    },
+    {
+        "id": 1712009,
+        "nome": "Lajeado",
+        "txt": "Lajeado possui clima quente e úmido, com influência do rio Tocantins. Sua história está ligada à navegação fluvial e ao comércio regional. A culinária valoriza peixes de rio, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1712157,
+        "nome": "Lavandeira",
+        "txt": "Lavandeira é marcada pelo clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos simples como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1712405,
+        "nome": "Lizarda",
+        "txt": "Lizarda possui clima quente e seco. Sua história está ligada à colonização agrícola e à pecuária. A culinária valoriza pratos típicos como arroz com pequi, peixe assado e farinha d’água."
+    },
+    {
+        "id": 1712454,
+        "nome": "Luzinópolis",
+        "txt": "Luzinópolis é marcada pelo clima tropical. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1712504,
+        "nome": "Marianópolis do Tocantins",
+        "txt": "Marianópolis do Tocantins possui clima quente e úmido. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1712702,
+        "nome": "Mateiros",
+        "txt": "Mateiros é marcada pelo clima tropical e pela presença do Parque Nacional do Jalapão. Sua história está ligada ao turismo ecológico e à vida comunitária. A culinária destaca pratos típicos como peixe assado, arroz com pequi e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1712801,
+        "nome": "Maurilândia do Tocantins",
+        "txt": "Maurilândia do Tocantins possui clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como carne de sol, peixe frito e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1713205,
+        "nome": "Miracema do Tocantins",
+        "txt": "Miracema do Tocantins é marcada pelo clima tropical e é uma das cidades históricas do estado. Sua história está ligada à navegação no rio Tocantins e ao comércio regional. A culinária destaca peixes de rio, farinha d’água e pratos típicos do cerrado."
+    },
+    {
+        "id": 1713304,
+        "nome": "Miranorte",
+        "txt": "Miranorte possui clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos típicos como galinhada, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1713601,
+        "nome": "Monte do Carmo",
+        "txt": "Monte do Carmo é marcada pelo clima tropical. Sua história está ligada à mineração e à colonização agrícola. A culinária destaca pratos simples como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1713700,
+        "nome": "Monte Santo do Tocantins",
+        "txt": "Monte Santo do Tocantins possui clima quente e seco. Sua história está ligada à agricultura familiar e à pecuária. A culinária valoriza pratos típicos como carne de sol, peixe frito e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1713809,
+        "nome": "Palmeiras do Tocantins",
+        "txt": "Palmeiras do Tocantins é marcada pelo clima tropical. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1713957,
+        "nome": "Muricilândia",
+        "txt": "Muricilândia possui clima quente e úmido. Sua história está ligada à expansão agrícola e pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1714203,
+        "nome": "Natividade",
+        "txt": "Natividade é uma das cidades históricas do Tocantins, marcada pelo clima tropical. Fundada no período colonial, preserva igrejas antigas e tradições religiosas. A culinária destaca pratos típicos como peixe assado, arroz com pequi e doces caseiros."
+    },
+    {
+        "id": 1714302,
+        "nome": "Nazaré",
+        "txt": "Nazaré possui clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1714880,
+        "nome": "Nova Olinda",
+        "txt": "Nova Olinda possui clima tropical, com verões chuvosos e invernos secos. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1715002,
+        "nome": "Nova Rosalândia",
+        "txt": "Nova Rosalândia é marcada pelo clima quente e úmido. Sua história está ligada à colonização agrícola e ao cultivo de grãos. A culinária destaca pratos típicos como carne de sol, peixe assado e farinha d’água."
+    },
+    {
+        "id": 1715101,
+        "nome": "Novo Acordo",
+        "txt": "Novo Acordo possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como galinhada, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1715150,
+        "nome": "Novo Alegre",
+        "txt": "Novo Alegre é marcada pelo clima quente e seco. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária destaca pratos típicos como peixe frito, arroz com pequi e farinha de mandioca."
+    },
+    {
+        "id": 1715259,
+        "nome": "Novo Jardim",
+        "txt": "Novo Jardim possui clima tropical. Sua história está ligada à colonização agrícola e à pecuária. A culinária valoriza pratos simples como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1715507,
+        "nome": "Oliveira de Fátima",
+        "txt": "Oliveira de Fátima é marcada pelo clima quente e úmido. Sua história está ligada à agricultura e à vida comunitária. A culinária destaca pratos típicos como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1715705,
+        "nome": "Palmeirante",
+        "txt": "Palmeirante possui clima tropical e sua história está ligada à expansão agrícola e pecuária. A culinária valoriza pratos simples como carne de sol, peixe frito e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1715754,
+        "nome": "Palmeirópolis",
+        "txt": "Palmeirópolis é marcada pelo clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos típicos como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1716109,
+        "nome": "Paraíso do Tocantins",
+        "txt": "Paraíso do Tocantins possui clima tropical e é conhecida como polo econômico regional. Sua história está ligada ao desenvolvimento da rodovia Belém-Brasília. A culinária valoriza pratos típicos como galinhada, carne de sol e peixe assado."
+    },
+    {
+        "id": 1716208,
+        "nome": "Paranã",
+        "txt": "Paranã é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1716307,
+        "nome": "Pau D'Arco",
+        "txt": "Pau D'Arco possui clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1716505,
+        "nome": "Pedro Afonso",
+        "txt": "Pedro Afonso é marcada pelo clima quente e úmido. Sua história está ligada à navegação no rio Tocantins e ao comércio regional. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1716604,
+        "nome": "Peixe",
+        "txt": "Peixe possui clima tropical e é conhecida pela proximidade do rio Tocantins. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes frescos, farinha d’água e pratos tradicionais do cerrado."
+    },
+    {
+        "id": 1716653,
+        "nome": "Pequizeiro",
+        "txt": "Pequizeiro é marcada pelo clima quente e seco. Seu nome remete ao fruto típico do cerrado, o pequi, muito usado na culinária regional. A culinária destaca arroz com pequi, carne de sol e peixe assado."
+    },
+    {
+        "id": 1716703,
+        "nome": "Colméia",
+        "txt": "Colméia possui clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1717008,
+        "nome": "Pindorama do Tocantins",
+        "txt": "Pindorama do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária destaca pratos típicos como peixe frito, farinha d’água e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1717206,
+        "nome": "Piraquê",
+        "txt": "Piraquê possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1717503,
+        "nome": "Pium",
+        "txt": "Pium é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1717800,
+        "nome": "Ponte Alta do Bom Jesus",
+        "txt": "Ponte Alta do Bom Jesus possui clima tropical. Sua história está ligada à colonização agrícola e à pecuária. A culinária valoriza pratos típicos como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1717909,
+        "nome": "Ponte Alta do Tocantins",
+        "txt": "Ponte Alta do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1718006,
+        "nome": "Porto Alegre do Tocantins",
+        "txt": "Porto Alegre do Tocantins possui clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1718204,
+        "nome": "Porto Nacional",
+        "txt": "Porto Nacional é uma das cidades históricas do Tocantins, marcada pelo clima tropical. Fundada no período colonial, foi importante centro de navegação no rio Tocantins. A culinária destaca peixes de rio, farinha d’água e doces tradicionais."
+    },
+    {
+        "id": 1718303,
+        "nome": "Praia Norte",
+        "txt": "Praia Norte possui clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes frescos, farinha de mandioca e pratos típicos do cerrado."
+    },
+    {
+        "id": 1718402,
+        "nome": "Presidente Kennedy",
+        "txt": "Presidente Kennedy é marcada pelo clima tropical. Sua história está ligada à colonização agrícola e à pecuária. A culinária destaca pratos simples como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1718451,
+        "nome": "Pugmil",
+        "txt": "Pugmil possui clima quente e seco. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária valoriza pratos típicos como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1718501,
+        "nome": "Recursolândia",
+        "txt": "Recursolândia é marcada pelo clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos simples como carne de sol, peixe frito e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1718550,
+        "nome": "Riachinho",
+        "txt": "Riachinho possui clima tropical, com verões chuvosos e invernos secos. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e farinha de mandioca."
+    },
+    {
+        "id": 1718659,
+        "nome": "Rio da Conceição",
+        "txt": "Rio da Conceição é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1718709,
+        "nome": "Rio dos Bois",
+        "txt": "Rio dos Bois possui clima tropical e sua história está ligada à pecuária e à agricultura. A culinária valoriza pratos típicos como carne de sol, peixe assado e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1718758,
+        "nome": "Rio Sono",
+        "txt": "Rio Sono é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e ao comércio regional. A culinária destaca peixes frescos, farinha d’água e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1718808,
+        "nome": "Sampaio",
+        "txt": "Sampaio possui clima tropical e sua história está ligada à agricultura e à vida comunitária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1718840,
+        "nome": "Sandolândia",
+        "txt": "Sandolândia é marcada pelo clima quente e seco. Sua história está ligada à pecuária e à agricultura. A culinária destaca pratos típicos como carne de sol, peixe frito e comidas tradicionais com mandioca."
+    },
+    {
+        "id": 1718865,
+        "nome": "Santa Fé do Araguaia",
+        "txt": "Santa Fé do Araguaia possui clima tropical e sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio preparados com farinha e pratos típicos do cerrado."
+    },
+    {
+        "id": 1718881,
+        "nome": "Santa Maria do Tocantins",
+        "txt": "Santa Maria do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à agricultura familiar e à vida comunitária. A culinária destaca pratos simples como peixe assado, arroz com pequi e farinha d’água."
+    },
+    {
+        "id": 1718899,
+        "nome": "Santa Rita do Tocantins",
+        "txt": "Santa Rita do Tocantins possui clima tropical. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos típicos como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1718907,
+        "nome": "Santa Rosa do Tocantins",
+        "txt": "Santa Rosa do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1719004,
+        "nome": "Santa Tereza do Tocantins",
+        "txt": "Santa Tereza do Tocantins possui clima tropical e sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1720002,
+        "nome": "Santa Terezinha do Tocantins",
+        "txt": "Santa Terezinha do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes frescos, farinha d’água e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1720101,
+        "nome": "São Bento do Tocantins",
+        "txt": "São Bento do Tocantins possui clima tropical. Sua história está ligada à agricultura familiar e à pecuária. A culinária valoriza pratos simples como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1720150,
+        "nome": "São Félix do Tocantins",
+        "txt": "São Félix do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e ao turismo ecológico, especialmente por estar próximo ao Jalapão. A culinária destaca peixes de rio, arroz com pequi e pratos típicos do cerrado."
+    },
+    {
+        "id": 1720200,
+        "nome": "São Miguel do Tocantins",
+        "txt": "São Miguel do Tocantins possui clima tropical e sua história está ligada à navegação fluvial e ao comércio regional. A culinária valoriza peixes frescos, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1720259,
+        "nome": "São Salvador do Tocantins",
+        "txt": "São Salvador do Tocantins é marcada pelo clima quente e seco. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos típicos como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1720309,
+        "nome": "São Sebastião do Tocantins",
+        "txt": "São Sebastião do Tocantins possui clima tropical. Sua história está ligada à vida ribeirinha e à agricultura. A culinária valoriza peixes de rio preparados com farinha e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1720499,
+        "nome": "São Valério",
+        "txt": "São Valério é marcada pelo clima quente e úmido. Sua história está ligada à agricultura e à pecuária. A culinária destaca pratos simples como peixe assado, arroz com pequi e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1720655,
+        "nome": "Silvanópolis",
+        "txt": "Silvanópolis possui clima tropical e sua história está ligada à colonização agrícola e à pecuária. A culinária valoriza pratos típicos como carne de sol, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
+        "id": 1720804,
+        "nome": "Sítio Novo do Tocantins",
+        "txt": "Sítio Novo do Tocantins é marcada pelo clima quente e úmido. Sua história está ligada à vida ribeirinha e à agricultura. A culinária destaca peixes de rio, farinha de mandioca e pratos típicos do Tocantins."
+    },
+    {
+        "id": 1720853,
+        "nome": "Sucupira",
+        "txt": "Sucupira possui clima tropical e seu nome remete à árvore típica do cerrado. Sua história está ligada à agricultura e à pecuária. A culinária valoriza pratos simples como arroz com pequi, carne de sol e peixe assado."
+    },
+    {
+        "id": 1720903,
+        "nome": "Taguatinga",
+        "txt": "Taguatinga é marcada pelo clima quente e seco. Sua história está ligada à colonização agrícola e ao comércio regional. A culinária destaca pratos típicos como galinhada, peixe assado e comidas tradicionais do cerrado."
+    },
+    {
         "id": 3106200,
         "nome": "Belo Horizonte",
         "txt": "Belo Horizonte é a capital de Minas Gerais e uma das maiores cidades do Brasil, conhecida por sua hospitalidade e pela mistura entre tradição e modernidade. Planejada no final do século XIX, destaca-se pela arquitetura que combina construções históricas com obras de nomes como Oscar Niemeyer, como o Conjunto da Pampulha. Cercada por montanhas, a cidade oferece belas paisagens naturais e uma vida cultural intensa, marcada pela música, artes e pela famosa culinária mineira, especialmente os bares e restaurantes que fazem de BH a “capital dos botecos”."
