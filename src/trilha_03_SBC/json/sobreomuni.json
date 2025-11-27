@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1100015,
+        "nome": "Alta Floresta D'Oeste",
+        "txt": "Alta Floresta D’Oeste é um município localizado no estado de Rondônia, na região Norte do Brasil, conhecido por sua grande extensão territorial e pela forte ligação com a natureza amazônica. Fundada oficialmente em 1986, a cidade abriga pouco mais de vinte mil habitantes e tem sua economia baseada principalmente na agricultura e na pecuária, atividades que sustentam a vida local. Cercada por rios, cachoeiras e áreas de floresta, o município oferece paisagens exuberantes e oportunidades para o turismo ecológico, ao mesmo tempo em que preserva o estilo de vida interiorano e comunitário característico da região amazônica."
+    },
+    {
+        "id": 1100023,
+        "nome": "Ariquemes",
+        "txt": "Ariquemes é o terceiro município mais populoso de Rondônia e se destaca como um importante polo econômico e educacional do estado. Fundada na década de 1970 durante o processo de colonização da Amazônia, a cidade cresceu rapidamente e hoje é referência na agropecuária, especialmente na produção de gado de corte e leite. Além disso, possui infraestrutura urbana em expansão, universidades e centros comerciais, consolidando-se como uma das cidades mais dinâmicas da região Norte."
+    },
+    {
+        "id": 1100031,
+        "nome": "Cabixi",
+        "txt": "Cabixi é um município pequeno e acolhedor localizado no sul de Rondônia, próximo à divisa com o Mato Grosso. Com pouco mais de 6 mil habitantes, sua economia é baseada na agricultura familiar e na pecuária, refletindo o estilo de vida simples e comunitário da região. Rodeada por áreas verdes e rios, Cabixi preserva o ambiente natural amazônico e mantém tradições culturais ligadas ao campo e à vida interiorana."
+    },
+        {
+        "id": 1100049,
+        "nome": "Cacoal",
+        "txt":"Cacoal é conhecida como a “Capital do Café” de Rondônia, sendo um dos maiores produtores do grão no estado e referência nacional na qualidade da bebida. Fundada nos anos 1970, a cidade se desenvolveu rapidamente e hoje possui cerca de 90 mil habitantes, com uma economia diversificada que inclui agricultura, comércio e serviços. Além da força econômica, Cacoal também é reconhecida por sua vida cultural ativa e por ser um centro regional de saúde e educação."
+    },
+    {
+        "id": 1100056,
+        "nome": "Cerejeiras",
+        "txt":"Cerejeiras é um município localizado no extremo sul de Rondônia, próximo à fronteira com a Bolívia. Com pouco mais de 18 mil habitantes, destaca-se pela produção agrícola, especialmente soja e milho, além da pecuária. A cidade combina o ritmo tranquilo do interior com a importância estratégica de sua posição geográfica, funcionando como ponto de ligação comercial e cultural entre Rondônia e países vizinhos."
+    },
+    {
+        "id": 1100064,
+        "nome": "Colorado do Oeste",
+        "txt": "Colorado do Oeste é um município localizado no sul de Rondônia, próximo à divisa com o Mato Grosso. Com pouco mais de 18 mil habitantes, destaca-se pela agricultura e pecuária, especialmente na produção de grãos e na criação de gado. A cidade combina o ritmo tranquilo do interior com a importância econômica regional, sendo também conhecida por suas áreas verdes e pela qualidade de vida oferecida à população."
+    },
+    {
+        "id": 1100072,
+        "nome": "Corumbiara",
+        "txt": "Corumbiara é um município de Rondônia marcado pela história e pela força da agricultura. Com cerca de 10 mil habitantes, sua economia é baseada na produção agrícola e na pecuária, refletindo o perfil rural da região. A cidade é cercada por áreas naturais e rios, mantendo o estilo de vida interiorano e comunitário característico do estado."
+    },
+    {
+        "id": 1100080,
+        "nome": "Costa Marques",
+        "txt": "Costa Marques é um município localizado às margens do rio Guaporé, em Rondônia, e se destaca pelo turismo histórico e ecológico. Com pouco mais de 15 mil habitantes, é conhecido pela presença do Forte Príncipe da Beira, uma das mais importantes construções militares do período colonial. Além disso, a cidade preserva paisagens naturais exuberantes e mantém sua economia voltada para a agricultura, pecuária e turismo."
+    },
+    {
+        "id": 1100098,
+        "nome": "Espigão D'Oeste",
+        "txt": "Espigão D’Oeste é um município de Rondônia com cerca de 33 mil habitantes, conhecido pela produção agrícola e pela pecuária. A cidade também se destaca pela diversidade cultural, resultado da migração de diferentes povos que ajudaram a formar a região. Cercada por áreas de floresta e rios, Espigão D’Oeste combina desenvolvimento econômico com a preservação de tradições interioranas."
+    },
+    {
+        "id": 1100106,
+        "nome": "Guajará-Mirim",
+        "txt": "Guajará-Mirim é uma cidade histórica de Rondônia, localizada na fronteira com a Bolívia, às margens do rio Mamoré. Com cerca de 46 mil habitantes, é conhecida por sua importância cultural e comercial, funcionando como ponto estratégico de ligação internacional. A cidade preserva construções históricas e tradições culturais, além de estar próxima a áreas de preservação ambiental como o Parque Estadual Guajará-Mirim."
+    },
+    {
+        "id": 1100114,
+        "nome": "Jaru",
+        "txt": "Jaru é um município de Rondônia com aproximadamente 60 mil habitantes, situado na região central do estado. Sua economia é baseada na agropecuária, especialmente na produção de leite e na criação de gado. A cidade possui infraestrutura urbana em crescimento e desempenha papel importante como centro regional de comércio e serviços."
+    },
+    {
+        "id": 1100122,
+        "nome": "Ji-Paraná",
+        "txt": "Ji-Paraná é a segunda maior cidade de Rondônia, com cerca de 135 mil habitantes, e se destaca como um dos principais polos econômicos e culturais do estado. Localizada às margens do rio Machado, a cidade possui economia diversificada, incluindo agricultura, pecuária, comércio e indústria. Ji-Paraná também é reconhecida por sua vida cultural ativa e por ser um centro regional de educação e saúde."
+    },
+    {
+        "id": 1100130,
+        "nome": "Machadinho D'Oeste",
+        "txt": "Machadinho D’Oeste é um município de Rondônia com cerca de 40 mil habitantes, conhecido pela produção agrícola e pela pecuária. Fundado durante o processo de colonização da Amazônia, a cidade cresceu com a chegada de migrantes de várias regiões do Brasil. Rodeada por áreas de floresta e rios, Machadinho D’Oeste combina desenvolvimento econômico com a preservação de tradições culturais e comunitárias."
+    },
+    {
+        "id": 1100148,
+        "nome": "Nova Brasilândia D'Oeste",
+        "txt": "Nova Brasilândia D’Oeste é um município de Rondônia com cerca de 23 mil habitantes, localizado na região central do estado. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva o estilo interiorano e é marcada pela diversidade cultural trazida pelos migrantes que ajudaram a formar Rondônia."
+    },
+    {
+        "id": 1100155,
+        "nome": "Ouro Preto do Oeste",
+        "txt": "Ouro Preto do Oeste é um município de Rondônia conhecido pela produção agrícola e pela pecuária leiteira, sendo considerado um dos maiores produtores de leite do estado. Com aproximadamente 40 mil habitantes, a cidade possui infraestrutura urbana em crescimento e é reconhecida pela qualidade de vida e pela força de sua economia rural."
+    },
+    {
+        "id": 1100189,
+        "nome": "Pimenta Bueno",
+        "txt": "Pimenta Bueno é um município localizado na região central de Rondônia, com cerca de 40 mil habitantes. Sua economia é diversificada, incluindo agricultura, pecuária, comércio e serviços. A cidade também se destaca pela produção de calcário e por ser um polo regional de educação e saúde, além de preservar tradições culturais ligadas à migração de diferentes povos."
+    },
+    {
+        "id": 1100205,
+        "nome": "Porto Velho",
+        "txt": "Porto Velho é a capital de Rondônia e o município mais populoso do estado, com mais de 500 mil habitantes. Localizada às margens do rio Madeira, a cidade é um importante centro econômico, político e cultural da região Norte. Sua economia é impulsionada pela energia hidrelétrica, comércio, serviços e pela posição estratégica como porta de entrada para a Amazônia."
+    },
+    {
+        "id": 1100254,
+        "nome": "Presidente Médici",
+        "txt": "Presidente Médici é um município de Rondônia com cerca de 25 mil habitantes, situado na região central do estado. Sua economia é voltada para a agropecuária, especialmente na produção de leite e na criação de gado. A cidade mantém características interioranas e desempenha papel importante como centro de apoio para municípios vizinhos."
+    },
+    {
+        "id": 1100262,
+        "nome": "Rio Crespo",
+        "txt": "Rio Crespo é um pequeno município de Rondônia, com pouco mais de 3 mil habitantes. Sua economia é baseada na agricultura familiar e na pecuária, refletindo o estilo de vida simples e comunitário da região. Cercada por áreas verdes e rios, a cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1100288,
+        "nome": "Rolim de Moura",
+        "txt": "Rolim de Moura é um dos principais municípios de Rondônia, com cerca de 55 mil habitantes. Conhecida como polo agrícola e pecuário, a cidade se destaca pela produção de leite e grãos. Além da força econômica, Rolim de Moura possui vida cultural ativa e infraestrutura urbana em expansão, consolidando-se como centro regional de comércio e serviços."
+    },
+    {
+        "id": 1100296,
+        "nome": "Santa Luzia D'Oeste",
+        "txt": "Santa Luzia D’Oeste é um município de Rondônia com aproximadamente 10 mil habitantes, localizado na região central do estado. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva o estilo interiorano e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1100304,
+        "nome": "Vilhena",
+        "txt": "Vilhena é conhecida como a “Cidade Clima de Rondônia” devido às temperaturas mais amenas em comparação ao restante do estado. Com cerca de 105 mil habitantes, é um dos maiores municípios de Rondônia e se destaca pela agropecuária, comércio e serviços. A cidade possui infraestrutura moderna e desempenha papel estratégico como polo regional no sul do estado."
+    },
+    {
+        "id": 1100320,
+        "nome": "São Miguel do Guaporé",
+        "txt": "São Miguel do Guaporé é um município de Rondônia com cerca de 23 mil habitantes, localizado na região central do estado. Sua economia é voltada para a agropecuária, especialmente na produção de leite e na criação de gado. A cidade preserva tradições culturais e mantém forte ligação com a vida comunitária interiorana."
+    },
+    {
+        "id": 1100338,
+        "nome": "Nova Mamoré",
+        "txt": "Nova Mamoré é um município de Rondônia localizado próximo à fronteira com a Bolívia, com cerca de 25 mil habitantes. Sua economia é baseada na agricultura, pecuária e comércio, além de desempenhar papel estratégico como ponto de ligação internacional. A cidade é cercada por áreas naturais e rios, preservando a ligação com a Amazônia."
+    },
+    {
+        "id": 1100346,
+        "nome": "Alvorada D'Oeste",
+        "txt": "Alvorada D’Oeste é um município de Rondônia com aproximadamente 18 mil habitantes. Sua economia é voltada para a agropecuária, especialmente na produção de leite e na criação de gado. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1100379,
+        "nome": "Alto Alegre dos Parecis",
+        "txt": "Alto Alegre dos Parecis é um município de Rondônia com cerca de 15 mil habitantes, localizado na região central do estado. Sua economia é baseada na agricultura e pecuária, especialmente na produção de grãos e leite. A cidade preserva o estilo interiorano e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1100403,
+        "nome": "Alto Paraíso",
+        "txt": "Alto Paraíso é um município de Rondônia com aproximadamente 20 mil habitantes, situado na região central do estado. Sua economia é voltada para a agropecuária e agricultura familiar. A cidade é cercada por áreas verdes e rios, preservando o estilo de vida interiorano e comunitário."
+    },
+    {
+        "id": 1100452,
+        "nome": "Buritis",
+        "txt": "Buritis é um município de Rondônia localizado na região central do estado, com cerca de 40 mil habitantes. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade possui infraestrutura em crescimento e desempenha papel importante como centro regional."
+    },
+    {
+        "id": 1100502,
+        "nome": "Novo Horizonte do Oeste",
+        "txt": "Novo Horizonte do Oeste é um município de Rondônia com pouco mais de 10 mil habitantes. Sua economia é voltada para a agricultura e pecuária, refletindo o estilo de vida interiorano da região. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1100601,
+        "nome": "Cacaulândia",
+        "txt": "Cacaulândia é um município de Rondônia com cerca de 6 mil habitantes, conhecido pela produção agrícola e pela pecuária. O nome da cidade remete à cultura do cacau, que já foi importante na região. Hoje, a economia é diversificada, mas ainda mantém forte ligação com a agricultura familiar e o estilo de vida interiorano."
+    },
+    {
+        "id": 1100700,
+        "nome": "Campo Novo de Rondônia",
+        "txt": "Campo Novo de Rondônia é um município localizado na região central do estado, com cerca de 14 mil habitantes. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva o estilo interiorano e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1100809,
+        "nome": "Candeias do Jamari",
+        "txt": "Candeias do Jamari é um município próximo a Porto Velho, com cerca de 25 mil habitantes. Sua economia é voltada para a agricultura, pecuária e atividades ligadas ao extrativismo. A cidade também se beneficia da proximidade com a capital, funcionando como área de expansão urbana e econômica."
+    },
+    {
+        "id": 1100908,
+        "nome": "Castanheiras",
+        "txt": "Castanheiras é um pequeno município de Rondônia, com pouco mais de 3 mil habitantes. Sua economia é baseada na agricultura familiar e na pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1100924,
+        "nome": "Chupinguaia",
+        "txt": "Chupinguaia é um município de Rondônia com cerca de 12 mil habitantes, localizado na região sul do estado. Sua economia é voltada para a agropecuária, especialmente na produção de grãos e na criação de gado. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1100940,
+        "nome": "Cujubim",
+        "txt": "Cujubim é um município de Rondônia com aproximadamente 27 mil habitantes, situado na região central do estado. Sua economia é baseada na agricultura e pecuária, além de atividades ligadas ao comércio local. A cidade preserva o estilo interiorano e mantém forte ligação com a vida comunitária."
+    },
+    {
+        "id": 1101005,
+        "nome": "Governador Jorge Teixeira",
+        "txt": "Governador Jorge Teixeira é um município de Rondônia com cerca de 9 mil habitantes. Sua economia é voltada para a agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101104,
+        "nome": "Itapuã do Oeste",
+        "txt": "Itapuã do Oeste é um município localizado próximo a Porto Velho, com cerca de 12 mil habitantes. Sua economia é baseada na agricultura, pecuária e atividades ligadas ao extrativismo. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101203,
+        "nome": "Ministro Andreazza",
+        "txt": "Ministro Andreazza é um município de Rondônia com aproximadamente 12 mil habitantes. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva o estilo interiorano e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101302,
+        "nome": "Mirante da Serra",
+        "txt": "Mirante da Serra é um município de Rondônia com cerca de 11 mil habitantes. Sua economia é baseada na agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101401,
+        "nome": "Monte Negro",
+        "txt": "Monte Negro é um município de Rondônia com aproximadamente 16 mil habitantes. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101435,
+        "nome": "Nova União",
+        "txt": "Nova União é um município de Rondônia com cerca de 7 mil habitantes. Sua economia é baseada na agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101450,
+        "nome": "Parecis",
+        "txt": "Parecis é um município de Rondônia com aproximadamente 5 mil habitantes. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101468,
+        "nome": "Pimenteiras do Oeste",
+        "txt": "Pimenteiras do Oeste é um pequeno município de Rondônia, com cerca de 2 mil habitantes. Localizado próximo ao rio Guaporé, sua economia é baseada na agricultura, pecuária e pesca. A cidade preserva o estilo interiorano e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101476,
+        "nome": "Primavera de Rondônia",
+        "txt": "Primavera de Rondônia é um município de Rondônia com pouco mais de 4 mil habitantes. Sua economia é voltada para a agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101484,
+        "nome": "São Felipe D'Oeste",
+        "txt": "São Felipe D’Oeste é um município de Rondônia com cerca de 6 mil habitantes. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101492,
+        "nome": "São Francisco do Guaporé",
+        "txt": "São Francisco do Guaporé é um município de Rondônia com aproximadamente 20 mil habitantes, localizado próximo ao rio Guaporé. Sua economia é voltada para a agropecuária e agricultura familiar. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101500,
+        "nome": "Seringueiras",
+        "txt": "Seringueiras é um município de Rondônia com cerca de 12 mil habitantes. Sua economia é baseada na agricultura e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1101559,
+        "nome": "Teixeirópolis",
+        "txt": "Teixeirópolis é um pequeno município de Rondônia, com pouco mais de 5 mil habitantes. Sua economia é voltada para a agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101609,
+        "nome": "Theobroma",
+        "txt": "Theobroma é um município de Rondônia com aproximadamente 10 mil habitantes. Sua economia é baseada na agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101708,
+        "nome": "Urupá",
+        "txt": "Urupá é um município de Rondônia com cerca de 14 mil habitantes, localizado na região central do estado. Sua economia é voltada para a agropecuária e agricultura familiar. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101757,
+        "nome": "Vale do Anari",
+        "txt": "Vale do Anari é um município de Rondônia com cerca de 12 mil habitantes. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de leite e grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1101807,
+        "nome": "Vale do Paraíso",
+        "txt": "Vale do Paraíso é um município de Rondônia com aproximadamente 10 mil habitantes. Sua economia é baseada na agricultura familiar e pecuária, refletindo o estilo de vida simples e comunitário da região. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1200013,
+        "nome": "Acrelândia",
+        "txt": "Acrelândia é um município do Acre com cerca de 15 mil habitantes, localizado na região leste do estado. Sua economia é voltada para a agricultura, especialmente na produção de grãos e pecuária. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200054,
+        "nome": "Assis Brasil",
+        "txt": "Assis Brasil é um município do Acre situado na tríplice fronteira com Peru e Bolívia. Com cerca de 7 mil habitantes, sua economia é baseada na agricultura, pecuária e comércio de fronteira. A cidade tem importância estratégica e cultural por sua localização internacional."
+    },
+    {
+        "id": 1200104,
+        "nome": "Brasiléia",
+        "txt": "Brasiléia é um município do Acre localizado na fronteira com a Bolívia, com cerca de 26 mil habitantes. Sua economia é voltada para o comércio, agricultura e pecuária. A cidade tem papel estratégico como ponto de ligação internacional e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1200138,
+        "nome": "Bujari",
+        "txt": "Bujari é um município do Acre com aproximadamente 10 mil habitantes, localizado próximo a Rio Branco. Sua economia é baseada na agricultura familiar e pecuária, refletindo o estilo de vida interiorano. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200179,
+        "nome": "Capixaba",
+        "txt": "Capixaba é um município do Acre com cerca de 12 mil habitantes. Sua economia é voltada para a agricultura e pecuária, especialmente na produção de grãos. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200203,
+        "nome": "Cruzeiro do Sul",
+        "txt": "Cruzeiro do Sul é o segundo maior município do Acre, com cerca de 90 mil habitantes. Localizada às margens do rio Juruá, a cidade é conhecida por sua importância econômica e cultural, destacando-se na produção agrícola, comércio e serviços. Também preserva tradições religiosas e culturais marcantes na região amazônica."
+    },
+    {
+        "id": 1200252,
+        "nome": "Epitaciolândia",
+        "txt": "Epitaciolândia é um município do Acre localizado na fronteira com a Bolívia, com cerca de 20 mil habitantes. Sua economia é voltada para o comércio de fronteira, agricultura e pecuária. A cidade tem papel estratégico como ponto de ligação internacional."
+    },
+    {
+        "id": 1200302,
+        "nome": "Feijó",
+        "txt": "Feijó é um município do Acre com aproximadamente 35 mil habitantes, conhecido como um dos maiores produtores de açaí do estado. Localizada às margens do rio Envira, sua economia é baseada na agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1200328,
+        "nome": "Jordão",
+        "txt": "Jordão é um dos municípios mais isolados do Acre, acessível principalmente por via aérea ou fluvial. Com cerca de 8 mil habitantes, sua economia é baseada na agricultura familiar, pecuária e extrativismo. A cidade preserva tradições culturais e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1200336,
+        "nome": "Mâncio Lima",
+        "txt": "Mâncio Lima é um município do Acre com cerca de 20 mil habitantes, localizado próximo a Cruzeiro do Sul. Sua economia é voltada para a agricultura, pecuária e comércio. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200344,
+        "nome": "Manoel Urbano",
+        "txt": "Manoel Urbano é um município do Acre com aproximadamente 10 mil habitantes. Localizado às margens do rio Purus, sua economia é baseada na agricultura, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200351,
+        "nome": "Marechal Thaumaturgo",
+        "txt": "Marechal Thaumaturgo é um município do Acre com cerca de 20 mil habitantes, localizado às margens do rio Juruá. Sua economia é voltada para a agricultura, pecuária e extrativismo. A cidade é cercada por áreas de floresta e preserva tradições culturais amazônicas."
+    },
+    {
+        "id": 1200385,
+        "nome": "Plácido de Castro",
+        "txt": "Plácido de Castro é um município do Acre com aproximadamente 19 mil habitantes, localizado próximo à fronteira com a Bolívia. Sua economia é baseada na agricultura, pecuária e comércio. A cidade tem importância histórica ligada ao movimento acreano e preserva tradições culturais."
+    },
+    {
+        "id": 1200393,
+        "nome": "Porto Walter",
+        "txt": "Porto Walter é um município do Acre com cerca de 15 mil habitantes, localizado às margens do rio Juruá. Sua economia é voltada para a agricultura, pecuária e extrativismo. A cidade preserva características interioranas e mantém forte ligação com a natureza amazônica."
+    },
+    {
+        "id": 1200401,
+        "nome": "Rio Branco",
+        "txt": "Rio Branco é a capital do Acre e o município mais populoso do estado, com cerca de 420 mil habitantes. Localizada às margens do rio Acre, a cidade é um importante centro político, econômico e cultural da região Norte. Sua economia é diversificada, incluindo comércio, serviços e indústria, além de preservar tradições culturais amazônicas."
+    },
+    {
+        "id": 1200427,
+        "nome": "Rodrigues Alves",
+        "txt": "Rodrigues Alves é um município do Acre com aproximadamente 20 mil habitantes, localizado próximo a Cruzeiro do Sul. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva características interioranas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200435,
+        "nome": "Santa Rosa do Purus",
+        "txt": "Santa Rosa do Purus é um dos municípios mais isolados do Acre, acessível principalmente por via aérea ou fluvial. Com cerca de 6 mil habitantes, sua economia é voltada para a agricultura familiar, pecuária e extrativismo. A cidade preserva tradições culturais amazônicas e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200450,
+        "nome": "Senador Guiomard",
+        "txt": "Senador Guiomard é um município do Acre com cerca de 25 mil habitantes, localizado próximo a Rio Branco. Sua economia é baseada na agricultura, pecuária e comércio. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200500,
+        "nome": "Sena Madureira",
+        "txt": "Sena Madureira é o terceiro município mais populoso do Acre, com cerca de 45 mil habitantes. Localizado às margens do rio Iaco, sua economia é voltada para a agricultura, pecuária e comércio. A cidade preserva tradições culturais amazônicas e desempenha papel importante como centro regional."
+    },
+    {
+        "id": 1200609,
+        "nome": "Tarauacá",
+        "txt": "Tarauacá é um município do Acre com aproximadamente 45 mil habitantes, conhecido por sua produção de borracha e pela cultura amazônica. Localizada às margens do rio Tarauacá, sua economia é baseada na agricultura, pecuária e extrativismo. A cidade preserva tradições culturais e mantém forte ligação comunitária."
+    },
+    {
+        "id": 1200708,
+        "nome": "Xapuri",
+        "txt": "Xapuri é um município do Acre com cerca de 20 mil habitantes, conhecido por ser a terra natal de Chico Mendes, líder seringueiro e ambientalista. Sua economia é voltada para a agricultura, pecuária e extrativismo, especialmente da borracha. A cidade tem importância histórica"
+    },
+    {
+        "id": 3106200,
+        "nome": "Belo Horizonte",
+        "txt": "Belo Horizonte é a capital de Minas Gerais e uma das maiores cidades do Brasil, conhecida por sua hospitalidade e pela mistura entre tradição e modernidade. Planejada no final do século XIX, destaca-se pela arquitetura que combina construções históricas com obras de nomes como Oscar Niemeyer, como o Conjunto da Pampulha. Cercada por montanhas, a cidade oferece belas paisagens naturais e uma vida cultural intensa, marcada pela música, artes e pela famosa culinária mineira, especialmente os bares e restaurantes que fazem de BH a “capital dos botecos”."
+    }
+]

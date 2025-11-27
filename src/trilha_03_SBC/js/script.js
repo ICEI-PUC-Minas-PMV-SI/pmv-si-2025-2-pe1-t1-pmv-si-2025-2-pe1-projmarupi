@@ -1,7 +1,4 @@
-loadingScreen(false)
-
 function FuncSBC() {
-
     const searchBarForm = document.getElementById('id-search-form');
     const searchInput = searchBarForm.querySelector('input[type="text"]'); 
     const headerH1 = document.getElementById('id-h1-municipio');
@@ -12,7 +9,7 @@ function FuncSBC() {
 
 
     let listaDeMunicipios = [];
-    loadingScreen(true); 
+    
 
     fetch(pathIndexMunicipios)
         .then(response => response.json())
@@ -101,7 +98,7 @@ function FuncSBC() {
             
             if (dadosDetalhes) {
                 headerH1.textContent = municipioEncontrado.nome + ' - ' + dadosDetalhes.sigUF;
-                document.querySelector('.SBCtitle').innerHTML = 'SBC: ' + municipioEncontrado.nome + ' - ' + dadosDetalhes.sigUF;
+                document.querySelector('.SBCtitle').innerHTML = municipioEncontrado.nome + ' - ' + dadosDetalhes.sigUF;
             } else {
                 headerH1.textContent = municipioEncontrado.nome + ' - Dados Incompletos';
             }
@@ -116,17 +113,27 @@ function FuncSBC() {
                 const dadosPop = await requestPopTotalIBGE(muniID);
                 loadingScreen(false);
 
-                document.querySelector('#card-pop').innerHTML = dadosPop.populacao
+                const formValue = Number(dadosPop.populacao).toLocaleString('pt-BR');
+                document.querySelector('#card-pop').innerHTML = formValue;
+
 
             }else{
                 headerH1.textContent = municipioEncontrado.nome + ' - Dados Incompletos';
             }
         }
 
-        const dadosArea = await requestAreaMapeadaIBGE(muniID);
-        requestPIBIBGE(3118601).then(result => {
+                
+        requestPIBIBGE(muniID).then(result => {
         });
 
+        const area = await requestAreaMapeadaIBGE(muniID);
+        const formValuearea = Number(area).toLocaleString('pt-BR')
+        document.getElementById('card-map').innerHTML = formValuearea + 'km²';
+
+        const txtMunicipio = await requestSobreOMuni(muniID);
+        document.querySelector(".p-SBCRecebetxt").innerHTML = txtMunicipio
+
+         
     
         
         }
@@ -167,6 +174,7 @@ function exibirResultados(listaDeNomes) {
 
 /* pt com eng... ai sim mds */
 function limpaResultados(){
+
     const info_IBGE = document.getElementsByClassName('carrossel-container')
     info_IBGE[0].style.display = 'none';
 
@@ -290,6 +298,8 @@ async function requestPopTotalIBGE(municipioId) {
 async function requestPopUrbanaIBGE(municipioId) {
     const popUrbanaIBGE_BASE = "https://servicodados.ibge.gov.br/api/v3/agregados/9514/periodos/-2/variaveis/9335?localidades=N6";
     const urlCompleta = `${popUrbanaIBGE_BASE}[${municipioId}]`;
+
+    loadingScreen(false)
     
     try {
         const response = await fetch(urlCompleta);
@@ -310,40 +320,73 @@ async function requestPopUrbanaIBGE(municipioId) {
     } catch (error) {
         console.error('Erro ao buscar População Urbana no IBGE:', error);
         return { popUrb: 'Erro na consulta', anoCenso: 'N/A' };
+    } finally {
+        loadingScreen(true)
     }
 }
 
 async function requestAreaMapeadaIBGE(municipioId) {
-    const areaMapeadaIBGE_BASE = "https://servicodados.ibge.gov.br/api/v3/agregados/8418/periodos/-6/variaveis/12751?localidades=N6";
-    const urlCompleta = `${areaMapeadaIBGE_BASE}[${municipioId}]`;
+    const pathArea = "./json/area.json";
 
     try {
-        const response = await fetch(urlCompleta);
+        const response = await fetch(pathArea);
         if (!response.ok) {
-            throw new Error(`Erro na API do IBGE (Área Mapeada): ${response.status}`);
+            throw new Error(`Erro ao carregar area.json: ${response.status}`);
         }
-        const data = await response.json();
 
-        if (data.length > 0 && data[0].resultados && data[0].resultados[0].series) {
-            const serie = data[0].resultados[0].series[0].serie;
-            const ano = Object.keys(serie)[0];
-            const areaMapeada = serie[ano];  
+        const dados = await response.json();
 
-            const idCardMap = document.getElementById('card-map')
-            idCardMap.innerHTML = areaMapeada + ' km²'
-            return { areaMapeada, ano };
+        const municipio = dados.find(m => m.id == municipioId);
+
+        if (municipio) {
+            return municipio.area;
+        } else {
+            return "Área não encontrada";
         }
-        return { areaMapeada: 'Dado não encontrado', ano: 'N/A' };
 
     } catch (error) {
-        console.error('Erro ao buscar Área Mapeada no IBGE:', error);
-        return { areaMapeada: 'Erro na consulta', ano: 'N/A' };
+        console.error("Erro ao buscar área mapeada:", error);
+        return "Erro na consulta";
     }
 }
+
+
+async function requestSobreOMuni(muniID) {
+    const pathSobre = "./json/sobreomuni.json";
+
+    try {
+        const response = await fetch(pathSobre);
+        if (!response.ok) {
+            throw new Error(`Erro ao carregar sobreomuni.json: ${response.status}`);
+        }
+
+        const dados = await response.json();
+
+        const municipio = dados.find(m => m.id == muniID);
+
+        if (municipio) {
+
+            const txtSobreoMuni = municipio.txt;
+            document.querySelector('.p-SBCRecebetxt').classList.add('p-SBCRecebetxt-hide');
+
+            return txtSobreoMuni;
+        } else {
+            return " ";
+        }
+
+    } catch (error) {
+        console.error("Erro ao buscar informações do município:", error);
+        return "Erro na consulta";
+    }
+}
+
+
 
 async function requestPIBIBGE(municipioId) {
     const pibIBGE_BASE = "https://servicodados.ibge.gov.br/api/v3/agregados/21/periodos/2012/variaveis/37?localidades=N6";
     const urlCompleta = `${pibIBGE_BASE}[${municipioId}]`;
+
+    loadingScreen(false)
 
     try {
         const response = await fetch(urlCompleta);
@@ -359,7 +402,11 @@ async function requestPIBIBGE(municipioId) {
             const muniPIB = serie[ano];
 
             const idCardMap = document.getElementById('card-pib')
-            idCardMap.innerHTML = 'R$ '+ muniPIB
+
+            
+            const formValue = Number(muniPIB).toLocaleString('pt-BR');
+            idCardMap.innerHTML = 'R$ '+ formValue;
+
 
             return { muniPIB, ano };
         }
@@ -369,7 +416,13 @@ async function requestPIBIBGE(municipioId) {
     } catch (error) {
         console.error('Erro ao buscar PIB no IBGE:', error);
         return { muniPIB: 'Erro na consulta', ano: 'N/A' };
+    } finally {
+
+        loadingScreen(true)
     }
+
 }
 
 FuncSBC();
+
+loadingScreen(true);

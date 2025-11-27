@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title class="SBCtitle">SBC: Belo Horizonte - MG</title>
+    <title class="SBCtitle">Marupí</title>
 </head>
 
-<body>
+<body class="bodySBC">
+
+
+    <div class="backgroundSBC"></div>
+
 
     <header>
-        <p>Marupí</p>
-        <div id="id-search-bar" class="search-bar">
+
+        <img src="../assets/logo.png" width="100px" alt="Marupí Logo">
+
+        <div id="id-search-bar" class="search-bar" title="Insira  o nome do Municipio e precione 'Enter'.">
             <form id="id-search-form" class="search-form">
                 <input type="text" placeholder="Buscar..." aria-label="Campo de busca">
                 <button class="search-button" type="submit"> </button>
@@ -23,10 +29,13 @@
         </div>
     </header>
 
-   <!-- <img src="/src/trilha_03_SBC/sbc_img/backgroud/imgexemplovaledomucuri.jpg" class="img-banner"> -->
+    <!-- <img src="/src/trilha_03_SBC/sbc_img/backgroud/imgexemplovaledomucuri.jpg" class="img-banner"> -->
 
     <main class="context" id='mainSBC'>
+
+
         <div class="loading"></div>
+
 
         <article class="articleSBC">
             <h1 id="id-h1-municipio">Belo Horizonte - MG</h1>
@@ -34,19 +43,25 @@
             <p id="id-p-municipio">Algumas informações sobre o local, conforme dados do IBGE:</p>
         </article>
 
+
+
         <div class="carrossel-container">
 
             <div class="carrossel-rastreio">
 
+
                 <div class="cardIBGE">
                     <div class="card-conteudo">
                         <div class="card-icone">
-                            <img src="./sbc_img/icon/iconpopulacaototal.png" alt="Ícone de População" aria-hidden="true">
+                            <img src="./sbc_img/icon/iconpopulacaototal.png" alt="Ícone de População"
+                                aria-hidden="true">
                         </div>
                         <p class="card-titulo">População Total:</p>
-                        <p class="card-valor" id="card-pop">2415872</p>
+                        <p class="card-valor" id="card-pop">2.415.872</p>
                     </div>
                 </div>
+
+
 
                 <div class="cardIBGE">
                     <div class="card-conteudo">
@@ -54,9 +69,11 @@
                             <img src="./sbc_img/icon/mapincon.png" alt="Ícone de Gênero" aria-hidden="true">
                         </div>
                         <p class="card-titulo">Area Mapeada (IBGE):</p>
-                        <p class="card-valor" id="card-map">274.23 km²</p>
+                        <p class="card-valor" id="card-map">331km²</p>
                     </div>
                 </div>
+
+
 
                 <div class="cardIBGE">
                     <div class="card-conteudo">
@@ -64,7 +81,7 @@
                             <img src="./sbc_img/icon/pibicon.png" alt="Ícone de IDH" aria-hidden="true">
                         </div>
                         <p class="card-titulo">PIB Municipal:</p>
-                        <p class="card-valor" id="card-pib">R$ 20647181</p>
+                        <p class="card-valor" id="card-pib">R$ 58.374.103</p>
                     </div>
                 </div>
             </div>
@@ -77,18 +94,34 @@
                 </div>
             </div>
 
+
+
         </div>
 
-        <h3>Ainda não temos mais contéudo sobre a localidade em questão...</h3>
-        
-        <!-- Se existirem conteúdos de outras trilhas para a localidade, 
-         com JS podem ser adicionado links para as trilhas, logo abaixo dos card-infos de dados do IBGE -->
+        <div class="SBCRecebetxt">
+            <p class="p-SBCRecebetxt">
+
+            </p>
+        </div>
+
+        <div class="aboutSBC-container">
+            <div class="aboutSBC-button" title="Sobre os dados apresentados!" onclick="window.location.href='info.html'">
+                <img src="./sbc_img/icon/questionmark.png" width="17px" alt="Sobre os dados apresentados"
+                    class="questionmarkSBC">
+            </div>
+            <div class="aboutSBC-button" title="Mais..." onclick="window.location.href='sobreobrasil.html'">
+                <img src="./sbc_img/icon/brazil.png" width="17px" alt="Sobre os dados apresentados"
+                    class="aboutSBC-img">
+            </div>
+        </div>
+
     </main>
     <footer id="footerSBC">
         <p>© 2025 Marupí. Todos os direitos reservados.</p>
     </footer>
 
     <script src="./js/script.js"></script>
+
 </body>
 
 </html>

@@ -289,6 +289,9 @@ header nav a {
 
 #mainSBC{
   flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .loading{
@@ -326,6 +329,11 @@ header nav a {
   to {
     transform: rotate(360deg);
   }
+}
+/* SBC background */
+
+.bodySBC {
+  background-image: url('../trilha_03_SBC/sbc_img/backgroud/backsbc.png');
 }
 
 
@@ -444,19 +452,36 @@ header nav a {
   list-style-type: none;
 }
 
+/* SBC - div campo txt do Json - Info sobre o Municipio */
+.p-SBCRecebetxt-hide{
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contentSBCInfo p{
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.SBCRecebetxt{
+  padding: 40px;
+}
 
 /* SBC -- IBGE Cards */
 .carrossel-container {
     overflow: hidden;
     position: relative;
     margin: 0 auto;
-    max-width: 700px;
-    width: 90%;
+    max-width: 900px;
+    width: 95%;
     padding: 20px 0;
 }
 
 .carrossel-rastreio {
     display: flex;
+    height: 250px;
     white-space: nowrap;
     transition: transform 0.3s ease-in-out;
 }
@@ -464,6 +489,8 @@ header nav a {
 .cardIBGE {
     flex: 0 0 100%;
     width: 100%;
+    align-items: center;
+    align-content: center;
     flex-shrink: 0;
     padding: 20px;
     margin-right: 20px;
@@ -519,6 +546,75 @@ header nav a {
 
 .card-conteudo p {
     margin: 0;
+}
+
+/* SBC -- IBGE sobre os dados */
+.aboutSBC-container{
+  display: flex;
+  gap: 5px;
+}
+
+.aboutSBC-button{
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: #fcbeb6;
+  display: grid;
+  place-items: center;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.aboutSBC-button:hover{
+  background-color: #b6fcf6;
+
+}
+
+/*  SBC About - Sobre o brasil */
+.SBCAbout-rastreio {
+  display:flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+.cardSBCAbout-conteudo {
+    max-width: 100%;
+    max-height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    gap: 20px;
+}
+
+.cardSBCAbout {
+    padding: 20px;
+    margin-right: 20px;
+    width: 600px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div-olSBCAbout{
+  position: relative;
+  max-height: 210px;
+  overflow: auto;
+}
+
+.olSBCAbout{
+  list-style-type: none;
+}
+
+.olSBCAbout li:hover{
+  opacity: 70%;
+}
+
+.liBrazil{
+  color: rgba(206, 12, 6, 0.514);
+  background-color: #e7e7e7;
+  border: solid 1px #cfcdcd;
 }
 
 /* SBC -- IBGE carrossel botoes */
@@ -691,6 +787,33 @@ footer {
     flex-direction: column;
     gap: 30px;
   }
+
+  
+  /* SBC  */
+  .search-form:hover {
+    width: 300px; /* SBC */
+    border-radius: 20px;
+  }
+
+  .search-form-hidden {
+  display: flex;
+  position: relative;
+  width: 300px; /* Funciona como foccus ou algo assim. Add no HTML via JS para quando o user clicar na form*/
+  height: 40px;
+  border: 2px solid #6e6e6e;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  }
+
+  .div-olSBCAbout {
+    display: none;
+  }
+  .cardSBCAbout {
+    padding: 20px;
+    width: 400px;
+}
+
 }
 
 /* Extra small devices (Pixel 7 and similar) */
@@ -751,9 +874,15 @@ footer {
     padding: 0.7rem 1.5rem;
     font-size: 1rem;
   }
+
   .search-form:hover {
       width: 175px; /* SBC */
       border-radius: 20px;
+  }
+
+  .cardSBCAbout {
+    padding: 10px;
+    width: 300px;
   }
   
   .search-form-hidden {
@@ -765,8 +894,7 @@ footer {
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out;
-
-}
+  }
   
 }
 
@@ -800,6 +928,12 @@ footer {
   .card-valor {
       font-size: 0.65em;
   }
+
+  .cardSBCAbout {
+    padding: 5px;
+    width: 200px;
+  }
+
 }
 
 /* CSS Menu Hamburguer */
