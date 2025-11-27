@@ -1,4 +1,4 @@
-# Título do Projeto
+# MARUPI
 
 `CURSO: Sistemas de Informação`
 
@@ -7,7 +7,7 @@
 `SEMESTRE: 1º`
 
 **MARUPI** |
-Uma plataforma de ensino experimentado.
+Uma plataforma de ensino experimentado híbrido. =)
 
 **versão em andamento** |
 https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-2-pe1-t1-pmv-si-2025-2-pe1-projmarupi/
