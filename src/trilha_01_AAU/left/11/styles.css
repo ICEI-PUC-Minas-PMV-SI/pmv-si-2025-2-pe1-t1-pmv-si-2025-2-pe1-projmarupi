@@ -94,7 +94,7 @@ html {
   font-size: 1.4rem;
   font-weight: bold;
   color: white;
-  background-color: #48c5b4;
+  background-color: #468ee5;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -107,7 +107,7 @@ html {
 }
 
 .button-next:hover {
-  background-color: #468ee5;
+  background-color: #13575a;
   color: rgba(242, 227, 213);
   transform: scale(1.05);
 }
