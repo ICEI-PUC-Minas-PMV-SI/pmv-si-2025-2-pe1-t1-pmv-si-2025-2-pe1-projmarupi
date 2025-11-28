@@ -5,7 +5,7 @@
 
 body {
   background-color: #f4f4f4;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   height: auto;
   display: grid;
@@ -15,6 +15,7 @@ body {
   border-radius: 25px;
   font-family: Lato, Poppins, sans-serif;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 h1 {
@@ -183,14 +184,21 @@ h1 {
 .docker-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: transparent;
   border-radius: 1.25rem;
-  padding: 0.3rem;
+  padding: 1rem;
   gap: 0.5rem;
   flex-wrap: nowrap;
   max-width: 90vw;
+  overflow: visible;
+  margin: 0 auto;
+  z-index: 20;
 }
 
 .docker-item {
