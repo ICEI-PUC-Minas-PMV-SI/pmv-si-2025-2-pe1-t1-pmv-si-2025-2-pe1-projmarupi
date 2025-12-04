@@ -1,8 +1,6 @@
 # Apresentação
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+Marupí | plataforma de conhecimento experimentado | interface de relacionamento com o extracampo digital
 
 - [Pitch inicial](../docs/MARUPI_etapa2_apresentacao.pdf) -- arquivo com os slides da apresentação inicial
 - [Pesquisa de visualidades](../docs/marupi_pesquisa_visualidades.pdf) -- pesquisa de visualidades
