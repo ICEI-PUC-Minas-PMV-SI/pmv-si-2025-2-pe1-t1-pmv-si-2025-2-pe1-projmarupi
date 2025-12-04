@@ -19,7 +19,7 @@ function loadFloatingMenu() {
               <div class="dropdown-header" style="justify-content: center; position: relative;">
                 <a href="${rootPath}index.html" class="menu-link" style="padding: 0; background: transparent;">
                     <img 
-                    src="${rootPath}assets/logo.png" 
+                    src="${rootPath}assets/logo_creme.png" 
                     alt="Marupí" 
                     style="height: 40px; width: auto;" 
                   />
