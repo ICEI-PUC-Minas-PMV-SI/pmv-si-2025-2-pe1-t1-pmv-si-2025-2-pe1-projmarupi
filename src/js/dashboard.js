@@ -51,6 +51,17 @@ import "./progress.js";
         },
       },
     },
+
+    sds: {
+      hide: false,
+      title: "Sussurros de Sampa",
+      panels: {
+        apresentacao: {
+          title: "Lendas Urbanas",
+          description: "Histórias misteriosas da cidade.",
+        },
+      },
+    },
   };
 
   function updateMainContent(moduleId) {

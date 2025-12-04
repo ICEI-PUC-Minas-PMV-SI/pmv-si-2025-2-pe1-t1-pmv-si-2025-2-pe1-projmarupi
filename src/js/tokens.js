@@ -3,7 +3,7 @@
   if (window.TokenService != undefined && window.TokenService != null) return;
 
   const TokenService = {};
-  const moduleIds = ["iaua", "idd", "trilha4", "sbc"];
+  const moduleIds = ["iaua", "idd", "trilha4", "sbc", "sds"];
   const BASE_URL = getBaseUrl();
 
   TokenService.tokensByModule = {
@@ -54,6 +54,7 @@
       },
     },
     sbc: {},
+    sds: {},
   };
 
   TokenService.addToken = function (tokenId, moduleId, notify = false) {

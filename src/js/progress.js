@@ -4,7 +4,7 @@
     return;
 
   const ProgressService = {};
-  const moduleIds = ["iaua", "idd", "trilha4", "sbc"];
+  const moduleIds = ["iaua", "idd", "trilha4", "sbc", "sds"];
 
   const BASE_URL = getBaseUrl();
 
@@ -134,6 +134,16 @@
         continueText: "Localize marupis na sua cidade",
         href: BASE_URL + "trilha_03_SBC/index.html",
         tags: ["Ferramenta", "Mapa", "Geolocalização"],
+      },
+    },
+
+    sds: {
+      martinelli: {
+        step: 0,
+        name: "O Edifício Martinelli",
+        continueText: "Continue se apavorando com o Edifício Martinelli.",
+        href: BASE_URL + "trilha_05_SDS/01/card.html",
+        tags: ["História", "Lenda Urbana"],
       },
     },
   };
