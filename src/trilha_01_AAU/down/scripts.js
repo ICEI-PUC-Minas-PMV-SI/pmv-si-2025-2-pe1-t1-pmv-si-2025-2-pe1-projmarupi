@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const feed = document.querySelector(".image-feed");
   const buttonContainer = document.querySelector(".slide-content");
   const btn = document.querySelector("#btn");
+  const arrows = document.querySelectorAll(".centered-arrow");
 
   const wheelSensitivity = 1.5;
   const touchSensitivity = 2.5;
@@ -43,6 +44,17 @@ document.addEventListener("DOMContentLoaded", () => {
     feed.scrollTop = Math.round(currentScroll);
     requestAnimationFrame(smoothScrollLoop);
   }
+
+  arrows.forEach((arrow) => {
+    arrow.addEventListener("click", () => {
+      const event = new KeyboardEvent("keydown", {
+        key: "End",
+        bubbles: true,
+        cancelable: true,
+      });
+      document.dispatchEvent(event);
+    });
+  });
 
   feed.addEventListener(
     "wheel",
