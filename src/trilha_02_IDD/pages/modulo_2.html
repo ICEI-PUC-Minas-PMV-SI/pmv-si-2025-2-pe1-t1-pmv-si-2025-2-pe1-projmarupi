@@ -1,84 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minha Família</title>
-    <link rel="stylesheet" href="../css/modulo_2.css">
-</head>
+    <link rel="stylesheet" href="../menu/menu.css" />
+    <link rel="stylesheet" href="../css/modulo_2.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <a href="../../dashboard.html?module=idd">
-            <img src="../../assets/logo.png" width="100px" alt="Marupí Logo">
-        </a>
-        <nav>
-            <a href="../index.html">Trilha</a>
-        </nav>
+      <a href="../../dashboard.html?module=idd">
+        <img src="../../assets/logo.png" width="100px" alt="Marupí Logo" />
+      </a>
+      <nav>
+        <a href="../index.html">Trilha</a>
+      </nav>
     </header>
 
     <div class="container">
-        <div class="header-section">
-            <h1>🌳 Minha Árvore Genealógica</h1>
-            <p>Agora, a missão é sua! Una a sua família e comece a construir a árvore que revela a história de suas
-                origens.</p>
-        </div>
+      <div class="header-section">
+        <h1>🌳 Minha Árvore Genealógica</h1>
+        <p>
+          Agora, a missão é sua! Una a sua família e comece a construir a árvore
+          que revela a história de suas origens.
+        </p>
+      </div>
 
-        <div class="controls">
-            <button class="btn btn-primary" onclick="addMember()">+ Adicionar Membro</button>
-            <button class="btn btn-secondary" onclick="resetTree()">🔄 Resetar Árvore</button>
-        </div>
+      <div class="controls">
+        <button class="btn btn-primary" onclick="addMember()">
+          + Adicionar Membro
+        </button>
+        <button class="btn btn-secondary" onclick="resetTree()">
+          🔄 Resetar Árvore
+        </button>
+      </div>
 
-        <div class="tree-container">
-            <div class="tree" id="familyTree">
-                <!-- A árvore será gerada dinamicamente -->
-            </div>
+      <div class="tree-container">
+        <div class="tree" id="familyTree">
+          <!-- A árvore será gerada dinamicamente -->
         </div>
+      </div>
     </div>
 
     <!-- Modal para adicionar/editar membro -->
     <div class="modal" id="memberModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 id="modalTitle">Adicionar Membro da Família</h2>
-                <button class="close-btn" onclick="closeModal()">×</button>
-            </div>
-
-            <form id="memberForm" onsubmit="saveMember(event)">
-                <div class="form-group">
-                    <label>Foto</label>
-                    <input type="file" id="photoInput" accept="image/*" onchange="previewPhoto(event)">
-                    <div class="photo-preview" id="photoPreview">
-                        <span style="color: #ccc;">📷</span>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label>Nome Completo *</label>
-                    <input type="text" id="memberName" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Parentesco *</label>
-                    <select id="memberRelation" required>
-                        <option value="">Selecione...</option>
-                        <option value="bisavo">Bisavô/Bisavó</option>
-                        <option value="avo">Avô/Avó</option>
-                        <option value="pai">Pai/Mãe</option>
-                        <option value="eu">Eu</option>
-                    </select>
-                </div>
-
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Salvar</button>
-            </form>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Adicionar Membro da Família</h2>
+          <button class="close-btn" onclick="closeModal()">×</button>
         </div>
+
+        <form id="memberForm" onsubmit="saveMember(event)">
+          <div class="form-group">
+            <label>Foto</label>
+            <input
+              type="file"
+              id="photoInput"
+              accept="image/*"
+              onchange="previewPhoto(event)"
+            />
+            <div class="photo-preview" id="photoPreview">
+              <span style="color: #ccc">📷</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Nome Completo *</label>
+            <input type="text" id="memberName" required />
+          </div>
+
+          <div class="form-group">
+            <label>Parentesco *</label>
+            <select id="memberRelation" required>
+              <option value="">Selecione...</option>
+              <option value="bisavo">Bisavô/Bisavó</option>
+              <option value="avo">Avô/Avó</option>
+              <option value="pai">Pai/Mãe</option>
+              <option value="eu">Eu</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Salvar
+          </button>
+        </form>
+      </div>
     </div>
     <footer>
-        <p>© 2025 Marupí. Todos os direitos reservados.</p>
+      <p>© 2025 Marupí. Todos os direitos reservados.</p>
     </footer>
+    <script src="../menu/menu.js"></script>
     <script src="../js/main.js"></script>
-</body>
-
+  </body>
 </html>

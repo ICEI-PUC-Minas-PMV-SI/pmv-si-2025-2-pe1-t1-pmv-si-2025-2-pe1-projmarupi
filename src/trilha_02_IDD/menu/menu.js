@@ -1,5 +1,6 @@
 function loadFloatingMenu() {
-  const rootPath = "../../";
+  const isPagesFolder = window.location.pathname.includes("/pages/");
+  const rootPath = isPagesFolder ? "../../" : "../";
   const link = document.createElement("link");
   link.rel = "stylesheet";
   link.href = rootPath + "menu/menu.css";
@@ -29,7 +30,7 @@ function loadFloatingMenu() {
               
               <ul>
                   <li>
-                      <a href="${rootPath}dashboard.html?module=sds" class="menu-link">
+                      <a href="${rootPath}dashboard.html?module=idd" class="menu-link">
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                           Painel
                       </a>

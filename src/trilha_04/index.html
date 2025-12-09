@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marupí - Trilha 4 - Jogo da Memória</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="./css/memory-game.css">
-</head>
+    <link rel="stylesheet" href="./menu/menu.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="./css/memory-game.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="header-left">
-            <a href="../dashboard.html?module=trilha4">
-                <img src="../assets/logo.png" width="100px" alt="Marupí Logo">
-            </a>
-        </div>
-        <nav>
-            <a href="../dashboard.html?module=trilha4">Voltar ao Painel</a>
-        </nav>
+      <div class="header-left">
+        <a href="../dashboard.html?module=trilha4">
+          <img src="../assets/logo.png" width="100px" alt="Marupí Logo" />
+        </a>
+      </div>
+      <nav>
+        <a href="../dashboard.html?module=trilha4">Voltar ao Painel</a>
+      </nav>
     </header>
 
     <div class="memory-game-container">
-        <div class="game-header">
-            <h1>🧠 Jogo da Memória 🎮</h1>
-            <p>Encontre todos os pares de cartas!</p>
-        </div>
+      <div class="game-header">
+        <h1>🧠 Jogo da Memória 🎮</h1>
+        <p>Encontre todos os pares de cartas!</p>
+      </div>
 
-        <div class="difficulty-selector">
-            <!-- Difficulty selector will be inserted here by JS -->
-        </div>
+      <div class="difficulty-selector">
+        <!-- Difficulty selector will be inserted here by JS -->
+      </div>
 
-        <div class="game-stats">
-            <div class="stat-item">
-                <div class="stat-label">Movimentos</div>
-                <div class="stat-value" id="moves-count">0</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-label">Tempo</div>
-                <div class="stat-value" id="time-count">0:00</div>
-            </div>
+      <div class="game-stats">
+        <div class="stat-item">
+          <div class="stat-label">Movimentos</div>
+          <div class="stat-value" id="moves-count">0</div>
         </div>
+        <div class="stat-item">
+          <div class="stat-label">Tempo</div>
+          <div class="stat-value" id="time-count">0:00</div>
+        </div>
+      </div>
 
-        <div class="game-controls">
-            <button id="reset-btn" class="btn-game btn-primary">🔄 Reiniciar Jogo</button>
-        </div>
+      <div class="game-controls">
+        <button id="reset-btn" class="btn-game btn-primary">
+          🔄 Reiniciar Jogo
+        </button>
+      </div>
 
-        <div class="memory-grid">
-            <!-- Cards will be inserted here by JS -->
-        </div>
+      <div class="memory-grid">
+        <!-- Cards will be inserted here by JS -->
+      </div>
 
-        <div class="game-message hidden">
-            <!-- Win message will appear here -->
-        </div>
+      <div class="game-message hidden">
+        <!-- Win message will appear here -->
+      </div>
     </div>
 
     <footer>
-        <p>© 2025 Marupí. Todos os direitos reservados.</p>
+      <p>© 2025 Marupí. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="./menu/menu.js"></script>
     <script src="./js/memory-game.js"></script>
-</body>
-
+  </body>
 </html>
