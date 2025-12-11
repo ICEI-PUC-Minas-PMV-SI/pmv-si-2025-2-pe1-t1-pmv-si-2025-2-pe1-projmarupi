@@ -27,19 +27,22 @@ document.addEventListener("DOMContentLoaded", () => {
   function checkAllCardsForWin() {
     const successfulHeaders = document.querySelectorAll(".card-header.success");
     const failHeaders = document.querySelectorAll(".card-header.error");
+    const totalCardsPlayed = successfulHeaders.length + failHeaders.length;
 
-    if (successfulHeaders.length === 3) {
-      const firstTry = localStorage.getItem("firstTryCaptcha");
-      if (firstTry == null || firstTry === undefined || firstTry === "") {
-        TokenService.addToken("first", "iaua", true);
-        localStorage.setItem("firstTryCaptcha", "false");
+    if (totalCardsPlayed === 3) {
+      if (successfulHeaders.length === 3) {
+        const firstTry = localStorage.getItem("firstTryCaptcha");
+        if (firstTry == null || firstTry === undefined || firstTry === "") {
+          TokenService.addToken("first", "iaua", true);
+          localStorage.setItem("firstTryCaptcha", "false");
+        }
+        setTimeout(() => {
+          window.location.href = "../10/avaliacao.html";
+        }, 1200);
+      } else {
+        alert("Precisamos aprender um pouco mais!");
+        window.location.href = "../05/quearvore.html";
       }
-      setTimeout(() => {
-        window.location.href = "../10/avaliacao.html";
-      }, 1200);
-    } else if (failHeaders.length === 3) {
-      alert("Precisamos aprender um pouco mais!");
-      window.location.href = "../05/quearvore.html";
     }
   }
 
